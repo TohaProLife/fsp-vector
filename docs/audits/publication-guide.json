@@ -1,9 +1,9 @@
 {
-  "created_at": "2026-10-11T20:15:42.681714+00:00",
+  "created_at": "2026-10-11T20:41:11.048186+00:00",
   "status": "word_bounds_and_unicode_pass",
-  "pdf_sha256": "ed170fb96cf0ae858b17a4361da18ab85bfa4e98e7fc71fd9f2f898324d510c1",
-  "source_sha256": "751d7b56475d0b00f980eeeca26351906a874dcc80f1e484ad77cbeec35b6713",
-  "bytes": 48876,
+  "pdf_sha256": "b374ee5851982d70e7f95408a74bb68b854362e3e549a42383ba42d9e0a5690d",
+  "source_sha256": "b7c9f04e42ae60591189c915a064003095c71b60d2a604ab5bdea896a7045352",
+  "bytes": 49434,
   "pages": 10,
   "word_bounds_issues": [],
   "visual_review": "passed_all_10_pages_in_two_contact_sheets",
@@ -41,7 +41,7 @@
     {
       "page": 7,
       "path": ".local/publish/guide-pages/page-07.png",
-      "sha256": "93603bacbfa5223afc9874b085d534497df9632fed0207398d362ef4393e2390"
+      "sha256": "ff0745df4ae1928ec40fd4d74f20026f91185ef568d96e46a9aa085cb571c6fa"
     },
     {
       "page": 8,
@@ -51,7 +51,7 @@
     {
       "page": 9,
       "path": ".local/publish/guide-pages/page-09.png",
-      "sha256": "93133610b7c2a7d6525f1129893a224ee9e6da5aefb769912f15e5c3761f4f25"
+      "sha256": "30c54e5adfafe72f9344cc791b8067d9aaba25c5be4365d004f3a8e0176ea067"
     },
     {
       "page": 10,
