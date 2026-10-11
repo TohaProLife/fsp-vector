@@ -18,7 +18,16 @@ jobs:
       - run: python -m pytest services/api/tests tests/integration -q
         env: {AUTO_SEED: 'false', AUTO_CREATE_SCHEMA: 'true', LOCAL_DEMO: 'true'}
       - run: python scripts/export_contract.py
-      - run: git diff --exit-code -- docs/api/openapi.json
+      - name: Verify OpenAPI contract
+        run: |
+          python - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+          expected = json.loads(subprocess.check_output(['git', 'show', 'HEAD:docs/api/openapi.json']))
+          actual = json.loads(Path('docs/api/openapi.json').read_text(encoding='utf-8'))
+          assert actual == expected, 'OpenAPI contract changed'
+          PY
   web:
     runs-on: ubuntu-latest
     steps:
