@@ -1,0 +1,492 @@
+{
+  "status": "passed_native_export_and_content_geometry",
+  "checked_at": "2026-10-11T19:38:29.116399+00:00",
+  "template": {
+    "path": "C:\\Users\\user\\Downloads\\ЛЦТ_2026_Шаблон презентации ФСП.pptx",
+    "sha256": "d2506c0aeb4fca12b6febb242e7d4e7fafc6c4c50434d3b671fc9d7251eb7345",
+    "source_slides": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "final_positions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "size_emu": [
+      12192000,
+      6858000
+    ],
+    "all_original_shape_transforms_preserved": true,
+    "geometry_checks": [
+      {
+        "source_slide": 7,
+        "final_slide": 1,
+        "original_shape_count": 4,
+        "missing_shape_ids": [],
+        "changed_transform_shape_ids": []
+      },
+      {
+        "source_slide": 8,
+        "final_slide": 2,
+        "original_shape_count": 13,
+        "missing_shape_ids": [],
+        "changed_transform_shape_ids": []
+      },
+      {
+        "source_slide": 9,
+        "final_slide": 3,
+        "original_shape_count": 23,
+        "missing_shape_ids": [],
+        "changed_transform_shape_ids": []
+      },
+      {
+        "source_slide": 10,
+        "final_slide": 4,
+        "original_shape_count": 15,
+        "missing_shape_ids": [],
+        "changed_transform_shape_ids": []
+      },
+      {
+        "source_slide": 11,
+        "final_slide": 5,
+        "original_shape_count": 9,
+        "missing_shape_ids": [],
+        "changed_transform_shape_ids": []
+      }
+    ]
+  },
+  "pptx": {
+    "path": "output/submission/fsp-vector-presentation.pptx",
+    "sha256": "5a5b635bf2ca2782e9d64ae3652a4f62addf987953de1d33852b5f7e2399ca16",
+    "bytes": 14135695,
+    "slides": 14,
+    "embedded_font_parts": 3,
+    "notes_parts": 14,
+    "native_table_slide": 12,
+    "native_architecture_slide": 11,
+    "crc": "pass",
+    "first_party_import": "pass"
+  },
+  "pdf": {
+    "path": "output/submission/fsp-vector-presentation.pdf",
+    "sha256": "05e543170dc83f3b160759675cf6f6f390134b034a0c7176d0072d4d2470543c",
+    "bytes": 939995,
+    "pages": 14,
+    "word_bounds_overflow": 0,
+    "unicode_and_contacts": "pass",
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 28,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      },
+      {
+        "page": 2,
+        "words": 54,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      },
+      {
+        "page": 3,
+        "words": 89,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      },
+      {
+        "page": 4,
+        "words": 81,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      },
+      {
+        "page": 5,
+        "words": 73,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      },
+      {
+        "page": 6,
+        "words": 43,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      },
+      {
+        "page": 7,
+        "words": 31,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      },
+      {
+        "page": 8,
+        "words": 48,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      },
+      {
+        "page": 9,
+        "words": 50,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      },
+      {
+        "page": 10,
+        "words": 37,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      },
+      {
+        "page": 11,
+        "words": 47,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      },
+      {
+        "page": 12,
+        "words": 75,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      },
+      {
+        "page": 13,
+        "words": 60,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      },
+      {
+        "page": 14,
+        "words": 48,
+        "width_pt": 960.0,
+        "height_pt": 540.0
+      }
+    ],
+    "independent_visual_review": "docs/audits/final-2026-10-11/presentation-pdf-review.json",
+    "independent_visual_verdict": "pass"
+  },
+  "visual": {
+    "independent_verdict": "ship",
+    "independent_review": "docs/audits/final-2026-10-11/presentation-visual-review.json",
+    "final_native_frames_byte_identical_to_individually_reviewed": true,
+    "frames": [
+      {
+        "slide": 1,
+        "sha256": "68ccc9b0cee7f618ef79157deebcf3551e537c58f5b8c4d5fa885d02931ab039",
+        "path": ".local/presentation/final-native-render/Слайд1.PNG",
+        "reviewed_frame_identical": true
+      },
+      {
+        "slide": 2,
+        "sha256": "4083bfe8c8a6d54ad936f2d3d9f95fae0a4f65d5e87a03eaef331a1c4bc68370",
+        "path": ".local/presentation/final-native-render/Слайд2.PNG",
+        "reviewed_frame_identical": true
+      },
+      {
+        "slide": 3,
+        "sha256": "f2c09fa6d6eff582360739b42aa4cd8795c2118022c4ce71660ab6a87404905f",
+        "path": ".local/presentation/final-native-render/Слайд3.PNG",
+        "reviewed_frame_identical": true
+      },
+      {
+        "slide": 4,
+        "sha256": "10a76b51ec85db187a260b1814285993eb2553412c6d604716e325268a200d54",
+        "path": ".local/presentation/final-native-render/Слайд4.PNG",
+        "reviewed_frame_identical": true
+      },
+      {
+        "slide": 5,
+        "sha256": "7cd103bc5f74b1102c655bf9fb084298a85aa05693c2df1c42440889b5b8bd4f",
+        "path": ".local/presentation/final-native-render/Слайд5.PNG",
+        "reviewed_frame_identical": true
+      },
+      {
+        "slide": 6,
+        "sha256": "3f712462d0a118fa7bc17c7b267a261f538668c66192b5849d24ce200fd24950",
+        "path": ".local/presentation/final-native-render/Слайд6.PNG",
+        "reviewed_frame_identical": true
+      },
+      {
+        "slide": 7,
+        "sha256": "3b829ac37c0685940536e48ea9ea9b35e3dfdaf22694e69872c3d452fc6cbb53",
+        "path": ".local/presentation/final-native-render/Слайд7.PNG",
+        "reviewed_frame_identical": true
+      },
+      {
+        "slide": 8,
+        "sha256": "ca3cbd17125f1f789febb37cf6969751cad03c3a80bfc10465711835668ccbe9",
+        "path": ".local/presentation/final-native-render/Слайд8.PNG",
+        "reviewed_frame_identical": true
+      },
+      {
+        "slide": 9,
+        "sha256": "4f6390e1c30d1af71f6fc1201417a064f8f15dbc711dbd47a1ca1a8169c7f395",
+        "path": ".local/presentation/final-native-render/Слайд9.PNG",
+        "reviewed_frame_identical": true
+      },
+      {
+        "slide": 10,
+        "sha256": "84404ecf6d253b55ff8e0c439c9512d588c5e8e5f92510be5c45c7a51609fc1e",
+        "path": ".local/presentation/final-native-render/Слайд10.PNG",
+        "reviewed_frame_identical": true
+      },
+      {
+        "slide": 11,
+        "sha256": "a6b9b9a562390517c7a5c71f43dd053071d7b0180cc67911b1f7fb2be492ba64",
+        "path": ".local/presentation/final-native-render/Слайд11.PNG",
+        "reviewed_frame_identical": true
+      },
+      {
+        "slide": 12,
+        "sha256": "2a7e4ec8c43d8b08586f5287d6355e8d110bf2d4ffa8d52879bf01385b48cc67",
+        "path": ".local/presentation/final-native-render/Слайд12.PNG",
+        "reviewed_frame_identical": true
+      },
+      {
+        "slide": 13,
+        "sha256": "e715e105431f005be0a547765b76a42da47c14371ae5ec154c74ce4d1e4f51bd",
+        "path": ".local/presentation/final-native-render/Слайд13.PNG",
+        "reviewed_frame_identical": true
+      },
+      {
+        "slide": 14,
+        "sha256": "e51ab745f40645a81dc1767f843c8ee1aec33e8d52ed27cf40fe912ef36b4812",
+        "path": ".local/presentation/final-native-render/Слайд14.PNG",
+        "reviewed_frame_identical": true
+      }
+    ]
+  },
+  "finalizer": {
+    "schemaVersion": "presentation-finalization.v1",
+    "finalSha256": "5a5b635bf2ca2782e9d64ae3652a4f62addf987953de1d33852b5f7e2399ca16",
+    "byteCount": 14135695,
+    "packageIntegrity": {
+      "chart_count": 0,
+      "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+      "finding_count": 0,
+      "findings": [],
+      "notes_parts_skipped": 14,
+      "relationship_part_count": 56,
+      "slide_count": 14,
+      "status": "pass",
+      "exitCode": 0,
+      "findingCount": 0,
+      "warnings": []
+    },
+    "presentationLayout": {
+      "finding_count": 0,
+      "findings": [],
+      "font_policy": {
+        "checked_text_script_count": 213,
+        "native_font_rendering_verified": false,
+        "observed_font_families": [
+          "Montserrat"
+        ],
+        "observed_font_use_counts": {
+          "Montserrat": 213
+        },
+        "passed": true,
+        "performed": true
+      },
+      "slide_count": 14,
+      "slide_size_in": [
+        13.3333,
+        7.5
+      ],
+      "warning_count": 14,
+      "warnings": [
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "2",
+          "object_kind": "sp",
+          "slide": 1
+        },
+        {
+          "kind": "incorrect_or_missing_actual_slide_folio",
+          "numeric_footer_candidate_count": 0,
+          "slide": 3
+        },
+        {
+          "connector_id": "6",
+          "connector_z": 12,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "43",
+          "text_z": 9
+        },
+        {
+          "kind": "incorrect_or_missing_actual_slide_folio",
+          "numeric_footer_candidate_count": 0,
+          "slide": 4
+        },
+        {
+          "kind": "incorrect_or_missing_actual_slide_folio",
+          "numeric_footer_candidate_count": 0,
+          "slide": 5
+        },
+        {
+          "kind": "incorrect_or_missing_actual_slide_folio",
+          "numeric_footer_candidate_count": 0,
+          "slide": 6
+        },
+        {
+          "kind": "incorrect_or_missing_actual_slide_folio",
+          "numeric_footer_candidate_count": 0,
+          "slide": 7
+        },
+        {
+          "kind": "incorrect_or_missing_actual_slide_folio",
+          "numeric_footer_candidate_count": 0,
+          "slide": 8
+        },
+        {
+          "kind": "incorrect_or_missing_actual_slide_folio",
+          "numeric_footer_candidate_count": 6,
+          "slide": 9
+        },
+        {
+          "kind": "incorrect_or_missing_actual_slide_folio",
+          "numeric_footer_candidate_count": 0,
+          "slide": 10
+        },
+        {
+          "kind": "incorrect_or_missing_actual_slide_folio",
+          "numeric_footer_candidate_count": 0,
+          "slide": 11
+        },
+        {
+          "kind": "incorrect_or_missing_actual_slide_folio",
+          "numeric_footer_candidate_count": 0,
+          "slide": 12
+        },
+        {
+          "kind": "incorrect_or_missing_actual_slide_folio",
+          "numeric_footer_candidate_count": 0,
+          "slide": 13
+        },
+        {
+          "kind": "incorrect_or_missing_actual_slide_folio",
+          "numeric_footer_candidate_count": 0,
+          "slide": 14
+        }
+      ],
+      "exitCode": 0,
+      "findingCount": 0,
+      "fontPolicy": {
+        "checked_text_script_count": 213,
+        "native_font_rendering_verified": false,
+        "observed_font_families": [
+          "Montserrat"
+        ],
+        "observed_font_use_counts": {
+          "Montserrat": 213
+        },
+        "passed": true,
+        "performed": true
+      }
+    },
+    "fontSelection": {
+      "basis": "reference",
+      "approvedFamilies": [
+        "Montserrat"
+      ],
+      "scriptFonts": {},
+      "referenceSha256": "d2506c0aeb4fca12b6febb242e7d4e7fafc6c4c50434d3b671fc9d7251eb7345",
+      "referenceFontsVerifiedInEncodedText": true,
+      "checked_text_script_count": 213,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Montserrat"
+      ],
+      "observed_font_use_counts": {
+        "Montserrat": 213
+      },
+      "passed": true,
+      "performed": true
+    },
+    "firstPartyImport": {
+      "performed": true,
+      "passed": true,
+      "slideCount": 14,
+      "sha256": "5a5b635bf2ca2782e9d64ae3652a4f62addf987953de1d33852b5f7e2399ca16",
+      "runtimeNodeModules": "C:/Users/user/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+      "nodeExecutable": "C:\\Users\\user\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"
+    },
+    "nativeTableArithmetic": {
+      "performed": true,
+      "checked_column_count": 0,
+      "checks": [],
+      "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+      "eligible_table_count": 0,
+      "finding_count": 0,
+      "findings": [],
+      "native_table_count": 1,
+      "passed": true,
+      "schema_version": "presentation-native-table-arithmetic.v1",
+      "skipped_tables": [
+        {
+          "reason": "no_numeric_amounts",
+          "slide": 12,
+          "table": 1
+        }
+      ],
+      "slide_count": 14,
+      "warning_count": 0,
+      "warnings": []
+    },
+    "nativeChartTitles": {
+      "performed": true,
+      "checks": [],
+      "finding_count": 0,
+      "findings": [],
+      "native_chart_count": 0,
+      "native_powerpoint_verified": false,
+      "passed": true,
+      "presentation_sha256": "5a5b635bf2ca2782e9d64ae3652a4f62addf987953de1d33852b5f7e2399ca16",
+      "schema_version": "presentation-native-chart-titles.v1",
+      "slide_count": 14,
+      "source_text_emitted": false,
+      "unresolved_linked_title_count": 0
+    },
+    "sourceDerivedPolicyFlags": [
+      "--expected-slide-size-emu",
+      "12192000,6858000",
+      "--validate-bullet-geometry",
+      "--validate-heading-fit",
+      "--folio-mode",
+      "actual_unpadded",
+      "--require-native-table-slide",
+      "12",
+      "--cover-role",
+      "none",
+      "--expected-slide-count",
+      "14",
+      "--approved-font-family",
+      "Montserrat"
+    ],
+    "nativeChartValidation": {
+      "detectedOwnerSlides": [],
+      "detectedChartCount": 0,
+      "targetApplication": "portable",
+      "sourceChartOwnersExplicitlyDeclared": true,
+      "validatorRan": false,
+      "passed": true
+    }
+  },
+  "warning_assessment": {
+    "count": 14,
+    "cover_shape_outside_page": "Original source-7 artwork retained; source geometry matches.",
+    "connector_over_text": "Original source-10 separator retained; native render shows no text collision.",
+    "folio_detection": "Native exports show actual final numbers 1–14 at original footer positions; heuristic footer candidate rules miss several source-format labels and count matching weights on slide9."
+  },
+  "sources": "User-confirmed team data, original organizer template, actual browser captures and versioned evaluation/release reports. No fake UI, human hiring or commercial integration claims.",
+  "limitations": [
+    "Native PowerPoint export and visual review, not a rehearsed live talk or slideshow/video playback.",
+    "Template fidelity is checked by exact mandatory source shape transforms and visual comparison; no invented coverage ratio.",
+    "Finalizer warnings are retained and assessed, not suppressed; arithmetic gate does not validate metric source semantics."
+  ]
+}

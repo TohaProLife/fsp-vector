@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-11",
+  "reviewer": "independent_finish_reviewer",
+  "status": "pass",
+  "scope": "14 individually re-opened final native PowerPoint renders after fixes; 5 mandatory source renders individually viewed in initial review; content compared with presentation-content.json",
+  "method": "tools.view_image, original detail; individual images, no montage substitution",
+  "reviewed_native_slides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "native_path_pattern": ".local/presentation/native-render/Слайд{number}.PNG",
+  "reviewed_source_slides": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "source_path_pattern": ".local/presentation/native-render/source-{number}.png",
+  "content_source": "docs/submission/presentation-content.json",
+  "findings": [
+    {
+      "id": "presentation-contrast-5",
+      "priority": "P1",
+      "slides": [
+        5
+      ],
+      "status": "resolved",
+      "area": "right marketing card body",
+      "observed": "Four paragraphs after the first are near white on white, including the pilot/revenue limitation.",
+      "fix": "Use readable dark body color for all affected runs while preserving source-11 structure, geometry and artwork.",
+      "resolution": "All five right-card bullets are dark and readable, including the pilot/revenue limitation; mandatory geometry and artwork preserved."
+    },
+    {
+      "id": "presentation-contact-fit-3",
+      "priority": "P2",
+      "slides": [
+        3
+      ],
+      "status": "resolved",
+      "area": "two real-person contact text boxes",
+      "observed": "Both emails break inside their .com domain; concatenated values match the content source.",
+      "fix": "Fit exact email addresses as intact contact runs, keeping the five-card mandatory structure.",
+      "resolution": "Both emails wrap after @ with complete domains, retaining exact user-confirmed addresses and five-card structure."
+    },
+    {
+      "id": "presentation-ui-crop-8-10",
+      "priority": "P2",
+      "slides": [
+        8,
+        10
+      ],
+      "status": "resolved",
+      "area": "lower UI image boundary",
+      "observed": "Slide 8 cuts runner advisory mid-text; slide 10 cuts the heading Отзыв согласия.",
+      "fix": "End crops between sections or include the complete selected UI area; preserve external limitation footnotes.",
+      "resolution": "Slide 8 ends after complete specialization and grade controls; slide 10 ends between complete sections, with no cut text."
+    }
+  ],
+  "slides_pass": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "slides_fix": [],
+  "mandatory_preservation_visual": "pass",
+  "people_and_work_area_cards": {
+    "real_people": 2,
+    "work_areas": 3,
+    "fictitious_people": 0
+  },
+  "slide12_table": "all rows, numerals, P@5 and percent glyphs readable; no clipping observed",
+  "contacts": "Exact supplied values readable; slide-3 emails use natural wrap after @ with complete gmail.com domains; captain email and Telegram complete on slide 14.",
+  "false_commercial_claims_observed": false,
+  "recaptures_required": [],
+  "limits": [
+    "Final native pixels only; no projector or live talk timing check.",
+    "No transitions, embedded video playback or hyperlink check.",
+    "No PPTX XML-level preservation or editable-text property verification; embedded fonts reported by root.",
+    "Metrics compared with supplied content ledger, not independently rerun.",
+    "Finalizer diagnostic counts reported by root; no reviewer rerun or individual-warning-record audit.",
+    "No runtime, PPTX or content modifications by reviewer."
+  ],
+  "disposition": "ship",
+  "artifact": {
+    "path": "output/submission/fsp-vector-presentation.pptx",
+    "sha256": "5a5b635bf2ca2782e9d64ae3652a4f62addf987953de1d33852b5f7e2399ca16",
+    "sha256_measured_by_reviewer": true,
+    "expected_sha256": "5a5b635bf2ca2782e9d64ae3652a4f62addf987953de1d33852b5f7e2399ca16",
+    "expected_sha256_matches": true
+  },
+  "final_raster_hashes": [
+    {
+      "slide": 1,
+      "path": ".local/presentation/native-render/Слайд1.PNG",
+      "sha256": "68ccc9b0cee7f618ef79157deebcf3551e537c58f5b8c4d5fa885d02931ab039",
+      "individually_viewed_final": true
+    },
+    {
+      "slide": 2,
+      "path": ".local/presentation/native-render/Слайд2.PNG",
+      "sha256": "4083bfe8c8a6d54ad936f2d3d9f95fae0a4f65d5e87a03eaef331a1c4bc68370",
+      "individually_viewed_final": true
+    },
+    {
+      "slide": 3,
+      "path": ".local/presentation/native-render/Слайд3.PNG",
+      "sha256": "f2c09fa6d6eff582360739b42aa4cd8795c2118022c4ce71660ab6a87404905f",
+      "individually_viewed_final": true
+    },
+    {
+      "slide": 4,
+      "path": ".local/presentation/native-render/Слайд4.PNG",
+      "sha256": "10a76b51ec85db187a260b1814285993eb2553412c6d604716e325268a200d54",
+      "individually_viewed_final": true
+    },
+    {
+      "slide": 5,
+      "path": ".local/presentation/native-render/Слайд5.PNG",
+      "sha256": "7cd103bc5f74b1102c655bf9fb084298a85aa05693c2df1c42440889b5b8bd4f",
+      "individually_viewed_final": true
+    },
+    {
+      "slide": 6,
+      "path": ".local/presentation/native-render/Слайд6.PNG",
+      "sha256": "3f712462d0a118fa7bc17c7b267a261f538668c66192b5849d24ce200fd24950",
+      "individually_viewed_final": true
+    },
+    {
+      "slide": 7,
+      "path": ".local/presentation/native-render/Слайд7.PNG",
+      "sha256": "3b829ac37c0685940536e48ea9ea9b35e3dfdaf22694e69872c3d452fc6cbb53",
+      "individually_viewed_final": true
+    },
+    {
+      "slide": 8,
+      "path": ".local/presentation/native-render/Слайд8.PNG",
+      "sha256": "ca3cbd17125f1f789febb37cf6969751cad03c3a80bfc10465711835668ccbe9",
+      "individually_viewed_final": true
+    },
+    {
+      "slide": 9,
+      "path": ".local/presentation/native-render/Слайд9.PNG",
+      "sha256": "4f6390e1c30d1af71f6fc1201417a064f8f15dbc711dbd47a1ca1a8169c7f395",
+      "individually_viewed_final": true
+    },
+    {
+      "slide": 10,
+      "path": ".local/presentation/native-render/Слайд10.PNG",
+      "sha256": "84404ecf6d253b55ff8e0c439c9512d588c5e8e5f92510be5c45c7a51609fc1e",
+      "individually_viewed_final": true
+    },
+    {
+      "slide": 11,
+      "path": ".local/presentation/native-render/Слайд11.PNG",
+      "sha256": "a6b9b9a562390517c7a5c71f43dd053071d7b0180cc67911b1f7fb2be492ba64",
+      "individually_viewed_final": true
+    },
+    {
+      "slide": 12,
+      "path": ".local/presentation/native-render/Слайд12.PNG",
+      "sha256": "2a7e4ec8c43d8b08586f5287d6355e8d110bf2d4ffa8d52879bf01385b48cc67",
+      "individually_viewed_final": true
+    },
+    {
+      "slide": 13,
+      "path": ".local/presentation/native-render/Слайд13.PNG",
+      "sha256": "e715e105431f005be0a547765b76a42da47c14371ae5ec154c74ce4d1e4f51bd",
+      "individually_viewed_final": true
+    },
+    {
+      "slide": 14,
+      "path": ".local/presentation/native-render/Слайд14.PNG",
+      "sha256": "e51ab745f40645a81dc1767f843c8ee1aec33e8d52ed27cf40fe912ef36b4812",
+      "individually_viewed_final": true
+    }
+  ],
+  "finalizer_diagnostics": {
+    "reported_by": "root",
+    "findings": 0,
+    "diagnostic_warnings": 14,
+    "assessment": "Root assessed diagnostic warnings separately against native footers/source geometry; reviewer observed no material footer clipping or layout violation in all 14 final native renders.",
+    "rerun_by_reviewer": false,
+    "individual_warning_records_read": false
+  },
+  "final_recapture_pass": {
+    "priority_slides": [
+      3,
+      4,
+      5,
+      8,
+      10
+    ],
+    "all_slides_reopened": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "material_regressions_observed": 0,
+    "open_findings": 0
+  }
+}

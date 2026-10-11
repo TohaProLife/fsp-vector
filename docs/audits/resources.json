@@ -1,0 +1,181 @@
+﻿{
+    "status":  "measured",
+    "measured_at":  "2026-10-11T14:01:31.9567031Z",
+    "os":  "Windows",
+    "physical_ram_gb":  15.7,
+    "processors":  8,
+    "processes":  [
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  13.9,
+                          "private_mb":  3.64
+                      },
+                      {
+                          "process":  "python",
+                          "working_set_mb":  4.67,
+                          "private_mb":  0.84
+                      },
+                      {
+                          "process":  "conhost",
+                          "working_set_mb":  7.14,
+                          "private_mb":  1.17
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  22.08,
+                          "private_mb":  5.98
+                      },
+                      {
+                          "process":  "conhost",
+                          "working_set_mb":  6.98,
+                          "private_mb":  1.16
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  23.62,
+                          "private_mb":  3.25
+                      },
+                      {
+                          "process":  "java",
+                          "working_set_mb":  401.87,
+                          "private_mb":  439.02
+                      },
+                      {
+                          "process":  "mailpit",
+                          "working_set_mb":  24.38,
+                          "private_mb":  57.71
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  13.96,
+                          "private_mb":  3.67
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  13.92,
+                          "private_mb":  3.11
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  22.91,
+                          "private_mb":  6.37
+                      },
+                      {
+                          "process":  "node",
+                          "working_set_mb":  89.86,
+                          "private_mb":  97.64
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  16.08,
+                          "private_mb":  3.75
+                      },
+                      {
+                          "process":  "conhost",
+                          "working_set_mb":  7.14,
+                          "private_mb":  1.19
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  26.95,
+                          "private_mb":  3.28
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  22.5,
+                          "private_mb":  6.37
+                      },
+                      {
+                          "process":  "python",
+                          "working_set_mb":  97.7,
+                          "private_mb":  76.28
+                      },
+                      {
+                          "process":  "conhost",
+                          "working_set_mb":  7.14,
+                          "private_mb":  1.19
+                      },
+                      {
+                          "process":  "conhost",
+                          "working_set_mb":  7.16,
+                          "private_mb":  1.18
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  22.58,
+                          "private_mb":  6.17
+                      },
+                      {
+                          "process":  "python",
+                          "working_set_mb":  4.67,
+                          "private_mb":  0.84
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  22.62,
+                          "private_mb":  6.44
+                      },
+                      {
+                          "process":  "cmd",
+                          "working_set_mb":  11.08,
+                          "private_mb":  4.35
+                      },
+                      {
+                          "process":  "python",
+                          "working_set_mb":  28.71,
+                          "private_mb":  18.07
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  17.1,
+                          "private_mb":  3.13
+                      },
+                      {
+                          "process":  "conhost",
+                          "working_set_mb":  7.1,
+                          "private_mb":  1.18
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  14.36,
+                          "private_mb":  3.14
+                      },
+                      {
+                          "process":  "python",
+                          "working_set_mb":  54.31,
+                          "private_mb":  40.91
+                      },
+                      {
+                          "process":  "python",
+                          "working_set_mb":  4.67,
+                          "private_mb":  0.84
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  22.12,
+                          "private_mb":  6.12
+                      },
+                      {
+                          "process":  "postgres",
+                          "working_set_mb":  13.3,
+                          "private_mb":  3.18
+                      },
+                      {
+                          "process":  "python",
+                          "working_set_mb":  137.56,
+                          "private_mb":  117.09
+                      }
+                  ],
+    "cpu_model":  "11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz",
+    "sampled_idle_cpu_percent":  0,
+    "cpu_sample_seconds":  2.368,
+    "startup_seconds":  7.716,
+    "startup_scope":  "application readiness with already provisioned local runtimes; excludes setup and web build",
+    "working_set_sum_mb":  1190.14,
+    "limitations":  [
+                        "Instant process memory snapshot; shared pages may be counted more than once.",
+                        "Two-second CPU sample at rest, not sustained load capacity.",
+                        "Startup excludes first installation, downloads and web build; existing runtimes may already be running.",
+                        "Validated application identities and provisioned runtime PID roots only; descendants must be born after their actual parent; audit shells excluded."
+                    ]
+}

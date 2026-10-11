@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-07T20:26:11.616245+00:00",
+  "actual_http_and_browser": true,
+  "identity_data": "synthetic",
+  "checks": [
+    "quality ready with exact report hashes, 33 source files, negative diagnostics and human validity not measured",
+    "CUA malformed JSON draft: format issue, final submission disabled, attempt remains available",
+    "CUA repair to empty JSON array: one present answer, eleven missing, final submission requires explicit checkbox",
+    "CUA ordinary demo submission: FAIL, no global evidence/category change, original Frontend/Middle preserved",
+    "employer read still has no contact authorization or contacts after previous revocation"
+  ],
+  "attempt_id": "6f6e4688-a43f-4770-8c91-19b99b2427bf",
+  "provenance": {
+    "status": "verified",
+    "checked_files": 33,
+    "report_sha256": "c4047cbd3faccd61c80946102328108c822d72c3d41cac13cae9247505ee815f",
+    "stability_sha256": "52f64d19700bc1e080476f5393f7f2205f697c4d9d719cc74ac7e6ea7d6ad98b"
+  },
+  "screenshots": [
+    {
+      "path": ".local/round3-quality.png",
+      "sha256": "73e03fc6954c4b0ce1fe7bb4b0e3912bcf6092ce51027d595de11f616d89ebfa",
+      "excluded_from_release": true
+    },
+    {
+      "path": ".local/round3-review-format.png",
+      "sha256": "70c49560e04d8d8a6e39967bd1b23c96d323e9ce8401fd18408f852590815ebe",
+      "excluded_from_release": true
+    },
+    {
+      "path": ".local/round3-review-missing.png",
+      "sha256": "321c158841c1171ae5cba8001710f7c3febba0c642940b204e6634aac1eeb451",
+      "excluded_from_release": true
+    }
+  ],
+  "limitations": [
+    "No human pilot, real FSP registry, Docker or Linux/gVisor run; no public deployment or submission.",
+    "Previous demonstration video covers core flow; new review/quality flows have separate actual browser proof."
+  ]
+}

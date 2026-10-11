@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[project]
+name = "fsp-vector-api"
+version = "0.1.0"
+description = "Original FSP Vector hiring and verified competence API"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi==0.142.2", "uvicorn==0.40.0", "sqlalchemy==2.0.45",
+  "psycopg[binary]==3.3.2", "alembic==1.18.1", "pydantic==2.12.5",
+  "python-multipart==0.0.32", "pypdf==6.19.0", "reportlab==4.4.9",
+  "httpx==0.28.1", "PyJWT[crypto]==2.15.1"
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1", "hypothesis==6.151.5"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 110

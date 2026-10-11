@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "need-fixture-001",
+    "title": "Backend для платёжного API",
+    "description": "Команда платёжного API ищет Intern Backend. Обязательные проверяемые темы: Идемпотентность, API. Желательны Redis, FastAPI. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "intern",
+    "skills": [
+      "Redis",
+      "FastAPI"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "API"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-002",
+    "title": "Frontend для редактора рабочих процессов",
+    "description": "Команда редактора рабочих процессов ищет Intern Frontend. Обязательные проверяемые темы: Доступность, JavaScript concepts. Желательны React, JavaScript. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "intern",
+    "skills": [
+      "React",
+      "JavaScript"
+    ],
+    "required_skills": [
+      "Доступность",
+      "JavaScript concepts"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-003",
+    "title": "QA для релизного процесса",
+    "description": "Команда релизного процесса ищет Intern QA. Обязательные проверяемые темы: Идемпотентность, Test design. Желательны Playwright, pytest. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "intern",
+    "skills": [
+      "Playwright",
+      "pytest"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "Test design"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-004",
+    "title": "DevOps / SRE для восстановления после сбоев",
+    "description": "Команда восстановления после сбоев ищет Intern DevOps / SRE. Обязательные проверяемые темы: Идемпотентность, Container concepts. Желательны Docker, Terraform. Работа гибридно. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "intern",
+    "skills": [
+      "Docker",
+      "Terraform"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "Container concepts"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-005",
+    "title": "Data analytics для проверки метрик продукта",
+    "description": "Команда проверки метрик продукта ищет Intern Data analytics. Обязательные проверяемые темы: Data interpretation, SQL. Желательны PostgreSQL, SQL. Работа гибридно. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "intern",
+    "skills": [
+      "PostgreSQL",
+      "SQL"
+    ],
+    "required_skills": [
+      "Data interpretation",
+      "SQL"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-006",
+    "title": "Security для безопасного дизайна API",
+    "description": "Команда безопасного дизайна API ищет Intern Security. Обязательные проверяемые темы: Incident response, Authorization. Желательны CTF, Incident response. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "intern",
+    "skills": [
+      "CTF",
+      "Incident response"
+    ],
+    "required_skills": [
+      "Incident response",
+      "Authorization"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-007",
+    "title": "Backend для системы каталогов",
+    "description": "Команда системы каталогов ищет Junior Backend. Обязательные проверяемые темы: API, SQL. Желательны Python, Redis. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "junior",
+    "skills": [
+      "Python",
+      "Redis"
+    ],
+    "required_skills": [
+      "API",
+      "SQL"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-008",
+    "title": "Frontend для продуктовой дизайн-системы",
+    "description": "Команда продуктовой дизайн-системы ищет Junior Frontend. Обязательные проверяемые темы: Доступность, Web security. Желательны Playwright, TypeScript. Работа гибридно. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "junior",
+    "skills": [
+      "Playwright",
+      "TypeScript"
+    ],
+    "required_skills": [
+      "Доступность",
+      "Web security"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-009",
+    "title": "QA для проверки финансовых операций",
+    "description": "Команда проверки финансовых операций ищет Junior QA. Обязательные проверяемые темы: API, Идемпотентность. Желательны Test design, Playwright. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "junior",
+    "skills": [
+      "Test design",
+      "Playwright"
+    ],
+    "required_skills": [
+      "API",
+      "Идемпотентность"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-010",
+    "title": "DevOps / SRE для безопасных релизов",
+    "description": "Команда безопасных релизов ищет Junior DevOps / SRE. Обязательные проверяемые темы: HTTP concepts, SLO. Желательны Kubernetes, Docker. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "junior",
+    "skills": [
+      "Kubernetes",
+      "Docker"
+    ],
+    "required_skills": [
+      "HTTP concepts",
+      "SLO"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-011",
+    "title": "Data analytics для когортного анализа",
+    "description": "Команда когортного анализа ищет Junior Data analytics. Обязательные проверяемые темы: Data quality, SQL. Желательны PostgreSQL, SQL. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "junior",
+    "skills": [
+      "PostgreSQL",
+      "SQL"
+    ],
+    "required_skills": [
+      "Data quality",
+      "SQL"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-012",
+    "title": "Security для анализа учебных web-сценариев",
+    "description": "Команда анализа учебных web-сценариев ищет Junior Security. Обязательные проверяемые темы: Incident response, Web security. Желательны OWASP, Incident response. Работа в офисе. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "junior",
+    "skills": [
+      "OWASP",
+      "Incident response"
+    ],
+    "required_skills": [
+      "Incident response",
+      "Web security"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-013",
+    "title": "Backend для платёжного API",
+    "description": "Команда платёжного API ищет Middle Backend. Обязательные проверяемые темы: API, Unit testing. Желательны Redis, FastAPI. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "middle",
+    "skills": [
+      "Redis",
+      "FastAPI"
+    ],
+    "required_skills": [
+      "API",
+      "Unit testing"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-014",
+    "title": "Frontend для редактора рабочих процессов",
+    "description": "Команда редактора рабочих процессов ищет Middle Frontend. Обязательные проверяемые темы: Доступность, UI state. Желательны TypeScript, JavaScript. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "middle",
+    "skills": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "required_skills": [
+      "Доступность",
+      "UI state"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-015",
+    "title": "QA для релизного процесса",
+    "description": "Команда релизного процесса ищет Middle QA. Обязательные проверяемые темы: SQL, Test design. Желательны Playwright, SQL. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "middle",
+    "skills": [
+      "Playwright",
+      "SQL"
+    ],
+    "required_skills": [
+      "SQL",
+      "Test design"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-016",
+    "title": "DevOps / SRE для восстановления после сбоев",
+    "description": "Команда восстановления после сбоев ищет Middle DevOps / SRE. Обязательные проверяемые темы: Container concepts, HTTP concepts. Желательны Terraform, Docker. Работа в офисе. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "middle",
+    "skills": [
+      "Terraform",
+      "Docker"
+    ],
+    "required_skills": [
+      "Container concepts",
+      "HTTP concepts"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-017",
+    "title": "Data analytics для проверки метрик продукта",
+    "description": "Команда проверки метрик продукта ищет Middle Data analytics. Обязательные проверяемые темы: Data quality, Статистика. Желательны PostgreSQL, SQL. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "middle",
+    "skills": [
+      "PostgreSQL",
+      "SQL"
+    ],
+    "required_skills": [
+      "Data quality",
+      "Статистика"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-018",
+    "title": "Security для безопасного дизайна API",
+    "description": "Команда безопасного дизайна API ищет Middle Security. Обязательные проверяемые темы: Web security, Authorization. Желательны OWASP, CTF. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "middle",
+    "skills": [
+      "OWASP",
+      "CTF"
+    ],
+    "required_skills": [
+      "Web security",
+      "Authorization"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-019",
+    "title": "Backend для системы каталогов",
+    "description": "Команда системы каталогов ищет Senior Backend. Обязательные проверяемые темы: SQL, Идемпотентность. Желательны PostgreSQL, Python. Работа гибридно. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "senior",
+    "skills": [
+      "PostgreSQL",
+      "Python"
+    ],
+    "required_skills": [
+      "SQL",
+      "Идемпотентность"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-020",
+    "title": "Frontend для продуктовой дизайн-системы",
+    "description": "Команда продуктовой дизайн-системы ищет Senior Frontend. Обязательные проверяемые темы: Доступность, Web security. Желательны TypeScript, JavaScript. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "senior",
+    "skills": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "required_skills": [
+      "Доступность",
+      "Web security"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-021",
+    "title": "QA для проверки финансовых операций",
+    "description": "Команда проверки финансовых операций ищет Senior QA. Обязательные проверяемые темы: Test design, Идемпотентность. Желательны SQL, Test design. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "senior",
+    "skills": [
+      "SQL",
+      "Test design"
+    ],
+    "required_skills": [
+      "Test design",
+      "Идемпотентность"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-022",
+    "title": "DevOps / SRE для безопасных релизов",
+    "description": "Команда безопасных релизов ищет Senior DevOps / SRE. Обязательные проверяемые темы: Идемпотентность, SLO. Желательны Prometheus, Terraform. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "senior",
+    "skills": [
+      "Prometheus",
+      "Terraform"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "SLO"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-023",
+    "title": "Data analytics для когортного анализа",
+    "description": "Команда когортного анализа ищет Senior Data analytics. Обязательные проверяемые темы: Data quality, Data interpretation. Желательны PostgreSQL, pandas. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "senior",
+    "skills": [
+      "PostgreSQL",
+      "pandas"
+    ],
+    "required_skills": [
+      "Data quality",
+      "Data interpretation"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-024",
+    "title": "Security для анализа учебных web-сценариев",
+    "description": "Команда анализа учебных web-сценариев ищет Senior Security. Обязательные проверяемые темы: Authorization, Incident response. Желательны CTF, Authorization. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "senior",
+    "skills": [
+      "CTF",
+      "Authorization"
+    ],
+    "required_skills": [
+      "Authorization",
+      "Incident response"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-025",
+    "title": "Backend для платёжного API",
+    "description": "Команда платёжного API ищет Intern Backend. Обязательные проверяемые темы: Идемпотентность, Unit testing. Желательны API, SQL. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "intern",
+    "skills": [
+      "API",
+      "SQL"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "Unit testing"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-026",
+    "title": "Frontend для редактора рабочих процессов",
+    "description": "Команда редактора рабочих процессов ищет Intern Frontend. Обязательные проверяемые темы: UI state, Доступность. Желательны React, Playwright. Работа в офисе. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "intern",
+    "skills": [
+      "React",
+      "Playwright"
+    ],
+    "required_skills": [
+      "UI state",
+      "Доступность"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-027",
+    "title": "QA для релизного процесса",
+    "description": "Команда релизного процесса ищет Intern QA. Обязательные проверяемые темы: SQL, Test design. Желательны SQL, API. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "intern",
+    "skills": [
+      "SQL",
+      "API"
+    ],
+    "required_skills": [
+      "SQL",
+      "Test design"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-028",
+    "title": "DevOps / SRE для восстановления после сбоев",
+    "description": "Команда восстановления после сбоев ищет Intern DevOps / SRE. Обязательные проверяемые темы: HTTP concepts, Идемпотентность. Желательны Kubernetes, Docker. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "intern",
+    "skills": [
+      "Kubernetes",
+      "Docker"
+    ],
+    "required_skills": [
+      "HTTP concepts",
+      "Идемпотентность"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-029",
+    "title": "Data analytics для проверки метрик продукта",
+    "description": "Команда проверки метрик продукта ищет Intern Data analytics. Обязательные проверяемые темы: SQL, Data quality. Желательны Статистика, SQL. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "intern",
+    "skills": [
+      "Статистика",
+      "SQL"
+    ],
+    "required_skills": [
+      "SQL",
+      "Data quality"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-030",
+    "title": "Security для безопасного дизайна API",
+    "description": "Команда безопасного дизайна API ищет Intern Security. Обязательные проверяемые темы: Authorization, Cryptography concepts. Желательны Cryptography, CTF. Работа в офисе. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "intern",
+    "skills": [
+      "Cryptography",
+      "CTF"
+    ],
+    "required_skills": [
+      "Authorization",
+      "Cryptography concepts"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-031",
+    "title": "Backend для системы каталогов",
+    "description": "Команда системы каталогов ищет Junior Backend. Обязательные проверяемые темы: API, Unit testing. Желательны FastAPI, API. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "junior",
+    "skills": [
+      "FastAPI",
+      "API"
+    ],
+    "required_skills": [
+      "API",
+      "Unit testing"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-032",
+    "title": "Frontend для продуктовой дизайн-системы",
+    "description": "Команда продуктовой дизайн-системы ищет Junior Frontend. Обязательные проверяемые темы: Web security, Доступность. Желательны JavaScript, Доступность. Работа гибридно. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "junior",
+    "skills": [
+      "JavaScript",
+      "Доступность"
+    ],
+    "required_skills": [
+      "Web security",
+      "Доступность"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-033",
+    "title": "QA для проверки финансовых операций",
+    "description": "Команда проверки финансовых операций ищет Junior QA. Обязательные проверяемые темы: Test design, API. Желательны pytest, Test design. Работа в офисе. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "junior",
+    "skills": [
+      "pytest",
+      "Test design"
+    ],
+    "required_skills": [
+      "Test design",
+      "API"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-034",
+    "title": "DevOps / SRE для безопасных релизов",
+    "description": "Команда безопасных релизов ищет Junior DevOps / SRE. Обязательные проверяемые темы: Идемпотентность, HTTP concepts. Желательны Docker, Prometheus. Работа в офисе. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "junior",
+    "skills": [
+      "Docker",
+      "Prometheus"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "HTTP concepts"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-035",
+    "title": "Data analytics для когортного анализа",
+    "description": "Команда когортного анализа ищет Junior Data analytics. Обязательные проверяемые темы: Статистика, Data interpretation. Желательны pandas, PostgreSQL. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "junior",
+    "skills": [
+      "pandas",
+      "PostgreSQL"
+    ],
+    "required_skills": [
+      "Статистика",
+      "Data interpretation"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-036",
+    "title": "Security для анализа учебных web-сценариев",
+    "description": "Команда анализа учебных web-сценариев ищет Junior Security. Обязательные проверяемые темы: Authorization, Cryptography concepts. Желательны Authorization, CTF. Работа гибридно. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "junior",
+    "skills": [
+      "Authorization",
+      "CTF"
+    ],
+    "required_skills": [
+      "Authorization",
+      "Cryptography concepts"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-037",
+    "title": "Backend для платёжного API",
+    "description": "Команда платёжного API ищет Middle Backend. Обязательные проверяемые темы: Идемпотентность, API. Желательны Python, PostgreSQL. Работа в офисе. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "middle",
+    "skills": [
+      "Python",
+      "PostgreSQL"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "API"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-038",
+    "title": "Frontend для редактора рабочих процессов",
+    "description": "Команда редактора рабочих процессов ищет Middle Frontend. Обязательные проверяемые темы: JavaScript concepts, Web security. Желательны JavaScript, React. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "middle",
+    "skills": [
+      "JavaScript",
+      "React"
+    ],
+    "required_skills": [
+      "JavaScript concepts",
+      "Web security"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-039",
+    "title": "QA для релизного процесса",
+    "description": "Команда релизного процесса ищет Middle QA. Обязательные проверяемые темы: API, SQL. Желательны pytest, Playwright. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "middle",
+    "skills": [
+      "pytest",
+      "Playwright"
+    ],
+    "required_skills": [
+      "API",
+      "SQL"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-040",
+    "title": "DevOps / SRE для восстановления после сбоев",
+    "description": "Команда восстановления после сбоев ищет Middle DevOps / SRE. Обязательные проверяемые темы: HTTP concepts, SLO. Желательны Prometheus, Docker. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "middle",
+    "skills": [
+      "Prometheus",
+      "Docker"
+    ],
+    "required_skills": [
+      "HTTP concepts",
+      "SLO"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-041",
+    "title": "Data analytics для проверки метрик продукта",
+    "description": "Команда проверки метрик продукта ищет Middle Data analytics. Обязательные проверяемые темы: Data interpretation, SQL. Желательны SQL, PostgreSQL. Работа в офисе. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "middle",
+    "skills": [
+      "SQL",
+      "PostgreSQL"
+    ],
+    "required_skills": [
+      "Data interpretation",
+      "SQL"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-042",
+    "title": "Security для безопасного дизайна API",
+    "description": "Команда безопасного дизайна API ищет Middle Security. Обязательные проверяемые темы: Incident response, Authorization. Желательны Incident response, CTF. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "middle",
+    "skills": [
+      "Incident response",
+      "CTF"
+    ],
+    "required_skills": [
+      "Incident response",
+      "Authorization"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-043",
+    "title": "Backend для системы каталогов",
+    "description": "Команда системы каталогов ищет Senior Backend. Обязательные проверяемые темы: API, Идемпотентность. Желательны PostgreSQL, API. Работа в офисе. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "senior",
+    "skills": [
+      "PostgreSQL",
+      "API"
+    ],
+    "required_skills": [
+      "API",
+      "Идемпотентность"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-044",
+    "title": "Frontend для продуктовой дизайн-системы",
+    "description": "Команда продуктовой дизайн-системы ищет Senior Frontend. Обязательные проверяемые темы: Доступность, Web security. Желательны Playwright, JavaScript. Работа гибридно. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "senior",
+    "skills": [
+      "Playwright",
+      "JavaScript"
+    ],
+    "required_skills": [
+      "Доступность",
+      "Web security"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-045",
+    "title": "QA для проверки финансовых операций",
+    "description": "Команда проверки финансовых операций ищет Senior QA. Обязательные проверяемые темы: SQL, API. Желательны Playwright, pytest. Работа в офисе. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "senior",
+    "skills": [
+      "Playwright",
+      "pytest"
+    ],
+    "required_skills": [
+      "SQL",
+      "API"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-046",
+    "title": "DevOps / SRE для безопасных релизов",
+    "description": "Команда безопасных релизов ищет Senior DevOps / SRE. Обязательные проверяемые темы: SLO, Container concepts. Желательны Prometheus, Terraform. Работа гибридно. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "senior",
+    "skills": [
+      "Prometheus",
+      "Terraform"
+    ],
+    "required_skills": [
+      "SLO",
+      "Container concepts"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-047",
+    "title": "Data analytics для когортного анализа",
+    "description": "Команда когортного анализа ищет Senior Data analytics. Обязательные проверяемые темы: Data interpretation, Data quality. Желательны SQL, Data quality. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "senior",
+    "skills": [
+      "SQL",
+      "Data quality"
+    ],
+    "required_skills": [
+      "Data interpretation",
+      "Data quality"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-048",
+    "title": "Security для анализа учебных web-сценариев",
+    "description": "Команда анализа учебных web-сценариев ищет Senior Security. Обязательные проверяемые темы: Cryptography concepts, Authorization. Желательны Cryptography, Incident response. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "senior",
+    "skills": [
+      "Cryptography",
+      "Incident response"
+    ],
+    "required_skills": [
+      "Cryptography concepts",
+      "Authorization"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-049",
+    "title": "Backend для платёжного API",
+    "description": "Команда платёжного API ищет Intern Backend. Обязательные проверяемые темы: API, Unit testing. Желательны FastAPI, Redis. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "intern",
+    "skills": [
+      "FastAPI",
+      "Redis"
+    ],
+    "required_skills": [
+      "API",
+      "Unit testing"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-050",
+    "title": "Frontend для редактора рабочих процессов",
+    "description": "Команда редактора рабочих процессов ищет Intern Frontend. Обязательные проверяемые темы: JavaScript concepts, UI state. Желательны React, Playwright. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "intern",
+    "skills": [
+      "React",
+      "Playwright"
+    ],
+    "required_skills": [
+      "JavaScript concepts",
+      "UI state"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-051",
+    "title": "QA для релизного процесса",
+    "description": "Команда релизного процесса ищет Intern QA. Обязательные проверяемые темы: Test design, API. Желательны Playwright, pytest. Работа гибридно. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "intern",
+    "skills": [
+      "Playwright",
+      "pytest"
+    ],
+    "required_skills": [
+      "Test design",
+      "API"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-052",
+    "title": "DevOps / SRE для восстановления после сбоев",
+    "description": "Команда восстановления после сбоев ищет Intern DevOps / SRE. Обязательные проверяемые темы: SLO, Идемпотентность. Желательны Linux, SLO. Работа в офисе. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "intern",
+    "skills": [
+      "Linux",
+      "SLO"
+    ],
+    "required_skills": [
+      "SLO",
+      "Идемпотентность"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-053",
+    "title": "Data analytics для проверки метрик продукта",
+    "description": "Команда проверки метрик продукта ищет Intern Data analytics. Обязательные проверяемые темы: Data interpretation, Статистика. Желательны SQL, Data quality. Работа гибридно. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "intern",
+    "skills": [
+      "SQL",
+      "Data quality"
+    ],
+    "required_skills": [
+      "Data interpretation",
+      "Статистика"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-054",
+    "title": "Security для безопасного дизайна API",
+    "description": "Команда безопасного дизайна API ищет Intern Security. Обязательные проверяемые темы: Web security, Incident response. Желательны Authorization, OWASP. Работа гибридно. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "intern",
+    "skills": [
+      "Authorization",
+      "OWASP"
+    ],
+    "required_skills": [
+      "Web security",
+      "Incident response"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-055",
+    "title": "Backend для системы каталогов",
+    "description": "Команда системы каталогов ищет Junior Backend. Обязательные проверяемые темы: Unit testing, SQL. Желательны Python, Redis. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "junior",
+    "skills": [
+      "Python",
+      "Redis"
+    ],
+    "required_skills": [
+      "Unit testing",
+      "SQL"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-056",
+    "title": "Frontend для продуктовой дизайн-системы",
+    "description": "Команда продуктовой дизайн-системы ищет Junior Frontend. Обязательные проверяемые темы: JavaScript concepts, Доступность. Желательны Доступность, Playwright. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "junior",
+    "skills": [
+      "Доступность",
+      "Playwright"
+    ],
+    "required_skills": [
+      "JavaScript concepts",
+      "Доступность"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-057",
+    "title": "QA для проверки финансовых операций",
+    "description": "Команда проверки финансовых операций ищет Junior QA. Обязательные проверяемые темы: SQL, API. Желательны Test design, SQL. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "junior",
+    "skills": [
+      "Test design",
+      "SQL"
+    ],
+    "required_skills": [
+      "SQL",
+      "API"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-058",
+    "title": "DevOps / SRE для безопасных релизов",
+    "description": "Команда безопасных релизов ищет Junior DevOps / SRE. Обязательные проверяемые темы: SLO, Идемпотентность. Желательны SLO, Terraform. Работа в офисе. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "junior",
+    "skills": [
+      "SLO",
+      "Terraform"
+    ],
+    "required_skills": [
+      "SLO",
+      "Идемпотентность"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-059",
+    "title": "Data analytics для когортного анализа",
+    "description": "Команда когортного анализа ищет Junior Data analytics. Обязательные проверяемые темы: Data interpretation, SQL. Желательны Data quality, Статистика. Работа гибридно. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "junior",
+    "skills": [
+      "Data quality",
+      "Статистика"
+    ],
+    "required_skills": [
+      "Data interpretation",
+      "SQL"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-060",
+    "title": "Security для анализа учебных web-сценариев",
+    "description": "Команда анализа учебных web-сценариев ищет Junior Security. Обязательные проверяемые темы: Web security, Incident response. Желательны CTF, OWASP. Работа в офисе. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "junior",
+    "skills": [
+      "CTF",
+      "OWASP"
+    ],
+    "required_skills": [
+      "Web security",
+      "Incident response"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-061",
+    "title": "Backend для платёжного API",
+    "description": "Команда платёжного API ищет Middle Backend. Обязательные проверяемые темы: API, Идемпотентность. Желательны API, PostgreSQL. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "middle",
+    "skills": [
+      "API",
+      "PostgreSQL"
+    ],
+    "required_skills": [
+      "API",
+      "Идемпотентность"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-062",
+    "title": "Frontend для редактора рабочих процессов",
+    "description": "Команда редактора рабочих процессов ищет Middle Frontend. Обязательные проверяемые темы: UI state, JavaScript concepts. Желательны TypeScript, React. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "middle",
+    "skills": [
+      "TypeScript",
+      "React"
+    ],
+    "required_skills": [
+      "UI state",
+      "JavaScript concepts"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-063",
+    "title": "QA для релизного процесса",
+    "description": "Команда релизного процесса ищет Middle QA. Обязательные проверяемые темы: Идемпотентность, SQL. Желательны Test design, API. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "middle",
+    "skills": [
+      "Test design",
+      "API"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "SQL"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-064",
+    "title": "DevOps / SRE для восстановления после сбоев",
+    "description": "Команда восстановления после сбоев ищет Middle DevOps / SRE. Обязательные проверяемые темы: HTTP concepts, Идемпотентность. Желательны Kubernetes, SLO. Работа в офисе. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "middle",
+    "skills": [
+      "Kubernetes",
+      "SLO"
+    ],
+    "required_skills": [
+      "HTTP concepts",
+      "Идемпотентность"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-065",
+    "title": "Data analytics для проверки метрик продукта",
+    "description": "Команда проверки метрик продукта ищет Middle Data analytics. Обязательные проверяемые темы: Статистика, Data quality. Желательны Data quality, SQL. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "middle",
+    "skills": [
+      "Data quality",
+      "SQL"
+    ],
+    "required_skills": [
+      "Статистика",
+      "Data quality"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-066",
+    "title": "Security для безопасного дизайна API",
+    "description": "Команда безопасного дизайна API ищет Middle Security. Обязательные проверяемые темы: Authorization, Incident response. Желательны Authorization, Incident response. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "middle",
+    "skills": [
+      "Authorization",
+      "Incident response"
+    ],
+    "required_skills": [
+      "Authorization",
+      "Incident response"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-067",
+    "title": "Backend для системы каталогов",
+    "description": "Команда системы каталогов ищет Senior Backend. Обязательные проверяемые темы: SQL, Unit testing. Желательны PostgreSQL, API. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "senior",
+    "skills": [
+      "PostgreSQL",
+      "API"
+    ],
+    "required_skills": [
+      "SQL",
+      "Unit testing"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-068",
+    "title": "Frontend для продуктовой дизайн-системы",
+    "description": "Команда продуктовой дизайн-системы ищет Senior Frontend. Обязательные проверяемые темы: Доступность, Web security. Желательны Playwright, TypeScript. Работа в офисе. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "senior",
+    "skills": [
+      "Playwright",
+      "TypeScript"
+    ],
+    "required_skills": [
+      "Доступность",
+      "Web security"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-069",
+    "title": "QA для проверки финансовых операций",
+    "description": "Команда проверки финансовых операций ищет Senior QA. Обязательные проверяемые темы: Идемпотентность, SQL. Желательны pytest, Test design. Работа в офисе. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "senior",
+    "skills": [
+      "pytest",
+      "Test design"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "SQL"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-070",
+    "title": "DevOps / SRE для безопасных релизов",
+    "description": "Команда безопасных релизов ищет Senior DevOps / SRE. Обязательные проверяемые темы: SLO, Идемпотентность. Желательны Docker, Kubernetes. Работа в офисе. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "senior",
+    "skills": [
+      "Docker",
+      "Kubernetes"
+    ],
+    "required_skills": [
+      "SLO",
+      "Идемпотентность"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-071",
+    "title": "Data analytics для когортного анализа",
+    "description": "Команда когортного анализа ищет Senior Data analytics. Обязательные проверяемые темы: Data quality, SQL. Желательны SQL, Data quality. Работа гибридно. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "senior",
+    "skills": [
+      "SQL",
+      "Data quality"
+    ],
+    "required_skills": [
+      "Data quality",
+      "SQL"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-072",
+    "title": "Security для анализа учебных web-сценариев",
+    "description": "Команда анализа учебных web-сценариев ищет Senior Security. Обязательные проверяемые темы: Cryptography concepts, Web security. Желательны Authorization, CTF. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "senior",
+    "skills": [
+      "Authorization",
+      "CTF"
+    ],
+    "required_skills": [
+      "Cryptography concepts",
+      "Web security"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-073",
+    "title": "Backend для платёжного API",
+    "description": "Команда платёжного API ищет Intern Backend. Обязательные проверяемые темы: Идемпотентность, Unit testing. Желательны PostgreSQL, Python. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "intern",
+    "skills": [
+      "PostgreSQL",
+      "Python"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "Unit testing"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-074",
+    "title": "Frontend для редактора рабочих процессов",
+    "description": "Команда редактора рабочих процессов ищет Intern Frontend. Обязательные проверяемые темы: JavaScript concepts, Web security. Желательны TypeScript, Доступность. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "intern",
+    "skills": [
+      "TypeScript",
+      "Доступность"
+    ],
+    "required_skills": [
+      "JavaScript concepts",
+      "Web security"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-075",
+    "title": "QA для релизного процесса",
+    "description": "Команда релизного процесса ищет Intern QA. Обязательные проверяемые темы: Идемпотентность, SQL. Желательны Playwright, Test design. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "intern",
+    "skills": [
+      "Playwright",
+      "Test design"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "SQL"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-076",
+    "title": "DevOps / SRE для восстановления после сбоев",
+    "description": "Команда восстановления после сбоев ищет Intern DevOps / SRE. Обязательные проверяемые темы: Container concepts, HTTP concepts. Желательны Kubernetes, SLO. Работа в офисе. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "intern",
+    "skills": [
+      "Kubernetes",
+      "SLO"
+    ],
+    "required_skills": [
+      "Container concepts",
+      "HTTP concepts"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-077",
+    "title": "Data analytics для проверки метрик продукта",
+    "description": "Команда проверки метрик продукта ищет Intern Data analytics. Обязательные проверяемые темы: Статистика, Data interpretation. Желательны Data quality, SQL. Работа в офисе. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "intern",
+    "skills": [
+      "Data quality",
+      "SQL"
+    ],
+    "required_skills": [
+      "Статистика",
+      "Data interpretation"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-078",
+    "title": "Security для безопасного дизайна API",
+    "description": "Команда безопасного дизайна API ищет Intern Security. Обязательные проверяемые темы: Cryptography concepts, Incident response. Желательны OWASP, Incident response. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "intern",
+    "skills": [
+      "OWASP",
+      "Incident response"
+    ],
+    "required_skills": [
+      "Cryptography concepts",
+      "Incident response"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-079",
+    "title": "Backend для системы каталогов",
+    "description": "Команда системы каталогов ищет Junior Backend. Обязательные проверяемые темы: Unit testing, SQL. Желательны SQL, PostgreSQL. Работа в офисе. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "junior",
+    "skills": [
+      "SQL",
+      "PostgreSQL"
+    ],
+    "required_skills": [
+      "Unit testing",
+      "SQL"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-080",
+    "title": "Frontend для продуктовой дизайн-системы",
+    "description": "Команда продуктовой дизайн-системы ищет Junior Frontend. Обязательные проверяемые темы: Web security, Доступность. Желательны Playwright, JavaScript. Работа гибридно. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "junior",
+    "skills": [
+      "Playwright",
+      "JavaScript"
+    ],
+    "required_skills": [
+      "Web security",
+      "Доступность"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-081",
+    "title": "QA для проверки финансовых операций",
+    "description": "Команда проверки финансовых операций ищет Junior QA. Обязательные проверяемые темы: Test design, Идемпотентность. Желательны API, Playwright. Работа гибридно. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "junior",
+    "skills": [
+      "API",
+      "Playwright"
+    ],
+    "required_skills": [
+      "Test design",
+      "Идемпотентность"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-082",
+    "title": "DevOps / SRE для безопасных релизов",
+    "description": "Команда безопасных релизов ищет Junior DevOps / SRE. Обязательные проверяемые темы: Container concepts, SLO. Желательны Docker, SLO. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "junior",
+    "skills": [
+      "Docker",
+      "SLO"
+    ],
+    "required_skills": [
+      "Container concepts",
+      "SLO"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-083",
+    "title": "Data analytics для когортного анализа",
+    "description": "Команда когортного анализа ищет Junior Data analytics. Обязательные проверяемые темы: Data interpretation, SQL. Желательны PostgreSQL, Data quality. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "junior",
+    "skills": [
+      "PostgreSQL",
+      "Data quality"
+    ],
+    "required_skills": [
+      "Data interpretation",
+      "SQL"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-084",
+    "title": "Security для анализа учебных web-сценариев",
+    "description": "Команда анализа учебных web-сценариев ищет Junior Security. Обязательные проверяемые темы: Incident response, Cryptography concepts. Желательны OWASP, Authorization. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "junior",
+    "skills": [
+      "OWASP",
+      "Authorization"
+    ],
+    "required_skills": [
+      "Incident response",
+      "Cryptography concepts"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-085",
+    "title": "Backend для платёжного API",
+    "description": "Команда платёжного API ищет Middle Backend. Обязательные проверяемые темы: SQL, Unit testing. Желательны API, Python. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "middle",
+    "skills": [
+      "API",
+      "Python"
+    ],
+    "required_skills": [
+      "SQL",
+      "Unit testing"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-086",
+    "title": "Frontend для редактора рабочих процессов",
+    "description": "Команда редактора рабочих процессов ищет Middle Frontend. Обязательные проверяемые темы: UI state, Web security. Желательны JavaScript, Доступность. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "middle",
+    "skills": [
+      "JavaScript",
+      "Доступность"
+    ],
+    "required_skills": [
+      "UI state",
+      "Web security"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-087",
+    "title": "QA для релизного процесса",
+    "description": "Команда релизного процесса ищет Middle QA. Обязательные проверяемые темы: API, Идемпотентность. Желательны pytest, API. Работа в офисе. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "middle",
+    "skills": [
+      "pytest",
+      "API"
+    ],
+    "required_skills": [
+      "API",
+      "Идемпотентность"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-088",
+    "title": "DevOps / SRE для восстановления после сбоев",
+    "description": "Команда восстановления после сбоев ищет Middle DevOps / SRE. Обязательные проверяемые темы: Container concepts, SLO. Желательны Kubernetes, SLO. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "middle",
+    "skills": [
+      "Kubernetes",
+      "SLO"
+    ],
+    "required_skills": [
+      "Container concepts",
+      "SLO"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-089",
+    "title": "Data analytics для проверки метрик продукта",
+    "description": "Команда проверки метрик продукта ищет Middle Data analytics. Обязательные проверяемые темы: Data interpretation, Data quality. Желательны pandas, Статистика. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "middle",
+    "skills": [
+      "pandas",
+      "Статистика"
+    ],
+    "required_skills": [
+      "Data interpretation",
+      "Data quality"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-090",
+    "title": "Security для безопасного дизайна API",
+    "description": "Команда безопасного дизайна API ищет Middle Security. Обязательные проверяемые темы: Web security, Cryptography concepts. Желательны Authorization, CTF. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "middle",
+    "skills": [
+      "Authorization",
+      "CTF"
+    ],
+    "required_skills": [
+      "Web security",
+      "Cryptography concepts"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-091",
+    "title": "Backend для системы каталогов",
+    "description": "Команда системы каталогов ищет Senior Backend. Обязательные проверяемые темы: Unit testing, API. Желательны FastAPI, API. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "senior",
+    "skills": [
+      "FastAPI",
+      "API"
+    ],
+    "required_skills": [
+      "Unit testing",
+      "API"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-092",
+    "title": "Frontend для продуктовой дизайн-системы",
+    "description": "Команда продуктовой дизайн-системы ищет Senior Frontend. Обязательные проверяемые темы: Доступность, JavaScript concepts. Желательны Playwright, JavaScript. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "senior",
+    "skills": [
+      "Playwright",
+      "JavaScript"
+    ],
+    "required_skills": [
+      "Доступность",
+      "JavaScript concepts"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-093",
+    "title": "QA для проверки финансовых операций",
+    "description": "Команда проверки финансовых операций ищет Senior QA. Обязательные проверяемые темы: SQL, Test design. Желательны SQL, API. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "senior",
+    "skills": [
+      "SQL",
+      "API"
+    ],
+    "required_skills": [
+      "SQL",
+      "Test design"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-094",
+    "title": "DevOps / SRE для безопасных релизов",
+    "description": "Команда безопасных релизов ищет Senior DevOps / SRE. Обязательные проверяемые темы: Container concepts, SLO. Желательны SLO, Terraform. Работа гибридно. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "senior",
+    "skills": [
+      "SLO",
+      "Terraform"
+    ],
+    "required_skills": [
+      "Container concepts",
+      "SLO"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-095",
+    "title": "Data analytics для когортного анализа",
+    "description": "Команда когортного анализа ищет Senior Data analytics. Обязательные проверяемые темы: Статистика, Data quality. Желательны SQL, Data quality. Работа гибридно. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "senior",
+    "skills": [
+      "SQL",
+      "Data quality"
+    ],
+    "required_skills": [
+      "Статистика",
+      "Data quality"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-096",
+    "title": "Security для анализа учебных web-сценариев",
+    "description": "Команда анализа учебных web-сценариев ищет Senior Security. Обязательные проверяемые темы: Authorization, Web security. Желательны Authorization, OWASP. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "senior",
+    "skills": [
+      "Authorization",
+      "OWASP"
+    ],
+    "required_skills": [
+      "Authorization",
+      "Web security"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-097",
+    "title": "Backend для платёжного API",
+    "description": "Команда платёжного API ищет Intern Backend. Обязательные проверяемые темы: Идемпотентность, API. Желательны Python, PostgreSQL. Работа в офисе. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "intern",
+    "skills": [
+      "Python",
+      "PostgreSQL"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "API"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-098",
+    "title": "Frontend для редактора рабочих процессов",
+    "description": "Команда редактора рабочих процессов ищет Intern Frontend. Обязательные проверяемые темы: JavaScript concepts, Web security. Желательны Playwright, TypeScript. Работа гибридно. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "intern",
+    "skills": [
+      "Playwright",
+      "TypeScript"
+    ],
+    "required_skills": [
+      "JavaScript concepts",
+      "Web security"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-099",
+    "title": "QA для релизного процесса",
+    "description": "Команда релизного процесса ищет Intern QA. Обязательные проверяемые темы: Test design, SQL. Желательны API, pytest. Работа гибридно. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "intern",
+    "skills": [
+      "API",
+      "pytest"
+    ],
+    "required_skills": [
+      "Test design",
+      "SQL"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-100",
+    "title": "DevOps / SRE для восстановления после сбоев",
+    "description": "Команда восстановления после сбоев ищет Intern DevOps / SRE. Обязательные проверяемые темы: SLO, Идемпотентность. Желательны SLO, Linux. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "intern",
+    "skills": [
+      "SLO",
+      "Linux"
+    ],
+    "required_skills": [
+      "SLO",
+      "Идемпотентность"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-101",
+    "title": "Data analytics для проверки метрик продукта",
+    "description": "Команда проверки метрик продукта ищет Intern Data analytics. Обязательные проверяемые темы: Data interpretation, Data quality. Желательны PostgreSQL, SQL. Работа гибридно. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "intern",
+    "skills": [
+      "PostgreSQL",
+      "SQL"
+    ],
+    "required_skills": [
+      "Data interpretation",
+      "Data quality"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-102",
+    "title": "Security для безопасного дизайна API",
+    "description": "Команда безопасного дизайна API ищет Intern Security. Обязательные проверяемые темы: Incident response, Web security. Желательны Authorization, CTF. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "intern",
+    "skills": [
+      "Authorization",
+      "CTF"
+    ],
+    "required_skills": [
+      "Incident response",
+      "Web security"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-103",
+    "title": "Backend для системы каталогов",
+    "description": "Команда системы каталогов ищет Junior Backend. Обязательные проверяемые темы: Unit testing, Идемпотентность. Желательны SQL, PostgreSQL. Работа в офисе. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "junior",
+    "skills": [
+      "SQL",
+      "PostgreSQL"
+    ],
+    "required_skills": [
+      "Unit testing",
+      "Идемпотентность"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-104",
+    "title": "Frontend для продуктовой дизайн-системы",
+    "description": "Команда продуктовой дизайн-системы ищет Junior Frontend. Обязательные проверяемые темы: Доступность, JavaScript concepts. Желательны JavaScript, TypeScript. Работа в офисе. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "junior",
+    "skills": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "required_skills": [
+      "Доступность",
+      "JavaScript concepts"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-105",
+    "title": "QA для проверки финансовых операций",
+    "description": "Команда проверки финансовых операций ищет Junior QA. Обязательные проверяемые темы: SQL, API. Желательны Test design, API. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "junior",
+    "skills": [
+      "Test design",
+      "API"
+    ],
+    "required_skills": [
+      "SQL",
+      "API"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-106",
+    "title": "DevOps / SRE для безопасных релизов",
+    "description": "Команда безопасных релизов ищет Junior DevOps / SRE. Обязательные проверяемые темы: SLO, Идемпотентность. Желательны Prometheus, Linux. Работа в офисе. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "junior",
+    "skills": [
+      "Prometheus",
+      "Linux"
+    ],
+    "required_skills": [
+      "SLO",
+      "Идемпотентность"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-107",
+    "title": "Data analytics для когортного анализа",
+    "description": "Команда когортного анализа ищет Junior Data analytics. Обязательные проверяемые темы: Data interpretation, Статистика. Желательны Статистика, SQL. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "junior",
+    "skills": [
+      "Статистика",
+      "SQL"
+    ],
+    "required_skills": [
+      "Data interpretation",
+      "Статистика"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-108",
+    "title": "Security для анализа учебных web-сценариев",
+    "description": "Команда анализа учебных web-сценариев ищет Junior Security. Обязательные проверяемые темы: Incident response, Authorization. Желательны Cryptography, Authorization. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "junior",
+    "skills": [
+      "Cryptography",
+      "Authorization"
+    ],
+    "required_skills": [
+      "Incident response",
+      "Authorization"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-109",
+    "title": "Backend для платёжного API",
+    "description": "Команда платёжного API ищет Middle Backend. Обязательные проверяемые темы: Unit testing, SQL. Желательны SQL, API. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "middle",
+    "skills": [
+      "SQL",
+      "API"
+    ],
+    "required_skills": [
+      "Unit testing",
+      "SQL"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-110",
+    "title": "Frontend для редактора рабочих процессов",
+    "description": "Команда редактора рабочих процессов ищет Middle Frontend. Обязательные проверяемые темы: JavaScript concepts, Web security. Желательны JavaScript, React. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "middle",
+    "skills": [
+      "JavaScript",
+      "React"
+    ],
+    "required_skills": [
+      "JavaScript concepts",
+      "Web security"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-111",
+    "title": "QA для релизного процесса",
+    "description": "Команда релизного процесса ищет Middle QA. Обязательные проверяемые темы: SQL, API. Желательны pytest, Test design. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "middle",
+    "skills": [
+      "pytest",
+      "Test design"
+    ],
+    "required_skills": [
+      "SQL",
+      "API"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-112",
+    "title": "DevOps / SRE для восстановления после сбоев",
+    "description": "Команда восстановления после сбоев ищет Middle DevOps / SRE. Обязательные проверяемые темы: SLO, Container concepts. Желательны SLO, Linux. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "middle",
+    "skills": [
+      "SLO",
+      "Linux"
+    ],
+    "required_skills": [
+      "SLO",
+      "Container concepts"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-113",
+    "title": "Data analytics для проверки метрик продукта",
+    "description": "Команда проверки метрик продукта ищет Middle Data analytics. Обязательные проверяемые темы: Статистика, Data quality. Желательны SQL, Data quality. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "middle",
+    "skills": [
+      "SQL",
+      "Data quality"
+    ],
+    "required_skills": [
+      "Статистика",
+      "Data quality"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-114",
+    "title": "Security для безопасного дизайна API",
+    "description": "Команда безопасного дизайна API ищет Middle Security. Обязательные проверяемые темы: Web security, Incident response. Желательны Incident response, OWASP. Работа в офисе. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "middle",
+    "skills": [
+      "Incident response",
+      "OWASP"
+    ],
+    "required_skills": [
+      "Web security",
+      "Incident response"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-115",
+    "title": "Backend для системы каталогов",
+    "description": "Команда системы каталогов ищет Senior Backend. Обязательные проверяемые темы: Unit testing, SQL. Желательны Python, Redis. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "senior",
+    "skills": [
+      "Python",
+      "Redis"
+    ],
+    "required_skills": [
+      "Unit testing",
+      "SQL"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-116",
+    "title": "Frontend для продуктовой дизайн-системы",
+    "description": "Команда продуктовой дизайн-системы ищет Senior Frontend. Обязательные проверяемые темы: Доступность, JavaScript concepts. Желательны React, Playwright. Работа гибридно. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "senior",
+    "skills": [
+      "React",
+      "Playwright"
+    ],
+    "required_skills": [
+      "Доступность",
+      "JavaScript concepts"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-117",
+    "title": "QA для проверки финансовых операций",
+    "description": "Команда проверки финансовых операций ищет Senior QA. Обязательные проверяемые темы: API, Идемпотентность. Желательны Test design, API. Работа в офисе. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "senior",
+    "skills": [
+      "Test design",
+      "API"
+    ],
+    "required_skills": [
+      "API",
+      "Идемпотентность"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-118",
+    "title": "DevOps / SRE для безопасных релизов",
+    "description": "Команда безопасных релизов ищет Senior DevOps / SRE. Обязательные проверяемые темы: Container concepts, Идемпотентность. Желательны Docker, SLO. Работа гибридно. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "senior",
+    "skills": [
+      "Docker",
+      "SLO"
+    ],
+    "required_skills": [
+      "Container concepts",
+      "Идемпотентность"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-119",
+    "title": "Data analytics для когортного анализа",
+    "description": "Команда когортного анализа ищет Senior Data analytics. Обязательные проверяемые темы: SQL, Статистика. Желательны Data quality, Статистика. Работа гибридно. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "senior",
+    "skills": [
+      "Data quality",
+      "Статистика"
+    ],
+    "required_skills": [
+      "SQL",
+      "Статистика"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-120",
+    "title": "Security для анализа учебных web-сценариев",
+    "description": "Команда анализа учебных web-сценариев ищет Senior Security. Обязательные проверяемые темы: Authorization, Web security. Желательны CTF, Cryptography. Работа гибридно. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "senior",
+    "skills": [
+      "CTF",
+      "Cryptography"
+    ],
+    "required_skills": [
+      "Authorization",
+      "Web security"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-121",
+    "title": "Backend для платёжного API",
+    "description": "Команда платёжного API ищет Intern Backend. Обязательные проверяемые темы: SQL, Идемпотентность. Желательны PostgreSQL, Python. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "intern",
+    "skills": [
+      "PostgreSQL",
+      "Python"
+    ],
+    "required_skills": [
+      "SQL",
+      "Идемпотентность"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-122",
+    "title": "Frontend для редактора рабочих процессов",
+    "description": "Команда редактора рабочих процессов ищет Intern Frontend. Обязательные проверяемые темы: Доступность, JavaScript concepts. Желательны JavaScript, React. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "intern",
+    "skills": [
+      "JavaScript",
+      "React"
+    ],
+    "required_skills": [
+      "Доступность",
+      "JavaScript concepts"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-123",
+    "title": "QA для релизного процесса",
+    "description": "Команда релизного процесса ищет Intern QA. Обязательные проверяемые темы: SQL, Идемпотентность. Желательны pytest, API. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "intern",
+    "skills": [
+      "pytest",
+      "API"
+    ],
+    "required_skills": [
+      "SQL",
+      "Идемпотентность"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-124",
+    "title": "DevOps / SRE для восстановления после сбоев",
+    "description": "Команда восстановления после сбоев ищет Intern DevOps / SRE. Обязательные проверяемые темы: Идемпотентность, Container concepts. Желательны Prometheus, Kubernetes. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "intern",
+    "skills": [
+      "Prometheus",
+      "Kubernetes"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "Container concepts"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-125",
+    "title": "Data analytics для проверки метрик продукта",
+    "description": "Команда проверки метрик продукта ищет Intern Data analytics. Обязательные проверяемые темы: Data quality, Статистика. Желательны pandas, Data quality. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "intern",
+    "skills": [
+      "pandas",
+      "Data quality"
+    ],
+    "required_skills": [
+      "Data quality",
+      "Статистика"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-126",
+    "title": "Security для безопасного дизайна API",
+    "description": "Команда безопасного дизайна API ищет Intern Security. Обязательные проверяемые темы: Web security, Authorization. Желательны Incident response, Authorization. Работа гибридно. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "intern",
+    "skills": [
+      "Incident response",
+      "Authorization"
+    ],
+    "required_skills": [
+      "Web security",
+      "Authorization"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-127",
+    "title": "Backend для системы каталогов",
+    "description": "Команда системы каталогов ищет Junior Backend. Обязательные проверяемые темы: API, Unit testing. Желательны Python, Redis. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "junior",
+    "skills": [
+      "Python",
+      "Redis"
+    ],
+    "required_skills": [
+      "API",
+      "Unit testing"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-128",
+    "title": "Frontend для продуктовой дизайн-системы",
+    "description": "Команда продуктовой дизайн-системы ищет Junior Frontend. Обязательные проверяемые темы: JavaScript concepts, Доступность. Желательны React, TypeScript. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "junior",
+    "skills": [
+      "React",
+      "TypeScript"
+    ],
+    "required_skills": [
+      "JavaScript concepts",
+      "Доступность"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-129",
+    "title": "QA для проверки финансовых операций",
+    "description": "Команда проверки финансовых операций ищет Junior QA. Обязательные проверяемые темы: Идемпотентность, SQL. Желательны Test design, pytest. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "junior",
+    "skills": [
+      "Test design",
+      "pytest"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "SQL"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-130",
+    "title": "DevOps / SRE для безопасных релизов",
+    "description": "Команда безопасных релизов ищет Junior DevOps / SRE. Обязательные проверяемые темы: Container concepts, Идемпотентность. Желательны Linux, Kubernetes. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "junior",
+    "skills": [
+      "Linux",
+      "Kubernetes"
+    ],
+    "required_skills": [
+      "Container concepts",
+      "Идемпотентность"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-131",
+    "title": "Data analytics для когортного анализа",
+    "description": "Команда когортного анализа ищет Junior Data analytics. Обязательные проверяемые темы: Статистика, SQL. Желательны Data quality, PostgreSQL. Работа в офисе. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "junior",
+    "skills": [
+      "Data quality",
+      "PostgreSQL"
+    ],
+    "required_skills": [
+      "Статистика",
+      "SQL"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-132",
+    "title": "Security для анализа учебных web-сценариев",
+    "description": "Команда анализа учебных web-сценариев ищет Junior Security. Обязательные проверяемые темы: Authorization, Incident response. Желательны Incident response, Authorization. Работа удалённо. Зарплата 130000–230000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "junior",
+    "skills": [
+      "Incident response",
+      "Authorization"
+    ],
+    "required_skills": [
+      "Authorization",
+      "Incident response"
+    ],
+    "salary_from": 130000,
+    "salary_to": 230000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-133",
+    "title": "Backend для платёжного API",
+    "description": "Команда платёжного API ищет Middle Backend. Обязательные проверяемые темы: API, Идемпотентность. Желательны Redis, SQL. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "middle",
+    "skills": [
+      "Redis",
+      "SQL"
+    ],
+    "required_skills": [
+      "API",
+      "Идемпотентность"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-134",
+    "title": "Frontend для редактора рабочих процессов",
+    "description": "Команда редактора рабочих процессов ищет Middle Frontend. Обязательные проверяемые темы: Web security, Доступность. Желательны TypeScript, Доступность. Работа в офисе. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "middle",
+    "skills": [
+      "TypeScript",
+      "Доступность"
+    ],
+    "required_skills": [
+      "Web security",
+      "Доступность"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-135",
+    "title": "QA для релизного процесса",
+    "description": "Команда релизного процесса ищет Middle QA. Обязательные проверяемые темы: SQL, Идемпотентность. Желательны pytest, SQL. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "middle",
+    "skills": [
+      "pytest",
+      "SQL"
+    ],
+    "required_skills": [
+      "SQL",
+      "Идемпотентность"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-136",
+    "title": "DevOps / SRE для восстановления после сбоев",
+    "description": "Команда восстановления после сбоев ищет Middle DevOps / SRE. Обязательные проверяемые темы: Идемпотентность, HTTP concepts. Желательны Docker, Terraform. Работа удалённо. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "middle",
+    "skills": [
+      "Docker",
+      "Terraform"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "HTTP concepts"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-137",
+    "title": "Data analytics для проверки метрик продукта",
+    "description": "Команда проверки метрик продукта ищет Middle Data analytics. Обязательные проверяемые темы: Data quality, Статистика. Желательны Статистика, Data quality. Работа гибридно. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "middle",
+    "skills": [
+      "Статистика",
+      "Data quality"
+    ],
+    "required_skills": [
+      "Data quality",
+      "Статистика"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-138",
+    "title": "Security для безопасного дизайна API",
+    "description": "Команда безопасного дизайна API ищет Middle Security. Обязательные проверяемые темы: Web security, Cryptography concepts. Желательны OWASP, Incident response. Работа в офисе. Зарплата 200000–300000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "middle",
+    "skills": [
+      "OWASP",
+      "Incident response"
+    ],
+    "required_skills": [
+      "Web security",
+      "Cryptography concepts"
+    ],
+    "salary_from": 200000,
+    "salary_to": 300000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-139",
+    "title": "Backend для системы каталогов",
+    "description": "Команда системы каталогов ищет Senior Backend. Обязательные проверяемые темы: Unit testing, API. Желательны PostgreSQL, API. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "senior",
+    "skills": [
+      "PostgreSQL",
+      "API"
+    ],
+    "required_skills": [
+      "Unit testing",
+      "API"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-140",
+    "title": "Frontend для продуктовой дизайн-системы",
+    "description": "Команда продуктовой дизайн-системы ищет Senior Frontend. Обязательные проверяемые темы: UI state, Доступность. Желательны React, Playwright. Работа гибридно. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "senior",
+    "skills": [
+      "React",
+      "Playwright"
+    ],
+    "required_skills": [
+      "UI state",
+      "Доступность"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-141",
+    "title": "QA для проверки финансовых операций",
+    "description": "Команда проверки финансовых операций ищет Senior QA. Обязательные проверяемые темы: SQL, Идемпотентность. Желательны SQL, pytest. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "senior",
+    "skills": [
+      "SQL",
+      "pytest"
+    ],
+    "required_skills": [
+      "SQL",
+      "Идемпотентность"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-142",
+    "title": "DevOps / SRE для безопасных релизов",
+    "description": "Команда безопасных релизов ищет Senior DevOps / SRE. Обязательные проверяемые темы: Идемпотентность, HTTP concepts. Желательны Linux, Prometheus. Работа в офисе. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "senior",
+    "skills": [
+      "Linux",
+      "Prometheus"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "HTTP concepts"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-143",
+    "title": "Data analytics для когортного анализа",
+    "description": "Команда когортного анализа ищет Senior Data analytics. Обязательные проверяемые темы: Data interpretation, Статистика. Желательны PostgreSQL, Статистика. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "senior",
+    "skills": [
+      "PostgreSQL",
+      "Статистика"
+    ],
+    "required_skills": [
+      "Data interpretation",
+      "Статистика"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-144",
+    "title": "Security для анализа учебных web-сценариев",
+    "description": "Команда анализа учебных web-сценариев ищет Senior Security. Обязательные проверяемые темы: Authorization, Incident response. Желательны Authorization, Cryptography. Работа удалённо. Зарплата 270000–370000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "senior",
+    "skills": [
+      "Authorization",
+      "Cryptography"
+    ],
+    "required_skills": [
+      "Authorization",
+      "Incident response"
+    ],
+    "salary_from": 270000,
+    "salary_to": 370000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-145",
+    "title": "Backend для платёжного API",
+    "description": "Команда платёжного API ищет Intern Backend. Обязательные проверяемые темы: Unit testing, Идемпотентность. Желательны Python, Redis. Работа в офисе. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "backend",
+    "grade": "intern",
+    "skills": [
+      "Python",
+      "Redis"
+    ],
+    "required_skills": [
+      "Unit testing",
+      "Идемпотентность"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-146",
+    "title": "Frontend для редактора рабочих процессов",
+    "description": "Команда редактора рабочих процессов ищет Intern Frontend. Обязательные проверяемые темы: Web security, UI state. Желательны JavaScript, Доступность. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "frontend",
+    "grade": "intern",
+    "skills": [
+      "JavaScript",
+      "Доступность"
+    ],
+    "required_skills": [
+      "Web security",
+      "UI state"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-147",
+    "title": "QA для релизного процесса",
+    "description": "Команда релизного процесса ищет Intern QA. Обязательные проверяемые темы: Идемпотентность, Test design. Желательны pytest, SQL. Работа удалённо. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "qa",
+    "grade": "intern",
+    "skills": [
+      "pytest",
+      "SQL"
+    ],
+    "required_skills": [
+      "Идемпотентность",
+      "Test design"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "remote",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-148",
+    "title": "DevOps / SRE для восстановления после сбоев",
+    "description": "Команда восстановления после сбоев ищет Intern DevOps / SRE. Обязательные проверяемые темы: SLO, Идемпотентность. Желательны Docker, Prometheus. Работа гибридно. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "devops",
+    "grade": "intern",
+    "skills": [
+      "Docker",
+      "Prometheus"
+    ],
+    "required_skills": [
+      "SLO",
+      "Идемпотентность"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "hybrid",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-149",
+    "title": "Data analytics для проверки метрик продукта",
+    "description": "Команда проверки метрик продукта ищет Intern Data analytics. Обязательные проверяемые темы: Статистика, Data interpretation. Желательны Статистика, Data quality. Работа в офисе. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "data",
+    "grade": "intern",
+    "skills": [
+      "Статистика",
+      "Data quality"
+    ],
+    "required_skills": [
+      "Статистика",
+      "Data interpretation"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  },
+  {
+    "id": "need-fixture-150",
+    "title": "Security для безопасного дизайна API",
+    "description": "Команда безопасного дизайна API ищет Intern Security. Обязательные проверяемые темы: Web security, Incident response. Желательны Cryptography, Authorization. Работа в офисе. Зарплата 60000–160000 RUB. Потребность и компания вымышлены.",
+    "specialization": "security",
+    "grade": "intern",
+    "skills": [
+      "Cryptography",
+      "Authorization"
+    ],
+    "required_skills": [
+      "Web security",
+      "Incident response"
+    ],
+    "salary_from": 60000,
+    "salary_to": 160000,
+    "work_format": "office",
+    "employment": "full_time",
+    "team": "Продуктовая команда · 6 человек",
+    "require_verified_skills": true,
+    "must_have_mode": "verified",
+    "origin": "SYNTHETIC_SEED",
+    "is_demo": true
+  }
+]

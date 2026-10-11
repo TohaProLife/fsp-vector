@@ -1,0 +1,1003 @@
+{
+  "status": "passed_decode_duration_fps_and_all_chapter_ui_alignment",
+  "created_at": "2026-10-11T18:35:25.451959+00:00",
+  "video": "output\\demo\\fsp-vector-demo.mp4",
+  "sha256": "5f15a91ae522a0af3396173a3c1e10d8996dab9a536260c3842106f4c45fca61",
+  "bytes": 4794602,
+  "duration_seconds": 264.692,
+  "captures": 279,
+  "viewport": [
+    1440,
+    1000
+  ],
+  "output_fps": 24,
+  "source_physical_sizes": [
+    [
+      380,
+      844
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      1430,
+      1000
+    ],
+    [
+      1440,
+      1000
+    ]
+  ],
+  "source_physical_size_counts": [
+    {
+      "dimensions": [
+        380,
+        844
+      ],
+      "frame_entries": 1
+    },
+    {
+      "dimensions": [
+        390,
+        844
+      ],
+      "frame_entries": 5
+    },
+    {
+      "dimensions": [
+        1430,
+        1000
+      ],
+      "frame_entries": 17
+    },
+    {
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "frame_entries": 256
+    }
+  ],
+  "normalization": {
+    "dimensions": [
+      1440,
+      1000
+    ],
+    "color_mode": "RGB",
+    "canvas_color": "#17181c",
+    "paste_origin": [
+      0,
+      0
+    ],
+    "method": "Pillow ImageOps.contain with BICUBIC resampling before FFmpeg input",
+    "frame_entries": 279,
+    "unique_assets": 59,
+    "deduplication": "Only SHA256-identical native capture bytes share a normalized PNG asset; all frame entries and timestamps retained. Raw capture format is detected from bytes, independently of the filename suffix.",
+    "directory": "output/design-rebuild/recording-deliverable/normalized",
+    "raw_capture_files_changed": false
+  },
+  "input_timebase_hz": 1000,
+  "sampled_frame_density_per_output_second": 1.05,
+  "output_frame_gap_p95_seconds": 1.4470000000000027,
+  "output_frame_gap_max_seconds": 3.8430000000000177,
+  "chapters": [
+    {
+      "elapsed_ms": 0,
+      "caption": "ФСП Вектор · единый дизайн Contra · оригинальная графика и профессиональный паспорт",
+      "source_chapter": 0
+    },
+    {
+      "elapsed_ms": 12529,
+      "caption": "Сценарий компании · от потребности команды до подбора специалиста",
+      "source_chapter": 1
+    },
+    {
+      "elapsed_ms": 22506,
+      "caption": "У опыта есть источник · заявленные навыки отделены от экзамена",
+      "source_chapter": 2
+    },
+    {
+      "elapsed_ms": 31547,
+      "caption": "Достижения ФСП имеют отдельное происхождение · демонстрационный реестр явно отмечен",
+      "source_chapter": 3
+    },
+    {
+      "elapsed_ms": 39706,
+      "caption": "Регистрация · почта, профиль и отдельное согласие; показ формы без создания нового аккаунта",
+      "source_chapter": 4
+    },
+    {
+      "elapsed_ms": 47957,
+      "caption": "Профиль участника · опыт, условия работы и контакты сохраняются сервером",
+      "source_chapter": 6
+    },
+    {
+      "elapsed_ms": 57228,
+      "caption": "Изменение профиля · фактическое сохранение и чтение после перезагрузки",
+      "source_chapter": 7
+    },
+    {
+      "elapsed_ms": 66108,
+      "caption": "Паспорт компетенций · сохранённый формальный результат и источник каждого навыка",
+      "source_chapter": 8
+    },
+    {
+      "elapsed_ms": 75430,
+      "caption": "Основания свидетельства · результат, версия рубрики и границы подтверждения",
+      "source_chapter": 9
+    },
+    {
+      "elapsed_ms": 88522,
+      "caption": "История попыток · сохранённые результаты, контекст и версия проверки",
+      "source_chapter": 10
+    },
+    {
+      "elapsed_ms": 98756,
+      "caption": "Сохранённый экзамен · автоматизированный публичный решатель, не человеческая оценка",
+      "source_chapter": 11
+    },
+    {
+      "elapsed_ms": 107879,
+      "caption": "Обзор участника · понятные названия навыков, отдельные подтверждения и предложения",
+      "source_chapter": 12
+    },
+    {
+      "elapsed_ms": 118698,
+      "caption": "Поиск вакансий · условия роли и отдельная практика по потребности",
+      "source_chapter": 13
+    },
+    {
+      "elapsed_ms": 129612,
+      "caption": "Мои отклики · состояние заявки читается с сервера",
+      "source_chapter": 14
+    },
+    {
+      "elapsed_ms": 139248,
+      "caption": "Предложение команды · принятие и доступ к контактам имеют отдельные состояния",
+      "source_chapter": 15
+    },
+    {
+      "elapsed_ms": 148018,
+      "caption": "Диалог предложения · фактическая отправка сообщения синтетической локальной команде",
+      "source_chapter": 16
+    },
+    {
+      "elapsed_ms": 157647,
+      "caption": "Приватность · карточка опубликована без контактов, доступ конкретной компании отозван",
+      "source_chapter": 17
+    },
+    {
+      "elapsed_ms": 168816,
+      "caption": "Диалог после повторного открытия · сообщение действительно сохранено",
+      "source_chapter": 18
+    },
+    {
+      "elapsed_ms": 181864,
+      "caption": "Рабочая область компании · синтетические потребности и приглашения",
+      "source_chapter": 19
+    },
+    {
+      "elapsed_ms": 189341,
+      "caption": "Подбор по SQL и API · фактическое серверное сопоставление с сохранением контекста",
+      "source_chapter": 20
+    },
+    {
+      "elapsed_ms": 201692,
+      "caption": "Результат подбора · допуск по категории и объяснимый индекс соответствия",
+      "source_chapter": 21
+    },
+    {
+      "elapsed_ms": 208692,
+      "caption": "Безопасный профиль · факторы индекса и темы для уточнения, контакты скрыты",
+      "source_chapter": 22
+    },
+    {
+      "elapsed_ms": 215692,
+      "caption": "Воронка компании · сохраняем переход синтетического отклика на собеседование",
+      "source_chapter": 23
+    },
+    {
+      "elapsed_ms": 222692,
+      "caption": "Воронка после перезагрузки · этап Собеседование сохранён сервером",
+      "source_chapter": 24
+    },
+    {
+      "elapsed_ms": 229692,
+      "caption": "ATS · подписанные события локальному приёмнику, без коммерческой системы",
+      "source_chapter": 25
+    },
+    {
+      "elapsed_ms": 236692,
+      "caption": "Границы готовности · PostgreSQL, безопасный fail closed, синтетические измерения отдельно",
+      "source_chapter": 26
+    },
+    {
+      "elapsed_ms": 243692,
+      "caption": "Тот же отклик у участника · этап Собеседование согласован между двумя кабинетами",
+      "source_chapter": 27
+    },
+    {
+      "elapsed_ms": 250692,
+      "caption": "Мобильный паспорт · те же сведения и управление доступом",
+      "source_chapter": 28
+    },
+    {
+      "elapsed_ms": 257692,
+      "caption": "ФСП Вектор · от подтверждённого опыта к подходящей команде",
+      "source_chapter": 29
+    }
+  ],
+  "manifest_sha256": "fdd0f15ebee4b4ef830a9588e2c4ac50603abbcc0a1e41c032976a3b44810699",
+  "method": "Actual CUA browser capture sections. Preparation pauses omitted; edited chapters may hold their final captured frame for reading. Source captures are converted to uniform RGB 1440x1000 assets by aspect-preserving BICUBIC containment on a #17181c canvas before FFmpeg. Captions remain below the UI; no product state fabricated.",
+  "source_segments": [
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 0,
+      "source_start_ms": 0,
+      "source_end_ms": 11729,
+      "timeline_start_ms": 0,
+      "gap_edits": [],
+      "timeline_end_ms": 12529
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 1,
+      "source_start_ms": 41974,
+      "source_end_ms": 51151,
+      "timeline_start_ms": 12529,
+      "gap_edits": [],
+      "timeline_end_ms": 22506
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 2,
+      "source_start_ms": 59724,
+      "source_end_ms": 67965,
+      "timeline_start_ms": 22506,
+      "gap_edits": [],
+      "timeline_end_ms": 31547
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 3,
+      "source_start_ms": 76311,
+      "source_end_ms": 83670,
+      "timeline_start_ms": 31547,
+      "gap_edits": [],
+      "timeline_end_ms": 39706
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 4,
+      "source_start_ms": 127961,
+      "source_end_ms": 135412,
+      "timeline_start_ms": 39706,
+      "gap_edits": [],
+      "timeline_end_ms": 47957
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 6,
+      "source_start_ms": 226457,
+      "source_end_ms": 234928,
+      "timeline_start_ms": 47957,
+      "gap_edits": [],
+      "timeline_end_ms": 57228
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 7,
+      "source_start_ms": 261651,
+      "source_end_ms": 269731,
+      "timeline_start_ms": 57228,
+      "gap_edits": [],
+      "timeline_end_ms": 66108
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 8,
+      "source_start_ms": 281704,
+      "source_end_ms": 290226,
+      "timeline_start_ms": 66108,
+      "gap_edits": [],
+      "timeline_end_ms": 75430
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 9,
+      "source_start_ms": 544449,
+      "source_end_ms": 556741,
+      "timeline_start_ms": 75430,
+      "gap_edits": [],
+      "timeline_end_ms": 88522
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 10,
+      "source_start_ms": 631428,
+      "source_end_ms": 640862,
+      "timeline_start_ms": 88522,
+      "gap_edits": [],
+      "timeline_end_ms": 98756
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 11,
+      "source_start_ms": 653183,
+      "source_end_ms": 661506,
+      "timeline_start_ms": 98756,
+      "gap_edits": [],
+      "timeline_end_ms": 107879
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 12,
+      "source_start_ms": 679093,
+      "source_end_ms": 689112,
+      "timeline_start_ms": 107879,
+      "gap_edits": [],
+      "timeline_end_ms": 118698
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 13,
+      "source_start_ms": 720402,
+      "source_end_ms": 730516,
+      "timeline_start_ms": 118698,
+      "gap_edits": [],
+      "timeline_end_ms": 129612
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 14,
+      "source_start_ms": 731800,
+      "source_end_ms": 745446,
+      "timeline_start_ms": 129612,
+      "gap_edits": [
+        {
+          "source_from_ms": 733518,
+          "source_to_ms": 736395,
+          "output_gap_ms": 750
+        },
+        {
+          "source_from_ms": 741576,
+          "source_to_ms": 745009,
+          "output_gap_ms": 750
+        }
+      ],
+      "timeline_end_ms": 139248
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 15,
+      "source_start_ms": 760287,
+      "source_end_ms": 768257,
+      "timeline_start_ms": 139248,
+      "gap_edits": [],
+      "timeline_end_ms": 148018
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 16,
+      "source_start_ms": 780599,
+      "source_end_ms": 794129,
+      "timeline_start_ms": 148018,
+      "gap_edits": [
+        {
+          "source_from_ms": 781512,
+          "source_to_ms": 783541,
+          "output_gap_ms": 750
+        },
+        {
+          "source_from_ms": 783541,
+          "source_to_ms": 785770,
+          "output_gap_ms": 750
+        },
+        {
+          "source_from_ms": 785770,
+          "source_to_ms": 788463,
+          "output_gap_ms": 750
+        }
+      ],
+      "timeline_end_ms": 157647
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 17,
+      "source_start_ms": 806932,
+      "source_end_ms": 817301,
+      "timeline_start_ms": 157647,
+      "gap_edits": [],
+      "timeline_end_ms": 168816
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 18,
+      "source_start_ms": 820237,
+      "source_end_ms": 834150,
+      "timeline_start_ms": 168816,
+      "gap_edits": [
+        {
+          "source_from_ms": 827001,
+          "source_to_ms": 829416,
+          "output_gap_ms": 750
+        }
+      ],
+      "timeline_end_ms": 181864
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 19,
+      "source_start_ms": 870260,
+      "source_end_ms": 876937,
+      "timeline_start_ms": 181864,
+      "gap_edits": [],
+      "timeline_end_ms": 189341
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 20,
+      "source_start_ms": 911973,
+      "source_end_ms": 923524,
+      "timeline_start_ms": 189341,
+      "gap_edits": [],
+      "timeline_end_ms": 201692
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 21,
+      "source_start_ms": 936670,
+      "source_end_ms": 940431,
+      "timeline_start_ms": 201692,
+      "gap_edits": [],
+      "timeline_end_ms": 208692
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 22,
+      "source_start_ms": 970836,
+      "source_end_ms": 975957,
+      "timeline_start_ms": 208692,
+      "gap_edits": [],
+      "timeline_end_ms": 215692
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 23,
+      "source_start_ms": 990183,
+      "source_end_ms": 994609,
+      "timeline_start_ms": 215692,
+      "gap_edits": [],
+      "timeline_end_ms": 222692
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 24,
+      "source_start_ms": 1006153,
+      "source_end_ms": 1010070,
+      "timeline_start_ms": 222692,
+      "gap_edits": [],
+      "timeline_end_ms": 229692
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 25,
+      "source_start_ms": 1019547,
+      "source_end_ms": 1023325,
+      "timeline_start_ms": 229692,
+      "gap_edits": [],
+      "timeline_end_ms": 236692
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 26,
+      "source_start_ms": 1040146,
+      "source_end_ms": 1044782,
+      "timeline_start_ms": 236692,
+      "gap_edits": [],
+      "timeline_end_ms": 243692
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 27,
+      "source_start_ms": 1071634,
+      "source_end_ms": 1075677,
+      "timeline_start_ms": 243692,
+      "gap_edits": [],
+      "timeline_end_ms": 250692
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 28,
+      "source_start_ms": 1078791,
+      "source_end_ms": 1081948,
+      "timeline_start_ms": 250692,
+      "gap_edits": [],
+      "timeline_end_ms": 257692
+    },
+    {
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_manifest_sha256": "b3e11452413636b86a6dcfc5826c954fbb56f3ff3eb492d50192fcd972265a91",
+      "source_chapter": 29,
+      "source_start_ms": 1095948,
+      "source_end_ms": 1101168,
+      "timeline_start_ms": 257692,
+      "gap_edits": [],
+      "timeline_end_ms": 264692
+    }
+  ],
+  "reading_holds": [
+    {
+      "source_chapter": 0,
+      "timeline_start_ms": 11729,
+      "duration_ms": 800,
+      "source_frame": "frame-000016.png"
+    },
+    {
+      "source_chapter": 1,
+      "timeline_start_ms": 21706,
+      "duration_ms": 800,
+      "source_frame": "frame-000026.png"
+    },
+    {
+      "source_chapter": 2,
+      "timeline_start_ms": 30747,
+      "duration_ms": 800,
+      "source_frame": "frame-000036.png"
+    },
+    {
+      "source_chapter": 3,
+      "timeline_start_ms": 38906,
+      "duration_ms": 800,
+      "source_frame": "frame-000046.png"
+    },
+    {
+      "source_chapter": 4,
+      "timeline_start_ms": 47157,
+      "duration_ms": 800,
+      "source_frame": "frame-000056.png"
+    },
+    {
+      "source_chapter": 6,
+      "timeline_start_ms": 56428,
+      "duration_ms": 800,
+      "source_frame": "frame-000076.png"
+    },
+    {
+      "source_chapter": 7,
+      "timeline_start_ms": 65308,
+      "duration_ms": 800,
+      "source_frame": "frame-000086.png"
+    },
+    {
+      "source_chapter": 8,
+      "timeline_start_ms": 74630,
+      "duration_ms": 800,
+      "source_frame": "frame-000096.png"
+    },
+    {
+      "source_chapter": 9,
+      "timeline_start_ms": 87722,
+      "duration_ms": 800,
+      "source_frame": "frame-000108.png"
+    },
+    {
+      "source_chapter": 10,
+      "timeline_start_ms": 97956,
+      "duration_ms": 800,
+      "source_frame": "frame-000120.png"
+    },
+    {
+      "source_chapter": 11,
+      "timeline_start_ms": 107079,
+      "duration_ms": 800,
+      "source_frame": "frame-000132.png"
+    },
+    {
+      "source_chapter": 12,
+      "timeline_start_ms": 117898,
+      "duration_ms": 800,
+      "source_frame": "frame-000144.png"
+    },
+    {
+      "source_chapter": 13,
+      "timeline_start_ms": 128812,
+      "duration_ms": 800,
+      "source_frame": "frame-000156.png"
+    },
+    {
+      "source_chapter": 14,
+      "timeline_start_ms": 138448,
+      "duration_ms": 800,
+      "source_frame": "frame-000168.png"
+    },
+    {
+      "source_chapter": 15,
+      "timeline_start_ms": 147218,
+      "duration_ms": 800,
+      "source_frame": "frame-000180.png"
+    },
+    {
+      "source_chapter": 16,
+      "timeline_start_ms": 156847,
+      "duration_ms": 800,
+      "source_frame": "frame-000192.png"
+    },
+    {
+      "source_chapter": 17,
+      "timeline_start_ms": 168016,
+      "duration_ms": 800,
+      "source_frame": "frame-000204.png"
+    },
+    {
+      "source_chapter": 18,
+      "timeline_start_ms": 181064,
+      "duration_ms": 800,
+      "source_frame": "frame-000216.png"
+    },
+    {
+      "source_chapter": 19,
+      "timeline_start_ms": 188541,
+      "duration_ms": 800,
+      "source_frame": "frame-000224.png"
+    },
+    {
+      "source_chapter": 20,
+      "timeline_start_ms": 200892,
+      "duration_ms": 800,
+      "source_frame": "frame-000236.png"
+    },
+    {
+      "source_chapter": 21,
+      "timeline_start_ms": 205453,
+      "duration_ms": 3239,
+      "source_frame": "frame-000240.png"
+    },
+    {
+      "source_chapter": 22,
+      "timeline_start_ms": 213813,
+      "duration_ms": 1879,
+      "source_frame": "frame-000246.png"
+    },
+    {
+      "source_chapter": 23,
+      "timeline_start_ms": 220118,
+      "duration_ms": 2574,
+      "source_frame": "frame-000252.png"
+    },
+    {
+      "source_chapter": 24,
+      "timeline_start_ms": 226609,
+      "duration_ms": 3083,
+      "source_frame": "frame-000258.png"
+    },
+    {
+      "source_chapter": 25,
+      "timeline_start_ms": 233470,
+      "duration_ms": 3222,
+      "source_frame": "frame-000264.png"
+    },
+    {
+      "source_chapter": 26,
+      "timeline_start_ms": 241328,
+      "duration_ms": 2364,
+      "source_frame": "frame-000270.png"
+    },
+    {
+      "source_chapter": 27,
+      "timeline_start_ms": 247735,
+      "duration_ms": 2957,
+      "source_frame": "frame-000276.png"
+    },
+    {
+      "source_chapter": 28,
+      "timeline_start_ms": 253849,
+      "duration_ms": 3843,
+      "source_frame": "frame-000282.png"
+    },
+    {
+      "source_chapter": 29,
+      "timeline_start_ms": 262912,
+      "duration_ms": 1780,
+      "source_frame": "frame-000288.png"
+    }
+  ],
+  "limits": [
+    "Sampling/resampling can omit a browser frame; this is not a lossless native display recording.",
+    "No narration; Russian captions. Identities and companies are synthetic.",
+    "Assessment answers use an authored public-data reference solver for automated integration control, not a human examination or validity study.",
+    "All chapter midpoint UI samples match recorded pixels; this does not prove lossless motion or every intermediate browser frame."
+  ],
+  "verified_at": "2026-10-11T18:35:36.653425+00:00",
+  "actual_encoded_duration_seconds": 264.71,
+  "actual_encoded_fps": 24.0,
+  "encoded_dimensions": [
+    1440,
+    1110
+  ],
+  "timeline_checks": [
+    {
+      "chapter": 0,
+      "video_second": 6.264,
+      "frame": "frames/000006.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 4571,
+      "mean_rgb_absolute_error": 0.4356
+    },
+    {
+      "chapter": 1,
+      "video_second": 17.517,
+      "frame": "frames/000019.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 44024,
+      "mean_rgb_absolute_error": 0.4083
+    },
+    {
+      "chapter": 2,
+      "video_second": 27.026,
+      "frame": "frames/000030.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 62275,
+      "mean_rgb_absolute_error": 0.4392
+    },
+    {
+      "chapter": 3,
+      "video_second": 35.627,
+      "frame": "frames/000039.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 78167,
+      "mean_rgb_absolute_error": 0.4105
+    },
+    {
+      "chapter": 4,
+      "video_second": 43.831,
+      "frame": "frames/000052.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 131869,
+      "mean_rgb_absolute_error": 0.6041
+    },
+    {
+      "chapter": 5,
+      "video_second": 52.593,
+      "frame": "frames/000059.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 228306,
+      "mean_rgb_absolute_error": 0.7159
+    },
+    {
+      "chapter": 6,
+      "video_second": 61.668,
+      "frame": "frames/000069.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 263556,
+      "mean_rgb_absolute_error": 0.7122
+    },
+    {
+      "chapter": 7,
+      "video_second": 70.769,
+      "frame": "frames/000079.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 283908,
+      "mean_rgb_absolute_error": 0.6322
+    },
+    {
+      "chapter": 8,
+      "video_second": 81.976,
+      "frame": "frames/000090.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 547529,
+      "mean_rgb_absolute_error": 0.6918
+    },
+    {
+      "chapter": 9,
+      "video_second": 93.639,
+      "frame": "frames/000103.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 634704,
+      "mean_rgb_absolute_error": 0.5101
+    },
+    {
+      "chapter": 10,
+      "video_second": 103.317,
+      "frame": "frames/000115.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 656237,
+      "mean_rgb_absolute_error": 0.7912
+    },
+    {
+      "chapter": 11,
+      "video_second": 113.288,
+      "frame": "frames/000126.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 681928,
+      "mean_rgb_absolute_error": 1.0489
+    },
+    {
+      "chapter": 12,
+      "video_second": 124.155,
+      "frame": "frames/000140.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 724949,
+      "mean_rgb_absolute_error": 0.6751
+    },
+    {
+      "chapter": 13,
+      "video_second": 134.43,
+      "frame": "frames/000151.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 737039,
+      "mean_rgb_absolute_error": 0.4315
+    },
+    {
+      "chapter": 14,
+      "video_second": 143.633,
+      "frame": "frames/000162.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 762574,
+      "mean_rgb_absolute_error": 0.4712
+    },
+    {
+      "chapter": 15,
+      "video_second": 152.833,
+      "frame": "frames/000175.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 788463,
+      "mean_rgb_absolute_error": 0.8495
+    },
+    {
+      "chapter": 16,
+      "video_second": 163.232,
+      "frame": "frames/000186.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 809862,
+      "mean_rgb_absolute_error": 0.5789
+    },
+    {
+      "chapter": 17,
+      "video_second": 175.34,
+      "frame": "frames/000198.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 823654,
+      "mean_rgb_absolute_error": 0.9203
+    },
+    {
+      "chapter": 18,
+      "video_second": 185.602,
+      "frame": "frames/000209.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 871934,
+      "mean_rgb_absolute_error": 0.7318
+    },
+    {
+      "chapter": 19,
+      "video_second": 195.517,
+      "frame": "frames/000218.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 915323,
+      "mean_rgb_absolute_error": 0.6533
+    },
+    {
+      "chapter": 20,
+      "video_second": 205.192,
+      "frame": "frames/000228.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 937983,
+      "mean_rgb_absolute_error": 0.6399
+    },
+    {
+      "chapter": 21,
+      "video_second": 212.192,
+      "frame": "frames/000232.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 972039,
+      "mean_rgb_absolute_error": 0.8226
+    },
+    {
+      "chapter": 22,
+      "video_second": 219.192,
+      "frame": "frames/000238.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 991028,
+      "mean_rgb_absolute_error": 0.5971
+    },
+    {
+      "chapter": 23,
+      "video_second": 226.192,
+      "frame": "frames/000245.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 1007965,
+      "mean_rgb_absolute_error": 0.5473
+    },
+    {
+      "chapter": 24,
+      "video_second": 233.192,
+      "frame": "frames/000251.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 1021205,
+      "mean_rgb_absolute_error": 0.594
+    },
+    {
+      "chapter": 25,
+      "video_second": 240.192,
+      "frame": "frames/000256.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 1040746,
+      "mean_rgb_absolute_error": 0.7342
+    },
+    {
+      "chapter": 26,
+      "video_second": 247.192,
+      "frame": "frames/000263.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 1073224,
+      "mean_rgb_absolute_error": 0.4278
+    },
+    {
+      "chapter": 27,
+      "video_second": 254.192,
+      "frame": "frames/000270.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 1080625,
+      "mean_rgb_absolute_error": 0.7038
+    },
+    {
+      "chapter": 28,
+      "video_second": 261.192,
+      "frame": "frames/000274.png",
+      "source_manifest": "output/design-rebuild/recording-final/capture.json",
+      "source_elapsed_ms": 1097501,
+      "mean_rgb_absolute_error": 0.3891
+    }
+  ],
+  "preview_frames": [
+    "output/design-rebuild/recording-deliverable/video-verified-00-20261011T183536653425Z.png",
+    "output/design-rebuild/recording-deliverable/video-verified-04-20261011T183536653425Z.png",
+    "output/design-rebuild/recording-deliverable/video-verified-14-20261011T183536653425Z.png",
+    "output/design-rebuild/recording-deliverable/video-verified-23-20261011T183536653425Z.png",
+    "output/design-rebuild/recording-deliverable/video-verified-28-20261011T183536653425Z.png"
+  ],
+  "visual_review": {
+    "status": "passed_for_five_decoded_preview_frames",
+    "frames_reviewed": [
+      "output/design-rebuild/recording-deliverable/video-verified-00-20261011T183536653425Z.png",
+      "output/design-rebuild/recording-deliverable/video-verified-04-20261011T183536653425Z.png",
+      "output/design-rebuild/recording-deliverable/video-verified-14-20261011T183536653425Z.png",
+      "output/design-rebuild/recording-deliverable/video-verified-23-20261011T183536653425Z.png",
+      "output/design-rebuild/recording-deliverable/video-verified-28-20261011T183536653425Z.png"
+    ],
+    "scope": "UI completeness and caption legibility, independent reviewer. Not full MP4 playback or motion smoothness."
+  },
+  "capture_limit": "279 actual browser captures over the edited 264.692-second timeline; 24 fps is encoding resampling, not native 24fps capture.",
+  "source_capture_formats": {
+    "jpeg": 279
+  }
+}

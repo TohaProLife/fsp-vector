@@ -1,0 +1,208 @@
+{
+  "schema_version": "vector-explicit-relevance-v1",
+  "algorithm_version": "vector-match-55-20-10-5-5-5-v2-weakest-formal-company-scope-semantic-neutral",
+  "evaluated_at": "2026-10-07T09:00:00+00:00",
+  "input_sha256": "f40f8bc6dde6b32c358d2534d024fe8e5fd2dcb8ac415584ffcd2889e2208fb7",
+  "labels_sha256": "cb565d601081558aa6c01f842875c573b1991c2afeb4cf5915e9ce9bac25501a",
+  "corpus_sha256": "907d17d8594c24de0ff65be810251b3d6671164f4f68ecf39a4bcfa9e24efa87",
+  "labels_kind": "INPUT_EXPLICIT_LABELS_NOT_GENERATED_BY_SCORER",
+  "origin": "team_authored_explicit",
+  "declared_human_labelers": 0,
+  "origin_independently_verified": false,
+  "human_pilot_claimed": false,
+  "label_metadata": {
+    "procedure": "Predetermined fictional adverse cases: compatible candidate, private relevant candidate, zero-relevance query. No external human annotation or pilot.",
+    "blinded_to_scores": false
+  },
+  "queries": 3,
+  "pairs": 4,
+  "zero_eligible_queries": 1,
+  "no_binary_relevant_queries": 1,
+  "gate_violations": 0,
+  "excluded_relevant_reason_counts": {
+    "profile_private": 1
+  },
+  "baselines": {
+    "full_engine": {
+      "precision5": {
+        "mean": 0.066667,
+        "defined_queries": 3,
+        "undefined_queries": 0,
+        "retained_queries": 3
+      },
+      "ndcg10_end_to_end": {
+        "mean": 0.5,
+        "defined_queries": 2,
+        "undefined_queries": 1,
+        "retained_queries": 3
+      },
+      "ndcg10_eligible": {
+        "mean": 1.0,
+        "defined_queries": 1,
+        "undefined_queries": 2,
+        "retained_queries": 3
+      }
+    },
+    "strong_category_test": {
+      "precision5": {
+        "mean": 0.066667,
+        "defined_queries": 3,
+        "undefined_queries": 0,
+        "retained_queries": 3
+      },
+      "ndcg10_end_to_end": {
+        "mean": 0.5,
+        "defined_queries": 2,
+        "undefined_queries": 1,
+        "retained_queries": 3
+      },
+      "ndcg10_eligible": {
+        "mean": 1.0,
+        "defined_queries": 1,
+        "undefined_queries": 2,
+        "retained_queries": 3
+      }
+    },
+    "random_eligible": {
+      "precision5": {
+        "mean": 0.066667,
+        "defined_queries": 3,
+        "undefined_queries": 0,
+        "retained_queries": 3
+      },
+      "ndcg10_end_to_end": {
+        "mean": 0.5,
+        "defined_queries": 2,
+        "undefined_queries": 1,
+        "retained_queries": 3
+      },
+      "ndcg10_eligible": {
+        "mean": 1.0,
+        "defined_queries": 1,
+        "undefined_queries": 2,
+        "retained_queries": 3
+      }
+    },
+    "keyword_eligible": {
+      "precision5": {
+        "mean": 0.066667,
+        "defined_queries": 3,
+        "undefined_queries": 0,
+        "retained_queries": 3
+      },
+      "ndcg10_end_to_end": {
+        "mean": 0.5,
+        "defined_queries": 2,
+        "undefined_queries": 1,
+        "retained_queries": 3
+      },
+      "ndcg10_eligible": {
+        "mean": 1.0,
+        "defined_queries": 1,
+        "undefined_queries": 2,
+        "retained_queries": 3
+      }
+    }
+  },
+  "retrieval_recall": {
+    "mean": 0.5,
+    "defined_queries": 2,
+    "undefined_queries": 1,
+    "retained_queries": 3
+  },
+  "per_query": [
+    {
+      "need_id": "need-fit",
+      "candidate_count": 2,
+      "eligible_count": 1,
+      "relevant_count": 1,
+      "retrieval_recall": 1.0,
+      "metrics": {
+        "full_engine": {
+          "precision5": 0.2,
+          "ndcg10_end_to_end": 1.0,
+          "ndcg10_eligible": 1.0
+        },
+        "strong_category_test": {
+          "precision5": 0.2,
+          "ndcg10_end_to_end": 1.0,
+          "ndcg10_eligible": 1.0
+        },
+        "random_eligible": {
+          "precision5": 0.2,
+          "ndcg10_end_to_end": 1.0,
+          "ndcg10_eligible": 1.0
+        },
+        "keyword_eligible": {
+          "precision5": 0.2,
+          "ndcg10_end_to_end": 1.0,
+          "ndcg10_eligible": 1.0
+        }
+      }
+    },
+    {
+      "need_id": "need-empty",
+      "candidate_count": 1,
+      "eligible_count": 0,
+      "relevant_count": 1,
+      "retrieval_recall": 0.0,
+      "metrics": {
+        "full_engine": {
+          "precision5": 0.0,
+          "ndcg10_end_to_end": 0.0,
+          "ndcg10_eligible": null
+        },
+        "strong_category_test": {
+          "precision5": 0.0,
+          "ndcg10_end_to_end": 0.0,
+          "ndcg10_eligible": null
+        },
+        "random_eligible": {
+          "precision5": 0.0,
+          "ndcg10_end_to_end": 0.0,
+          "ndcg10_eligible": null
+        },
+        "keyword_eligible": {
+          "precision5": 0.0,
+          "ndcg10_end_to_end": 0.0,
+          "ndcg10_eligible": null
+        }
+      }
+    },
+    {
+      "need_id": "need-zero",
+      "candidate_count": 1,
+      "eligible_count": 1,
+      "relevant_count": 0,
+      "retrieval_recall": null,
+      "metrics": {
+        "full_engine": {
+          "precision5": 0.0,
+          "ndcg10_end_to_end": null,
+          "ndcg10_eligible": null
+        },
+        "strong_category_test": {
+          "precision5": 0.0,
+          "ndcg10_end_to_end": null,
+          "ndcg10_eligible": null
+        },
+        "random_eligible": {
+          "precision5": 0.0,
+          "ndcg10_end_to_end": null,
+          "ndcg10_eligible": null
+        },
+        "keyword_eligible": {
+          "precision5": 0.0,
+          "ndcg10_end_to_end": null,
+          "ndcg10_eligible": null
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Label origin and number of human labelers are supplied declarations, not independently verified identity/procedure.",
+    "Loader validates anonymous observed fields, complete explicit labels and immutable input hashes; it does not establish professional grade validity or real hiring outcomes.",
+    "All queries retained, including empty/zero eligible. Precision@5 always divides by5. Zero-IDCG nDCG and no-relevant recall are null with explicit defined/undefined counts.",
+    "Labels/corpus may share biases; no automatic assertion of human pilot, inter-rater agreement or IRT calibration."
+  ]
+}

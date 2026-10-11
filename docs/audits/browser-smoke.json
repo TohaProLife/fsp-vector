@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "date": "2026-10-07",
+  "environment": "local_demo",
+  "method": "Manual CUA browser actions against the running production web build and real local API",
+  "data": "Synthetic vector.local accounts only; no real hiring or human calibration",
+  "viewports": [
+    {"width": 1440, "height": 900, "purpose": "desktop workspace audit"},
+    {"width": 390, "height": 844, "purpose": "responsive audit", "content_width": 375, "scroll_width": 375}
+  ],
+  "checks": [
+    {"case": "Keycloak Authorization Code + PKCE login and workspace return", "status": "passed"},
+    {"case": "Survey route alias REST API, start, answer autosave, reload and unchanged server deadline", "status": "passed"},
+    {"case": "Cold standalone exam CSRF recovery and result submission", "status": "passed", "grade_assigned": false},
+    {"case": "Submit modal Tab and Shift+Tab focus containment", "status": "passed"},
+    {"case": "Closed mobile menu excluded from accessibility tree", "status": "passed"},
+    {"case": "Assessment introduction and active attempt without horizontal overflow", "status": "passed"},
+    {"case": "Employer extraction with source quotes, review and save need with positive salary", "status": "passed"},
+    {"case": "Saved shortlist of two eligible candidates, comparison and evidence explanation", "status": "passed"},
+    {"case": "Personal invitation without public vacancy, candidate acceptance with explicit contact consent", "status": "passed"},
+    {"case": "Company grant visible in privacy, confirmed revocation and employer contacts locked afterwards", "status": "passed"},
+    {"case": "Synthetic profile provenance and disabled semantic model shown explicitly", "status": "passed"},
+    {"case": "Shortlist mobile layout, 64 by 64 score rings and contained need context", "status": "passed"}
+  ],
+  "screenshots": [
+    "screenshots/landing-desktop.jpg",
+    "screenshots/employer-match-desktop.jpg",
+    "screenshots/employer-match-mobile.jpg",
+    "screenshots/privacy-desktop.jpg"
+  ],
+  "limitations": [
+    "Targeted browser scenarios, not exhaustive automated coverage of every page",
+    "Linux/gVisor execution is not enabled on this Windows host",
+    "Synthetic test results do not establish human grade validity or real hiring outcomes"
+  ],
+  "temporary_viewport_override": "reset before handoff"
+}

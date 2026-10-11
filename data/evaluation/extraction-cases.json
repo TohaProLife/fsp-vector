@@ -1,0 +1,1506 @@
+{
+  "cases": [
+    {
+      "text": "Ищем стажёр backend. Python обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "intern",
+      "skill": "Python",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior frontend. SQL желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "junior",
+      "skill": "SQL",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle QA. React не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "middle",
+      "skill": "React",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior DevOps. Docker обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "senior",
+      "skill": "Docker",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр аналитик данных. Kafka желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "intern",
+      "skill": "Kafka",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior Security. Python не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "junior",
+      "skill": "Python",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle backend. SQL обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "middle",
+      "skill": "SQL",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior frontend. React желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "senior",
+      "skill": "React",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр QA. Docker не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "intern",
+      "skill": "Docker",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior DevOps. Kafka обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "junior",
+      "skill": "Kafka",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle аналитик данных. Python желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "middle",
+      "skill": "Python",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior Security. SQL не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "senior",
+      "skill": "SQL",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр backend. React обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "intern",
+      "skill": "React",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior frontend. Docker желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "junior",
+      "skill": "Docker",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle QA. Kafka не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "middle",
+      "skill": "Kafka",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior DevOps. Python обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "senior",
+      "skill": "Python",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр аналитик данных. SQL желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "intern",
+      "skill": "SQL",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior Security. React не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "junior",
+      "skill": "React",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle backend. Docker обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "middle",
+      "skill": "Docker",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior frontend. Kafka желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "senior",
+      "skill": "Kafka",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр QA. Python не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "intern",
+      "skill": "Python",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior DevOps. SQL обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "junior",
+      "skill": "SQL",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle аналитик данных. React желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "middle",
+      "skill": "React",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior Security. Docker не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "senior",
+      "skill": "Docker",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр backend. Kafka обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "intern",
+      "skill": "Kafka",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior frontend. Python желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "junior",
+      "skill": "Python",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle QA. SQL не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "middle",
+      "skill": "SQL",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior DevOps. React обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "senior",
+      "skill": "React",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр аналитик данных. Docker желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "intern",
+      "skill": "Docker",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior Security. Kafka не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "junior",
+      "skill": "Kafka",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle backend. Python обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "middle",
+      "skill": "Python",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior frontend. SQL желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "senior",
+      "skill": "SQL",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр QA. React не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "intern",
+      "skill": "React",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior DevOps. Docker обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "junior",
+      "skill": "Docker",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle аналитик данных. Kafka желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "middle",
+      "skill": "Kafka",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior Security. Python не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "senior",
+      "skill": "Python",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр backend. SQL обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "intern",
+      "skill": "SQL",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior frontend. React желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "junior",
+      "skill": "React",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle QA. Docker не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "middle",
+      "skill": "Docker",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior DevOps. Kafka обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "senior",
+      "skill": "Kafka",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр аналитик данных. Python желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "intern",
+      "skill": "Python",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior Security. SQL не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "junior",
+      "skill": "SQL",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle backend. React обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "middle",
+      "skill": "React",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior frontend. Docker желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "senior",
+      "skill": "Docker",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр QA. Kafka не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "intern",
+      "skill": "Kafka",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior DevOps. Python обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "junior",
+      "skill": "Python",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle аналитик данных. SQL желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "middle",
+      "skill": "SQL",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior Security. React не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "senior",
+      "skill": "React",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр backend. Docker обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "intern",
+      "skill": "Docker",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior frontend. Kafka желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "junior",
+      "skill": "Kafka",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle QA. Python не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "middle",
+      "skill": "Python",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior DevOps. SQL обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "senior",
+      "skill": "SQL",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр аналитик данных. React желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "intern",
+      "skill": "React",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior Security. Docker не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "junior",
+      "skill": "Docker",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle backend. Kafka обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "middle",
+      "skill": "Kafka",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior frontend. Python желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "senior",
+      "skill": "Python",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр QA. SQL не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "intern",
+      "skill": "SQL",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior DevOps. React обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "junior",
+      "skill": "React",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle аналитик данных. Docker желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "middle",
+      "skill": "Docker",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior Security. Kafka не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "senior",
+      "skill": "Kafka",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр backend. Python обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "intern",
+      "skill": "Python",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior frontend. SQL желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "junior",
+      "skill": "SQL",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle QA. React не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "middle",
+      "skill": "React",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior DevOps. Docker обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "senior",
+      "skill": "Docker",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр аналитик данных. Kafka желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "intern",
+      "skill": "Kafka",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior Security. Python не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "junior",
+      "skill": "Python",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle backend. SQL обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "middle",
+      "skill": "SQL",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior frontend. React желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "senior",
+      "skill": "React",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр QA. Docker не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "intern",
+      "skill": "Docker",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior DevOps. Kafka обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "junior",
+      "skill": "Kafka",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle аналитик данных. Python желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "middle",
+      "skill": "Python",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior Security. SQL не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "senior",
+      "skill": "SQL",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр backend. React обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "intern",
+      "skill": "React",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior frontend. Docker желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "junior",
+      "skill": "Docker",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle QA. Kafka не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "middle",
+      "skill": "Kafka",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior DevOps. Python обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "senior",
+      "skill": "Python",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр аналитик данных. SQL желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "intern",
+      "skill": "SQL",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior Security. React не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "junior",
+      "skill": "React",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle backend. Docker обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "middle",
+      "skill": "Docker",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior frontend. Kafka желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "senior",
+      "skill": "Kafka",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр QA. Python не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "intern",
+      "skill": "Python",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior DevOps. SQL обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "junior",
+      "skill": "SQL",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle аналитик данных. React желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "middle",
+      "skill": "React",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior Security. Docker не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "senior",
+      "skill": "Docker",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр backend. Kafka обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "intern",
+      "skill": "Kafka",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior frontend. Python желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "junior",
+      "skill": "Python",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle QA. SQL не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "middle",
+      "skill": "SQL",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior DevOps. React обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "senior",
+      "skill": "React",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр аналитик данных. Docker желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "intern",
+      "skill": "Docker",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior Security. Kafka не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "junior",
+      "skill": "Kafka",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle backend. Python обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "middle",
+      "skill": "Python",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior frontend. SQL желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "senior",
+      "skill": "SQL",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр QA. React не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "intern",
+      "skill": "React",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior DevOps. Docker обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "junior",
+      "skill": "Docker",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle аналитик данных. Kafka желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "middle",
+      "skill": "Kafka",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior Security. Python не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "senior",
+      "skill": "Python",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр backend. SQL обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "intern",
+      "skill": "SQL",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior frontend. React желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "junior",
+      "skill": "React",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle QA. Docker не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "middle",
+      "skill": "Docker",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior DevOps. Kafka обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "senior",
+      "skill": "Kafka",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр аналитик данных. Python желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "intern",
+      "skill": "Python",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior Security. SQL не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "junior",
+      "skill": "SQL",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle backend. React обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "middle",
+      "skill": "React",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior frontend. Docker желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "senior",
+      "skill": "Docker",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр QA. Kafka не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "intern",
+      "skill": "Kafka",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior DevOps. Python обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "junior",
+      "skill": "Python",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle аналитик данных. SQL желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "middle",
+      "skill": "SQL",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior Security. React не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "senior",
+      "skill": "React",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр backend. Docker обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "intern",
+      "skill": "Docker",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior frontend. Kafka желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "junior",
+      "skill": "Kafka",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle QA. Python не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "middle",
+      "skill": "Python",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior DevOps. SQL обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "senior",
+      "skill": "SQL",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр аналитик данных. React желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "intern",
+      "skill": "React",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior Security. Docker не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "junior",
+      "skill": "Docker",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle backend. Kafka обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "middle",
+      "skill": "Kafka",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior frontend. Python желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "senior",
+      "skill": "Python",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр QA. SQL не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "intern",
+      "skill": "SQL",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior DevOps. React обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "junior",
+      "skill": "React",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle аналитик данных. Docker желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "middle",
+      "skill": "Docker",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior Security. Kafka не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "senior",
+      "skill": "Kafka",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр backend. Python обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "intern",
+      "skill": "Python",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior frontend. SQL желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "junior",
+      "skill": "SQL",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle QA. React не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "middle",
+      "skill": "React",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior DevOps. Docker обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "senior",
+      "skill": "Docker",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр аналитик данных. Kafka желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "intern",
+      "skill": "Kafka",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior Security. Python не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "junior",
+      "skill": "Python",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle backend. SQL обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "middle",
+      "skill": "SQL",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior frontend. React желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "senior",
+      "skill": "React",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр QA. Docker не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "intern",
+      "skill": "Docker",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior DevOps. Kafka обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "junior",
+      "skill": "Kafka",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle аналитик данных. Python желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "middle",
+      "skill": "Python",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior Security. SQL не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "senior",
+      "skill": "SQL",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр backend. React обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "intern",
+      "skill": "React",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior frontend. Docker желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "junior",
+      "skill": "Docker",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle QA. Kafka не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "middle",
+      "skill": "Kafka",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior DevOps. Python обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "senior",
+      "skill": "Python",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр аналитик данных. SQL желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "intern",
+      "skill": "SQL",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior Security. React не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "junior",
+      "skill": "React",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle backend. Docker обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "middle",
+      "skill": "Docker",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior frontend. Kafka желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "senior",
+      "skill": "Kafka",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр QA. Python не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "intern",
+      "skill": "Python",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior DevOps. SQL обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "junior",
+      "skill": "SQL",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle аналитик данных. React желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "middle",
+      "skill": "React",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior Security. Docker не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "senior",
+      "skill": "Docker",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр backend. Kafka обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "backend",
+      "grade": "intern",
+      "skill": "Kafka",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior frontend. Python желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "frontend",
+      "grade": "junior",
+      "skill": "Python",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем middle QA. SQL не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "qa",
+      "grade": "middle",
+      "skill": "SQL",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем senior DevOps. React обязателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "devops",
+      "grade": "senior",
+      "skill": "React",
+      "polarity": "required",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем стажёр аналитик данных. Docker желателен. Удалённо. 180–250 тыс RUB.",
+      "specialization": "data",
+      "grade": "intern",
+      "skill": "Docker",
+      "polarity": "preferred",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    },
+    {
+      "text": "Ищем junior Security. Kafka не требуется. Удалённо. 180–250 тыс RUB.",
+      "specialization": "security",
+      "grade": "junior",
+      "skill": "Kafka",
+      "polarity": "excluded",
+      "salary_from": 180000,
+      "salary_to": 250000,
+      "work_format": "remote"
+    }
+  ],
+  "kind": "TEAM_AUTHORED_SYNTHETIC_TEMPLATES",
+  "human_labelers": 0
+}

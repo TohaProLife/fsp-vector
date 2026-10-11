@@ -1,0 +1,40 @@
+{
+  "version": "vector-evaluation-data-v1",
+  "line_endings": "LF",
+  "reference_kind": "PROGRAMMATIC_SYNTHETIC_LATENT_RUBRIC_AND_TEAM_TEMPLATES",
+  "human_labelers": 0,
+  "files": [
+    {
+      "path": "data/evaluation/assessment-stability-observations.json",
+      "sha256": "aa7c2ac976e07ddc723fcf871677af9edd8a4fde1198870e3a1de7fc72d6b956"
+    },
+    {
+      "path": "data/evaluation/external-example.json",
+      "sha256": "f40f8bc6dde6b32c358d2534d024fe8e5fd2dcb8ac415584ffcd2889e2208fb7"
+    },
+    {
+      "path": "data/evaluation/extraction-cases.json",
+      "sha256": "65d53bfe3c9b55ad9c547bdb957d3e92e2f15965a965312d0ec1a9a043d736da"
+    },
+    {
+      "path": "data/evaluation/matching-benchmark.json",
+      "sha256": "2c19084b7efd845b9f5a631fd373661d69c1dbd8056d480d880fd2815bbaf635"
+    },
+    {
+      "path": "data/evaluation/matching-holdout-benchmark.json",
+      "sha256": "4f72589e6256c2d1ff24f9747900cd62e0dba3fb30e65a189ec92fd03be51bfb"
+    },
+    {
+      "path": "data/evaluation/matching-holdout-labels.csv",
+      "sha256": "235eef895286f8d05fc357b13ef77f8396be91b25102271ca6dfa3c9c38f6ef4"
+    },
+    {
+      "path": "data/evaluation/matching-labels.csv",
+      "sha256": "3e834584e51e1c82190162f366c14214400a899fd777de327dd4c09d86899999"
+    },
+    {
+      "path": "data/evaluation/round2-cases.json",
+      "sha256": "103fd264900afb15dd4206224836d122d6348468748ec855054ee188dd5fae31"
+    }
+  ]
+}

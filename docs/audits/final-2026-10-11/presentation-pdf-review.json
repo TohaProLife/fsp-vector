@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-11",
+  "reviewer": "independent_visual_reviewer",
+  "status": "pass",
+  "disposition": "ship",
+  "scope": "Individual visual inspection of all 14 provided raster pages of the final PDF export; no edits to prior reports, PPTX, PDF, content or runtime.",
+  "method": "tools.view_image with original detail; every page opened individually, no montage substitution.",
+  "artifact": {
+    "path": "output/submission/fsp-vector-presentation.pdf",
+    "sha256": "05e543170dc83f3b160759675cf6f6f390134b034a0c7176d0072d4d2470543c",
+    "sha256_measured_by_reviewer": true,
+    "expected_sha256": "05e543170dc83f3b160759675cf6f6f390134b034a0c7176d0072d4d2470543c",
+    "expected_sha256_matches": true
+  },
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "page_rasters": [
+    {
+      "page": 1,
+      "path": ".local/presentation/pdf-native-review/page-01.png",
+      "sha256": "323e3fda635abfcf4bf7ce999840cf4500324b084ea9365cae812ecda4e6819f",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "Title, team and official artwork complete; task text remains readable."
+    },
+    {
+      "page": 2,
+      "path": ".local/presentation/pdf-native-review/page-02.png",
+      "sha256": "10ad5d69b0d59f28cfa043479e8dc66a8ce0f06b11dda08f91d241c94b709d66",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "Solution, uniqueness and team text readable; illustration remains in its designated region."
+    },
+    {
+      "page": 3,
+      "path": ".local/presentation/pdf-native-review/page-03.png",
+      "sha256": "d7f06a755049f0f1e1044791cf9957913da8c0d688e33b29f4cfcfcb4ef6dbd8",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "Two people and three work areas clear; exact contacts retained, emails wrap after @ with complete domains."
+    },
+    {
+      "page": 4,
+      "path": ".local/presentation/pdf-native-review/page-04.png",
+      "sha256": "47d9a5a65527a4212a43e1ef77e6586b1cee5e46b1d1456078fa185dbe72a920",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "Three challenge statements fit; template separators and paragraphs complete."
+    },
+    {
+      "page": 5,
+      "path": ".local/presentation/pdf-native-review/page-05.png",
+      "sha256": "a6e03ba40a29617ac8b7a5e463e1e09f68e3e5d5fb3451585ee00541dd3a9024",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "All technical and marketing bullets dark and readable, including pilot/revenue limits."
+    },
+    {
+      "page": 6,
+      "path": ".local/presentation/pdf-native-review/page-06.png",
+      "sha256": "c1e9ddfc02364569857fda4d3f5b5faa5c91bc983c3ff589fdc16f1cafb504e1",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "Both role paths, invitation takeaway and FSP optionality readable."
+    },
+    {
+      "page": 7,
+      "path": ".local/presentation/pdf-native-review/page-07.png",
+      "sha256": "b15866e2021794d752049f5d22c4932653526a13943c8cc5080b95263a09c769",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "Passport image and external synthetic/demo-registry limitation readable."
+    },
+    {
+      "page": 8,
+      "path": ".local/presentation/pdf-native-review/page-08.png",
+      "sha256": "b5d5bfab9682a02a8dc61d277cc51b676ace037372942ec2c06807b0608c3a7e",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "Specialization and grade crop contains full controls; runner-off/human-calibration footnote complete."
+    },
+    {
+      "page": 9,
+      "path": ".local/presentation/pdf-native-review/page-09.png",
+      "sha256": "76815adc69e69b35c7ab98ae493194a54c68ca0a073c1752aa4ee32f8b464326",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "Eligibility, weights, index and non-probability/control-data limitation readable."
+    },
+    {
+      "page": 10,
+      "path": ".local/presentation/pdf-native-review/page-10.png",
+      "sha256": "374ddbb9dff98f2ef968edb72575e46e699d5f07a4753a0dd38c6614fc9208b0",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "Privacy crop ends between sections; full external consent/revocation limitation retained."
+    },
+    {
+      "page": 11,
+      "path": ".local/presentation/pdf-native-review/page-11.png",
+      "sha256": "4b8fdeee5ce0847bdf11c7f51c2da1fa357d37a585a1f6e5cd8f600e09a13a4d",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "Architecture boxes and links complete; local integration limitations readable."
+    },
+    {
+      "page": 12,
+      "path": ".local/presentation/pdf-native-review/page-12.png",
+      "sha256": "e7f1f205e5f8fc204ec87f6b5af0732dd3c7dd60c4cf64c7f370276dd815be94",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "All table rows, P@5, decimal commas, percentages, test counts and synthetic limits complete; no missing glyphs."
+    },
+    {
+      "page": 13,
+      "path": ".local/presentation/pdf-native-review/page-13.png",
+      "sha256": "188002449bba7618f909e2222c426ed249dcc64c53bc8885c00c883c63ad9c74",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "Future pilot and business hypothesis clearly distinguished from measured results."
+    },
+    {
+      "page": 14,
+      "path": ".local/presentation/pdf-native-review/page-14.png",
+      "sha256": "f58b233dc4f326477f8f6cecb35b01b55425b1e908fa01c465cdd3c2f396fa7c",
+      "individually_viewed": true,
+      "status": "pass",
+      "observation": "Captain email/Telegram complete; video duration and control-data/local-ATS note retained."
+    }
+  ],
+  "open_material_findings": [],
+  "material_findings_count": 0,
+  "checks": {
+    "page_completeness": "pass",
+    "russian_text_and_unicode": "pass",
+    "contacts": "pass",
+    "slide12_table": "pass",
+    "ui_crops": "pass",
+    "visible_synthetic_and_local_limits": "pass",
+    "new_false_commercial_claims_observed": false
+  },
+  "root_reported_checks": {
+    "unicode_contacts_and_word_bounds": "all 14 passed; word-bounds findings 0",
+    "native_pptx_render_bytes": "reported identical to previously reviewed final native rasters",
+    "independently_rerun_by_pdf_reviewer": false
+  },
+  "limits": [
+    "Visual review covers these 14 supplied PDF raster pages and the measured PDF hash.",
+    "Selectable text, tags/accessibility, hyperlinks, printing and alternative PDF renderers were not inspected.",
+    "No finalizer or design detector rerun; prior presentation reports unchanged."
+  ]
+}

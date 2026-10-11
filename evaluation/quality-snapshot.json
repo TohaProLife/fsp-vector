@@ -1,0 +1,11 @@
+{
+  "version": "vector-evaluation-snapshot-1",
+  "generated_at": "2026-10-11T13:41:36.223297+00:00",
+  "artifacts": {
+    "evaluation/reports/latest.json": "7cd79827416f53e11b1dfc8b1636bb6b3d32276fefa4fd6b844a60b9f10f95ca",
+    "evaluation/reports/assessment-stability.json": "52f64d19700bc1e080476f5393f7f2205f697c4d9d719cc74ac7e6ea7d6ad98b",
+    "evaluation/ASSESSMENT-STABILITY-PROTOCOL.md": "d3f67449b7d8c1d4f4218d40e0263f82882f7d12d31613bf113fb7fdad4347d7"
+  },
+  "synthetic": true,
+  "human_validity": "not_measured"
+}

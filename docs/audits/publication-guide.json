@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-10-11T20:15:42.681714+00:00",
+  "status": "word_bounds_and_unicode_pass",
+  "pdf_sha256": "ed170fb96cf0ae858b17a4361da18ab85bfa4e98e7fc71fd9f2f898324d510c1",
+  "source_sha256": "751d7b56475d0b00f980eeeca26351906a874dcc80f1e484ad77cbeec35b6713",
+  "bytes": 48876,
+  "pages": 10,
+  "word_bounds_issues": [],
+  "visual_review": "passed_all_10_pages_in_two_contact_sheets",
+  "raster_pages": [
+    {
+      "page": 1,
+      "path": ".local/publish/guide-pages/page-01.png",
+      "sha256": "681e95f841bd533527f33256ce600a6320c2e41a01a2fd30ea9965904f57d8c1"
+    },
+    {
+      "page": 2,
+      "path": ".local/publish/guide-pages/page-02.png",
+      "sha256": "71f624e741cc1fa794536915a37673ce6b7e34443c69cf16b440f1f62b254fdf"
+    },
+    {
+      "page": 3,
+      "path": ".local/publish/guide-pages/page-03.png",
+      "sha256": "1cfa560930652807048fe06659556ebac23f0909b010ba1cd7bcc757c79d3f19"
+    },
+    {
+      "page": 4,
+      "path": ".local/publish/guide-pages/page-04.png",
+      "sha256": "125e1fb86b8a3ac4e933120d8c09ca6b07844e62f58dff52d67045a56d65a80e"
+    },
+    {
+      "page": 5,
+      "path": ".local/publish/guide-pages/page-05.png",
+      "sha256": "4cd031b36127a93c80ac8aa77eaef343eb11157418eedb238fbaba295b22459d"
+    },
+    {
+      "page": 6,
+      "path": ".local/publish/guide-pages/page-06.png",
+      "sha256": "d4baf5d82cd030dce647f8cea1a149c8a9089931c03d3c2ead2921fe28544ab8"
+    },
+    {
+      "page": 7,
+      "path": ".local/publish/guide-pages/page-07.png",
+      "sha256": "93603bacbfa5223afc9874b085d534497df9632fed0207398d362ef4393e2390"
+    },
+    {
+      "page": 8,
+      "path": ".local/publish/guide-pages/page-08.png",
+      "sha256": "03e990a6ff532eff0ab14a3e80dbdc6ee84d210a4022f17a81f94ba6d8b39dd0"
+    },
+    {
+      "page": 9,
+      "path": ".local/publish/guide-pages/page-09.png",
+      "sha256": "93133610b7c2a7d6525f1129893a224ee9e6da5aefb769912f15e5c3761f4f25"
+    },
+    {
+      "page": 10,
+      "path": ".local/publish/guide-pages/page-10.png",
+      "sha256": "780f65e1184746d14fd16b1e2054f782e53116b275e47b908910d1d6199a80dc"
+    }
+  ],
+  "scope": "Publication metadata revision only; historical functional checks keep their original hashes and dates."
+}

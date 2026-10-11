@@ -1,0 +1,14 @@
+{
+  "kind": "real_loopback_smoke",
+  "identity_data": "synthetic",
+  "checks": [
+    "register → actual SMTP/Mailpit → single-use verification → verified session",
+    "actual ranking hides contacts; saved run rechecks publication immediately",
+    "invite → accept → scoped grant → actual signed HTTP ATS receipt; another company stays locked",
+    "contact revocation immediate; replayed acceptance never restores grant",
+    "real Unicode PDF export succeeds",
+    "HTTP PDF reimport uses bounded child; exact Unicode spans; no persisted evidence or grade change"
+  ],
+  "status": "passed",
+  "passed_checks": 6
+}

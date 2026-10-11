@@ -1,0 +1,35 @@
+ДАННЫЕ ДЛЯ ФОРМЫ СДАЧИ
+
+Команда
+ИИ друны
+
+Репозиторий
+https://github.com/TohaProLife/fsp-vector
+
+Документация
+https://github.com/TohaProLife/fsp-vector/releases/download/v1.0.0-final/fsp-vector-technical-guide.pdf
+
+Презентация
+https://github.com/TohaProLife/fsp-vector/releases/download/v1.0.0-final/fsp-vector-presentation.pptx
+
+Прототип — полное видео работы сервиса, 4 минуты 25 секунд
+https://github.com/TohaProLife/fsp-vector/releases/download/v1.0.0-final/fsp-vector-demo.mp4
+
+Дополнительные материалы
+https://github.com/TohaProLife/fsp-vector/releases/download/v1.0.0-final/fsp-vector-final-submission.zip
+
+ПРЕЗЕНТАЦИЯ ДЛЯ ПРОСМОТРА В PDF
+https://github.com/TohaProLife/fsp-vector/releases/download/v1.0.0-final/fsp-vector-presentation.pdf
+
+ОПИСАНИЕ РЕШЕНИЯ
+ФСП Вектор — платформа найма ИТ-специалистов по подтверждённым навыкам. Участник получает паспорт компетенций, проходит серверный экзамен и управляет доступом компаний к контактам. Работодатель описывает потребность, получает объяснимую подборку, отправляет персональное предложение и ведёт переписку и этапы найма. Реализованы вакансии, отклики, практика и PDF-паспорт. Ключевые действия сохраняются на сервере. ФСП-реестр демонстрационный, ATS локальная; метрики получены на синтетических данных.
+
+КОНТАКТЫ
+Антон Евтеев — капитан; fullstack, продукт и интерфейс.
+ВШЭ НН, Нижний Новгород; +7 904 903-38-16; evteevant1@gmail.com; @TohaProLife.
+Константин Федько — fullstack, серверная часть, экзамен и подбор.
+ВШЭ НН, Нижний Новгород; +7 952 760-66-49; appolontop@gmail.com; @KonstantinFedko.
+Дружим и учимся вместе с первого класса, участвовали вместе более чем в 20 хакатонах.
+
+Перед отправкой проверьте доступность всех ссылок без авторизации.
+После отправки сохраните подтверждение платформы. Дедлайн: 11 октября, 23:59 МСК.

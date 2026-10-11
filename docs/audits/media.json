@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-07T20:28:57.212124+00:00",
+  "technical_pdf": {
+    "pages": 6,
+    "unicode_text_extracts": true,
+    "all_pages_rendered_and_visually_reviewed": true,
+    "sha256": "9b176ea0afa29872db3a693171e67d24b592d6ed64c93930ccd88b6467273448"
+  },
+  "demonstration_video": {
+    "screens": 27,
+    "duration": "00:03:24.00",
+    "resolution": "760x812",
+    "codec": "H264",
+    "full_decode_passed": true,
+    "sha256": "23a28777a58833fd12ba7982b0e5f72d70f17ab784e978f8c87dd3d9c7394efb",
+    "capture": "actual CUA browser key screens with reading pauses, not continuous screen recording",
+    "synthetic_data": true,
+    "reference_solver_public_conditions": true
+  },
+  "boundaries": [
+    "No hidden database grade changes; actual server submission scored public-condition answers.",
+    "Selected registration/profile/privacy/contact key screens were recaptured after text fixes; business events were preserved.",
+    "Presentation is explicitly outside current task scope."
+  ]
+}

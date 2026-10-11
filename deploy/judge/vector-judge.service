@@ -1,0 +1,25 @@
+[Unit]
+Description=Vector isolated programming judge (separate Linux VM)
+After=network-online.target docker.service
+Requires=docker.service
+
+[Service]
+Type=simple
+User=vector-judge
+Group=vector-judge
+SupplementaryGroups=docker
+WorkingDirectory=/opt/vector
+EnvironmentFile=/etc/vector-judge.env
+ExecStart=/opt/vector/.venv/bin/python -m uvicorn services.judge.main:app --host 0.0.0.0 --port 8091 --no-access-log
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/vector-judge/jobs
+MemoryMax=1G
+TasksMax=100
+
+[Install]
+WantedBy=multi-user.target

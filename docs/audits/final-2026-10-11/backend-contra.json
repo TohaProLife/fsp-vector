@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "design_revision": "Contra",
+  "tests_passed": 268,
+  "subtests_passed": 324,
+  "duration_seconds": 86.94,
+  "failures": 0,
+  "warnings": 1,
+  "warning_scope": "Starlette TestClient httpx transport deprecation",
+  "postgres_audit_enabled": false,
+  "postgres_checks_rerun": 0,
+  "historical_postgres_checks": 14,
+  "historical_proof": "backend-attio.json",
+  "scope": "Existing full API/engine/integration suite excluding opt-in PostgreSQL audit, separate SQLite fixtures.",
+  "log": ".local/contra-backend-audit-20261011.log",
+  "log_sha256": "685b014a528de588608321df03de520295bac9fe78ae0aec8f426f7267219f5b",
+  "limit": "Synthetic automated checks, not production or human qualification certification."
+}

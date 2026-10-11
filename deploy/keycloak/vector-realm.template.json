@@ -1,0 +1,32 @@
+{
+  "realm": "vector",
+  "enabled": true,
+  "displayName": "ФСП Вектор",
+  "registrationAllowed": true,
+  "resetPasswordAllowed": true,
+  "verifyEmail": true,
+  "loginWithEmailAllowed": true,
+  "duplicateEmailsAllowed": false,
+  "sslRequired": "external",
+  "bruteForceProtected": true,
+  "smtpServer": {"host":"127.0.0.1","port":"1025","from":"noreply@vector.local","fromDisplayName":"ФСП Вектор","ssl":"false","starttls":"false","auth":"false"},
+  "roles": { "realm": [{"name":"candidate"},{"name":"employer"}] },
+  "clients": [{
+    "clientId": "vector-web",
+    "name": "ФСП Вектор",
+    "enabled": true,
+    "publicClient": false,
+    "secret": "__CLIENT_SECRET__",
+    "standardFlowEnabled": true,
+    "directAccessGrantsEnabled": false,
+    "redirectUris": ["http://localhost:3000/api/v1/auth/oidc/callback"],
+    "webOrigins": ["http://localhost:3000"],
+    "attributes": {"pkce.code.challenge.method":"S256","backchannel.logout.url":"http://127.0.0.1:8000/api/v1/auth/oidc/backchannel-logout","backchannel.logout.session.required":"true"},
+    "defaultClientScopes": ["web-origins","profile","roles","email"]
+  }],
+  "users": [
+    {"username":"candidate@vector.local","email":"candidate@vector.local","emailVerified":true,"enabled":true,"firstName":"Александр","lastName":"Волков","realmRoles":["candidate"],"credentials":[{"type":"password","value":"VectorDemo2026!","temporary":false}]},
+    {"username":"employer@vector.local","email":"employer@vector.local","emailVerified":true,"enabled":true,"firstName":"Мария","lastName":"Соколова","realmRoles":["employer"],"credentials":[{"type":"password","value":"VectorDemo2026!","temporary":false}]},
+    {"username":"employer2@vector.local","email":"employer2@vector.local","emailVerified":true,"enabled":true,"firstName":"Илья","lastName":"Романов","realmRoles":["employer"],"credentials":[{"type":"password","value":"VectorDemo2026!","temporary":false}]}
+  ]
+}

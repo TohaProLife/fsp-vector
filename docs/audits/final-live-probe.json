@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-07T19:00:09.820208+00:00",
+  "probe": "actual loopback final API",
+  "checks": [
+    "canonical skills and plural preferred list; no security-role confusion",
+    "FSP sync_ok/verified_demo filter preserves demo provenance",
+    "control participant contacts absent after revocation",
+    "new FSP v3 match is persisted in PostgreSQL and read back; contacts remain absent",
+    "current weekly task follows Frontend/Middle and repeated GET reuses persisted ID"
+  ],
+  "matching_version": "vector-match-55-20-10-5-5-5-v3-fsp-base-weakest-formal-company-semantic-neutral",
+  "persisted_match_id": "63e421b3-6a00-47e4-9fa5-9614c801e5b3",
+  "fsp_filtered_count": 12,
+  "extraction_fields": {
+    "specialization": "frontend",
+    "grade": "middle",
+    "required_skills": [
+      "UI state",
+      "Web security"
+    ],
+    "preferred_skills": [
+      "JavaScript concepts",
+      "Доступность"
+    ]
+  },
+  "weekly_route": {
+    "id": "adafe2df-dbed-4b36-9f2d-67e66112fac3",
+    "specialization": "frontend",
+    "grade": "middle"
+  }
+}

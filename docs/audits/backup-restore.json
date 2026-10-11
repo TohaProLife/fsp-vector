@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "source_scope": "private_application_database",
+  "consistent_snapshot": true,
+  "restore_target": "new_isolated_database",
+  "primary_database_modified": false,
+  "tables_checked": 31,
+  "rows_checked": 998,
+  "schema_revision": "0001",
+  "backup_sha256": "9274122a7aa6daed4a7589d114f7b6dbd10a6f425eaa622c2f679f9fab66763e",
+  "retained_database": null,
+  "identity_database_included": false
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "vector-explicit-relevance-v1",
+  "origin": "team_authored_explicit",
+  "human_labelers": 0,
+  "corpus_origin": "anonymous_fictional_adverse_example",
+  "label_metadata": {
+    "procedure": "Predetermined fictional adverse cases: compatible candidate, private relevant candidate, zero-relevance query. No external human annotation or pilot.",
+    "blinded_to_scores": false
+  },
+  "needs": [
+    {"id": "need-fit", "specialization": "backend", "grade": "middle", "required_skills": ["SQL"], "skills": []},
+    {"id": "need-empty", "specialization": "backend", "grade": "middle", "required_skills": ["SQL"], "skills": []},
+    {"id": "need-zero", "specialization": "backend", "grade": "middle", "required_skills": ["SQL"], "skills": []}
+  ],
+  "candidates": [
+    {"id": "profile-fit", "specialization": "backend", "confirmed_grade": "middle", "published": true, "score": 90, "assessment_at": "2026-10-01T00:00:00Z", "evidence": [{"skill": "SQL", "source": "ASSESSMENT_VERIFIED", "score": 90, "scope": {"specialization": "backend", "grade": "middle"}}]},
+    {"id": "profile-private", "specialization": "backend", "confirmed_grade": "middle", "published": false, "score": 90, "evidence": [{"skill": "SQL", "source": "ASSESSMENT_VERIFIED", "score": 90}]},
+    {"id": "profile-other-grade", "specialization": "backend", "confirmed_grade": "senior", "published": true, "score": 95, "evidence": [{"skill": "SQL", "source": "ASSESSMENT_VERIFIED", "score": 95}]}
+  ],
+  "queries": [
+    {"need_id": "need-fit", "candidate_ids": ["profile-fit", "profile-other-grade"]},
+    {"need_id": "need-empty", "candidate_ids": ["profile-private"]},
+    {"need_id": "need-zero", "candidate_ids": ["profile-fit"]}
+  ],
+  "labels": [
+    {"need_id": "need-fit", "candidate_id": "profile-fit", "relevance": 3},
+    {"need_id": "need-fit", "candidate_id": "profile-other-grade", "relevance": 0},
+    {"need_id": "need-empty", "candidate_id": "profile-private", "relevance": 3},
+    {"need_id": "need-zero", "candidate_id": "profile-fit", "relevance": 0}
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "status": "observed_views_with_material_findings_resolved",
+  "design": "Contra Hire",
+  "checked_at": "2026-10-11T18:51:35.869713+00:00",
+  "initial_unique_dom_observations": 49,
+  "initial_observations": [
+    {
+      "name": "proof-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Твой талант.Твоя команда.",
+      "height": 1000,
+      "url": "http://localhost:3000/#passport",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:38:34.530Z",
+      "status_text": []
+    },
+    {
+      "name": "passport-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Паспорт компетенций",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/passport",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:57:11.293Z",
+      "status_text": []
+    },
+    {
+      "name": "profile-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Мой профиль",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/profile",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:44:22.172Z",
+      "status_text": []
+    },
+    {
+      "name": "assessment-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Твой маршрут проверки",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/assessment",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:44:25.256Z",
+      "status_text": []
+    },
+    {
+      "name": "history-desktop",
+      "documentWidth": 1440,
+      "errors": [],
+      "heading": "История результатов",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/history",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:44:28.046Z",
+      "status_text": [
+        "Показано 1–1 из 1"
+      ]
+    },
+    {
+      "name": "jobs-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Вакансии",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/jobs",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:44:30.305Z",
+      "status_text": []
+    },
+    {
+      "name": "invitations-desktop",
+      "documentWidth": 1440,
+      "errors": [],
+      "heading": "Предложения команд",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/invitations",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:44:39.810Z",
+      "status_text": []
+    },
+    {
+      "name": "practice-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Практика",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/practice",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:44:41.893Z",
+      "status_text": []
+    },
+    {
+      "name": "privacy-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Приватность",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/privacy",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:44:43.957Z",
+      "status_text": []
+    },
+    {
+      "name": "quality-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Основания и ограничения",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/quality",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:44:47.211Z",
+      "status_text": []
+    },
+    {
+      "name": "passport-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Паспорт компетенций",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/passport",
+      "width": 390,
+      "captured_at": "2026-10-11T17:44:58.020Z",
+      "status_text": []
+    },
+    {
+      "name": "profile-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Мой профиль",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/profile",
+      "width": 390,
+      "captured_at": "2026-10-11T17:45:17.652Z",
+      "status_text": []
+    },
+    {
+      "name": "assessment-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Твой маршрут проверки",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/assessment",
+      "width": 390,
+      "captured_at": "2026-10-11T17:45:20.490Z",
+      "status_text": []
+    },
+    {
+      "name": "jobs-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Вакансии",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/jobs",
+      "width": 390,
+      "captured_at": "2026-10-11T17:45:22.685Z",
+      "status_text": []
+    },
+    {
+      "name": "privacy-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Приватность",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/privacy",
+      "width": 390,
+      "captured_at": "2026-10-11T17:56:22.513Z",
+      "status_text": []
+    },
+    {
+      "name": "history-mobile",
+      "documentWidth": 390,
+      "errors": [],
+      "heading": "История результатов",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/history",
+      "width": 390,
+      "captured_at": "2026-10-11T17:56:27.076Z",
+      "status_text": [
+        "Показано 1–1 из 1"
+      ]
+    },
+    {
+      "name": "invitations-mobile",
+      "documentWidth": 390,
+      "errors": [],
+      "heading": "Предложения команд",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/invitations",
+      "width": 390,
+      "captured_at": "2026-10-11T17:45:46.261Z",
+      "status_text": []
+    },
+    {
+      "name": "practice-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Практика",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/practice",
+      "width": 390,
+      "captured_at": "2026-10-11T17:45:47.931Z",
+      "status_text": []
+    },
+    {
+      "name": "quality-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Основания и ограничения",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/quality",
+      "width": 390,
+      "captured_at": "2026-10-11T17:45:50.083Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-overview-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Здравствуйте, Мария",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/overview",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:46:16.107Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-needs-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Что нужно команде",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/needs",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:46:18.693Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-talent-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Найдите своего специалиста",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/talent",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:46:36.313Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-matches-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Специалисты для вашей задачи",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/matches",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:46:38.779Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-invitations-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Приглашения",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/invitations",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:46:41.755Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-vacancies-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Вакансии и отклики",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/vacancies",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:46:43.904Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-practice-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Задачи команды",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/practice",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:46:53.683Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-company-desktop",
+      "documentWidth": 1440,
+      "errors": [],
+      "heading": "Профиль компании",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/company",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:46:56.117Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-ats-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Доставка в ATS",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/ats",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:46:58.047Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-privacy-desktop",
+      "documentWidth": 1440,
+      "errors": [],
+      "heading": "Согласие на обработку",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/privacy",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:46:59.716Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-quality-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Основания и ограничения",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/quality",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:47:03.316Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-needs-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Что нужно команде",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/needs",
+      "width": 390,
+      "captured_at": "2026-10-11T17:47:06.393Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-talent-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Найдите своего специалиста",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/talent",
+      "width": 390,
+      "captured_at": "2026-10-11T17:57:58.915Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-matches-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Специалисты для вашей задачи",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/matches",
+      "width": 390,
+      "captured_at": "2026-10-11T17:58:00.779Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-invitations-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Приглашения",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/invitations",
+      "width": 390,
+      "captured_at": "2026-10-11T17:47:45.732Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-vacancies-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Вакансии и отклики",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/vacancies",
+      "width": 390,
+      "captured_at": "2026-10-11T17:49:34.399Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-practice-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Задачи команды",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/practice",
+      "width": 390,
+      "captured_at": "2026-10-11T17:47:49.240Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-company-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Профиль компании",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/company",
+      "width": 390,
+      "captured_at": "2026-10-11T17:47:50.527Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-ats-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Доставка в ATS",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/ats",
+      "width": 390,
+      "captured_at": "2026-10-11T17:47:52.192Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-privacy-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Согласие на обработку",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/privacy",
+      "width": 390,
+      "captured_at": "2026-10-11T17:47:54.140Z",
+      "status_text": []
+    },
+    {
+      "name": "employer-quality-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Основания и ограничения",
+      "height": 844,
+      "url": "http://localhost:3000/workspace/quality",
+      "width": 390,
+      "captured_at": "2026-10-11T17:47:56.683Z",
+      "status_text": []
+    },
+    {
+      "name": "login-desktop",
+      "documentWidth": 1440,
+      "errors": [],
+      "heading": "Войти в ФСП Вектор",
+      "height": 1000,
+      "url": "http://localhost:3000/login",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:50:06.456Z",
+      "status_text": []
+    },
+    {
+      "name": "register-employer-desktop",
+      "documentWidth": 1440,
+      "errors": [],
+      "heading": "Твоя электронная почта",
+      "height": 1000,
+      "url": "http://localhost:3000/register?role=employer",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:50:18.234Z",
+      "status_text": []
+    },
+    {
+      "name": "verify-desktop",
+      "documentWidth": 1440,
+      "errors": [],
+      "heading": "Проверь свою почту",
+      "height": 1000,
+      "url": "http://localhost:3000/verify",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:50:19.785Z",
+      "status_text": []
+    },
+    {
+      "name": "inbox-desktop",
+      "documentWidth": 1440,
+      "errors": [],
+      "heading": "Локальная демопочта",
+      "height": 1000,
+      "url": "http://localhost:3000/demo/inbox",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:50:21.329Z",
+      "status_text": []
+    },
+    {
+      "name": "inbox-mobile",
+      "documentWidth": 390,
+      "errors": [],
+      "heading": "Локальная демопочта",
+      "height": 844,
+      "url": "http://localhost:3000/demo/inbox",
+      "width": 390,
+      "captured_at": "2026-10-11T17:50:21.947Z",
+      "status_text": []
+    },
+    {
+      "name": "verify-mobile",
+      "documentWidth": 390,
+      "errors": [],
+      "heading": "Проверь свою почту",
+      "height": 844,
+      "url": "http://localhost:3000/verify",
+      "width": 390,
+      "captured_at": "2026-10-11T17:50:23.254Z",
+      "status_text": []
+    },
+    {
+      "name": "register-employer-mobile",
+      "documentWidth": 390,
+      "errors": [],
+      "heading": "Твоя электронная почта",
+      "height": 844,
+      "url": "http://localhost:3000/register?role=employer",
+      "width": 390,
+      "captured_at": "2026-10-11T17:50:24.640Z",
+      "status_text": []
+    },
+    {
+      "name": "login-mobile",
+      "documentWidth": 380,
+      "errors": [],
+      "heading": "Войти в ФСП Вектор",
+      "height": 844,
+      "url": "http://localhost:3000/login",
+      "width": 390,
+      "captured_at": "2026-10-11T17:50:25.823Z",
+      "status_text": []
+    },
+    {
+      "name": "candidate-overview-desktop",
+      "documentWidth": 1430,
+      "errors": [],
+      "heading": "Привет, Контрольный.",
+      "height": 1000,
+      "url": "http://localhost:3000/workspace/overview",
+      "width": 1440,
+      "captured_at": "2026-10-11T17:56:17.164Z",
+      "status_text": []
+    }
+  ],
+  "initial_source_sha256": "5a413275bbbef88e5dc809079ad0d348a17eef341d04a1cf984b93681620a6f5",
+  "final_rechecks": [
+    "complete desktop homepage",
+    "complete mobile homepage",
+    "registration desktop/mobile",
+    "mobile talent provenance wrapping",
+    "mobile matches wrapping",
+    "mobile privacy select",
+    "mobile loaded history and keyboard horizontal scroll",
+    "sidebar identity",
+    "loaded candidate Overview desktop/mobile after final copy correction"
+  ],
+  "final_overview_mobile": {
+    "viewport_width": 390,
+    "document_width": 380,
+    "labels": [
+      "Проектирование API",
+      "Работа с SQL",
+      "Модульное тестирование",
+      "Надёжность сервисов"
+    ],
+    "category": "Backend-разработка · Стажёр"
+  },
+  "independent_review": "contra-design-review.md",
+  "limits": [
+    "Initial DOM observations span the redesign and are not a claim that every final rendered state was recaptured.",
+    "Status text may describe pagination; it is not automatically a loading spinner.",
+    "Some initial native screenshots were cropped or captured during loading and were replaced before reviewer disposition.",
+    "One browser, selected desktop/mobile/wide views. No all-device, all-state or WCAG certification.",
+    "Static reference frames do not establish original app motion timings."
+  ]
+}

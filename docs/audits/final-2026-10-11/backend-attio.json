@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-11T16:22:05.449640+00:00",
+  "scope": "Fresh full API + engines + integration regression after Attio visual integration",
+  "command": ".venv/Scripts/python.exe -m pytest services/api/tests tests/integration -q --tb=short --junitxml=output/design-correction-2026-10-11/pytest.xml",
+  "process_environment": {
+    "PYTHONPATH": "services/api;.",
+    "RUN_PG_AUDIT": "1",
+    "DATABASE_URL": "sqlite://"
+  },
+  "single_run": true,
+  "exit_code": 0,
+  "measurements": {
+    "tests_passed": 282,
+    "subtests_passed": 324,
+    "pytest_duration_seconds": 76.28,
+    "warnings": 1,
+    "junit": {
+      "tests": 606,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0
+    },
+    "junit_duration_seconds": 75.996,
+    "postgres_concurrency_tests_passed": 14,
+    "testcase_modules": {
+      "test_ats_receiver": 3,
+      "test_judge_boundary": 8,
+      "test_oidc": 12,
+      "tests.engines.test_assessment.AssessmentTests": 15,
+      "tests.engines.test_assessment.SQLSafetyTests": 3,
+      "tests.engines.test_expert_qa.ExpertFSPTests": 3,
+      "tests.engines.test_expert_qa.SyntheticStudyTests": 4,
+      "tests.engines.test_external_evaluation.ExternalEvaluationTests": 7,
+      "tests.engines.test_extraction.ExtractionTests": 11,
+      "tests.engines.test_final_integrity.FinalIntegrityTests": 9,
+      "tests.engines.test_matching.MatchingTests": 14,
+      "tests.engines.test_round2.Round2AssessmentTests": 7,
+      "tests.engines.test_round2.Round2ExtractionTests": 2,
+      "tests.engines.test_round2.Round2MatchingTests": 7,
+      "tests.engines.test_semantic.SemanticTests": 4,
+      "tests.test_assessment_review.AssessmentReviewTests": 7,
+      "tests.test_assessment_review_api": 16,
+      "tests.test_backend_privacy_round3": 17,
+      "tests.test_backend_round2": 31,
+      "tests.test_contracts": 5,
+      "tests.test_domain_api": 21,
+      "tests.test_final_backend_release": 20,
+      "tests.test_local_processes": 7,
+      "tests.test_pdf_import": 9,
+      "tests.test_postgres_concurrency": 14,
+      "tests.test_projection_performance": 10,
+      "tests.test_quality_evidence": 16
+    }
+  },
+  "warning_details": [
+    {
+      "category": "StarletteDeprecationWarning",
+      "location": ".venv/Lib/site-packages/fastapi/testclient.py:1",
+      "message": "Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.",
+      "effect": "No failing assertions; existing test transport deprecation."
+    }
+  ],
+  "database_isolation": {
+    "preflight": {
+      "preflight": "passed",
+      "default_test_engine": "sqlite:// in-memory",
+      "postgres_admin_database": "postgres",
+      "fixture_database_prefix": "vector_backend_audit_",
+      "existing_audit_databases": [],
+      "product_database_reset": false
+    },
+    "ordinary_fixtures": "Separate in-memory SQLite engines and get_db dependency overrides; platform/worker SessionLocal overridden by fixture sessions where used.",
+    "global_engine_safety": "DATABASE_URL=sqlite:// only within the pytest process prevents a fallback engine from referencing a product DB.",
+    "postgres_fixture": "test_postgres_concurrency.py creates a random vector_backend_audit_<uuid12> database; schema resets and DROP DATABASE target only this exact fixture DB.",
+    "remaining_audit_databases_after_run": [],
+    "product_database_targeted_or_reset": false,
+    "main_service_process_changed": false
+  },
+  "artifacts": {
+    "log": "output/design-correction-2026-10-11/backend-test-log.txt",
+    "junit": "output/design-correction-2026-10-11/pytest.xml"
+  },
+  "limitations": [
+    "This is a backend/engine integration regression, not browser verification or a video fidelity check.",
+    "Synthetic fixtures and authored engine evaluation do not measure human validity, hiring success or real participant calibration.",
+    "Official FSP registry synchronization was not exercised; demo registry provenance is tested separately from real registry claims.",
+    "OIDC uses signed test-provider protocol fixtures; commercial ATS and real external identity-provider load were not tested.",
+    "Untrusted user code remains fail-closed without the configured isolated runner; actual Linux/gVisor execution was not performed on this Windows host.",
+    "Process-selection tests use mock CIM records; no main service restart, stop, or process mutation was performed.",
+    "Elapsed test duration is observed on this concurrently active local workstation; it is not an isolated performance benchmark."
+  ]
+}

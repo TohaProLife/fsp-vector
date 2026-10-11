@@ -1,0 +1,13 @@
+.git
+.local
+.runtime
+.venv
+materials
+research
+**/node_modules
+**/.next
+**/__pycache__
+**/.pytest_cache
+**/*.db
+**/*.sqlite*
+.env*

@@ -1,0 +1,2644 @@
+[
+  {
+    "id": "concept.763e226e119c",
+    "title": "Повторный запрос",
+    "competency": "api",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.00df490e5021",
+    "title": "Изменение контракта",
+    "competency": "api",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.18b6b7da5cd7",
+    "title": "API: ошибочная валидация",
+    "competency": "api",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.fc9fccd502ac",
+    "title": "API: право чтения и метод",
+    "competency": "api",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.18a20fbf2433",
+    "title": "API: потерянный ответ после commit",
+    "competency": "api",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.562a2ba3ba44",
+    "title": "API: гонка двух одинаковых ключей",
+    "competency": "api",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.0cf522eefd0c",
+    "title": "API: новая семантика старого клиента",
+    "competency": "api",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.d5f206518c62",
+    "title": "API: исчерпанное время повторов",
+    "competency": "api",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.e966325dfa47",
+    "title": "Отсутствующая связь",
+    "competency": "sql",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.df19a4b8ee3d",
+    "title": "NULL в агрегате",
+    "competency": "sql",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.9ab954c144c2",
+    "title": "SQL: COUNT с NULL",
+    "competency": "sql",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.742ba82046ad",
+    "title": "SQL: COUNT после JOIN",
+    "competency": "sql",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.069ba583ce77",
+    "title": "SQL: LEFT JOIN и фильтр",
+    "competency": "sql",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.3fae7ce197c4",
+    "title": "SQL: последний заказ с tie-break",
+    "competency": "sql",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.ee702252764b",
+    "title": "SQL: write skew ограниченного ресурса",
+    "competency": "sql",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.c9d1720498d6",
+    "title": "SQL: ошибка сериализации",
+    "competency": "sql",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.4d67555e35d8",
+    "title": "Повторная доставка",
+    "competency": "reliability",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.76663193b7b4",
+    "title": "Событие после commit",
+    "competency": "reliability",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.c7b78df8a110",
+    "title": "Reliability: повтор уведомления",
+    "competency": "reliability",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.9a527327df3b",
+    "title": "Reliability: неизменяемый ключ",
+    "competency": "reliability",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.377b05980bcb",
+    "title": "Reliability: crash окна worker",
+    "competency": "reliability",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.f9f75b155082",
+    "title": "Reliability: poison message",
+    "competency": "reliability",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.1435a6382b0c",
+    "title": "Reliability: обратный порядок версий",
+    "competency": "reliability",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.6e28334a94a9",
+    "title": "Reliability: повтор с изменённым payload",
+    "competency": "reliability",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.fb6c29de747e",
+    "title": "Конкурентное принятие",
+    "competency": "testing",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.ba64c28068aa",
+    "title": "Независимый oracle",
+    "competency": "testing",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.e5b14a14e8df",
+    "title": "Testing: конфликт state transition",
+    "competency": "testing",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.5a604539ac9b",
+    "title": "Testing: invalid type boundary",
+    "competency": "testing",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.6fff2e312a79",
+    "title": "Testing: проверка ownership",
+    "competency": "testing",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.a95d5e222f43",
+    "title": "Testing: race accept/withdraw",
+    "competency": "testing",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.97d2cdcd087d",
+    "title": "Testing: граница отчёта о качестве",
+    "competency": "testing",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.ee4ee6c5576c",
+    "title": "Testing: независимость oracle",
+    "competency": "testing",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.c29c74597309",
+    "title": "Асинхронный порядок",
+    "competency": "javascript",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.9a750adafeb0",
+    "title": "Обновление массива",
+    "competency": "javascript",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.033217c8ca6d",
+    "title": "JS: числовое преобразование",
+    "competency": "javascript",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.abc3260fa357",
+    "title": "JS: strict equality типов",
+    "competency": "javascript",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.3487abc9f1eb",
+    "title": "JS: rejected Promise all",
+    "competency": "javascript",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.6e89e4c1ce68",
+    "title": "JS: замыкание старого значения",
+    "competency": "javascript",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.269e5e4e5d5b",
+    "title": "JS: опасный parse финансов",
+    "competency": "javascript",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.10089eb74c8f",
+    "title": "JS: cpu блокирует input",
+    "competency": "javascript",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.002506d91160",
+    "title": "Гонка поиска",
+    "competency": "state",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.8b50b89cc987",
+    "title": "Авторизация кнопки",
+    "competency": "state",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.adc21dd335d7",
+    "title": "State: контролируемая форма",
+    "competency": "state",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.8709ac26a033",
+    "title": "State: конфликт сохранения версии",
+    "competency": "state",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.e0ae533e5c05",
+    "title": "State: unmount и поздний ответ",
+    "competency": "state",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.0d40ba417b12",
+    "title": "State: optimistic rollback",
+    "competency": "state",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.281100291df3",
+    "title": "State: повтор после response loss",
+    "competency": "state",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.4c80a082f4f6",
+    "title": "State: tenant switch и кэш",
+    "competency": "state",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.69aeb673034c",
+    "title": "Кнопка с иконкой",
+    "competency": "accessibility",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.d30db83d1049",
+    "title": "Открытие диалога",
+    "competency": "accessibility",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.5655cc5e481d",
+    "title": "A11y: ошибка формы",
+    "competency": "accessibility",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.6a96eb16dd13",
+    "title": "A11y: семантика действия",
+    "competency": "accessibility",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.bfa3d9745b56",
+    "title": "A11y: динамический результат",
+    "competency": "accessibility",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.9bf1ee3f339d",
+    "title": "A11y: reduced motion",
+    "competency": "accessibility",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.9b152c821d77",
+    "title": "A11y: виртуализированная таблица",
+    "competency": "accessibility",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.f37c58d72127",
+    "title": "A11y: timed assessment",
+    "competency": "accessibility",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.fb77d57a3fa6",
+    "title": "Недоверенный текст",
+    "competency": "web_security",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.fa8a34588e9d",
+    "title": "Сессия и CSRF",
+    "competency": "web_security",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.ba5366e9215d",
+    "title": "Web: пользовательский HTML",
+    "competency": "web_security",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.5081385eda07",
+    "title": "Web: HttpOnly границы защиты",
+    "competency": "web_security",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.465318e9c001",
+    "title": "Web: SSRF allowlist",
+    "competency": "web_security",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.709d6759c65c",
+    "title": "Web: CSP и escaping",
+    "competency": "web_security",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.c7405c1f12db",
+    "title": "Web: redirect меняет SSRF scope",
+    "competency": "web_security",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.e8ac0050b54d",
+    "title": "Web: контакт в private cache",
+    "competency": "web_security",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.4ca2056af30f",
+    "title": "Граница диапазона",
+    "competency": "test_design",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.db2428ab86a0",
+    "title": "Состояния договора",
+    "competency": "test_design",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.97dce20326cd",
+    "title": "QA: классы входных данных",
+    "competency": "test_design",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.0cea4b867ba7",
+    "title": "QA: независимые терминальные состояния",
+    "competency": "test_design",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.02ed4a02f6ee",
+    "title": "QA: pairwise ограничение",
+    "competency": "test_design",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.4557b51c1576",
+    "title": "QA: одинаковый статус неверный payload",
+    "competency": "test_design",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.929e3199ffb1",
+    "title": "QA: риск при ограниченном окне",
+    "competency": "test_design",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.5eb78524c777",
+    "title": "QA: воспроизведение недетерминированной гонки",
+    "competency": "test_design",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.b45980a8f298",
+    "title": "Error budget",
+    "competency": "observability",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.724cf677c251",
+    "title": "Диагностика p95",
+    "competency": "observability",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.7c209484b35d",
+    "title": "SRE: знаменатель SLI",
+    "competency": "observability",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.7822c4b7d19d",
+    "title": "SRE: latency versus success",
+    "competency": "observability",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.18ecbc1bfa90",
+    "title": "SRE: усреднение p95",
+    "competency": "observability",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.9799c06ea892",
+    "title": "SRE: burn rate",
+    "competency": "observability",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.fe50c8e44ce7",
+    "title": "SRE: SLI скрывает отказ",
+    "competency": "observability",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.ac9be443132e",
+    "title": "SRE: noisy alert",
+    "competency": "observability",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.6a1e9556c150",
+    "title": "Секреты образа",
+    "competency": "containers",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.2f829affa14f",
+    "title": "Сбой миграции",
+    "competency": "containers",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.64dee0e476ec",
+    "title": "Container: readonly filesystem",
+    "competency": "containers",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.5efd959e9644",
+    "title": "Container: restart и постоянные данные",
+    "competency": "containers",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.93eb992af03b",
+    "title": "Container: liveness/readiness",
+    "competency": "containers",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.80811ee05174",
+    "title": "Container: опасный socket",
+    "competency": "containers",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.94d6a12facd8",
+    "title": "Container: expand-contract миграция",
+    "competency": "containers",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.43b94a7bfd94",
+    "title": "Container: memory budget полной машины",
+    "competency": "containers",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.56736f3f9dec",
+    "title": "Повтор запроса",
+    "competency": "networking",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.ee188e68ef13",
+    "title": "TLS проверка",
+    "competency": "networking",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.d16640dd951c",
+    "title": "Network: timeout",
+    "competency": "networking",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.d8074414f182",
+    "title": "Network: имя сертификата",
+    "competency": "networking",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.3a7c72314f6d",
+    "title": "Network: retry amplification",
+    "competency": "networking",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.45c0d2673520",
+    "title": "Network: jitter",
+    "competency": "networking",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.4a3490e52662",
+    "title": "Network: зависимость исчерпала очередь",
+    "competency": "networking",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.9938288c5ab2",
+    "title": "Network: stale DNS проверка SSRF",
+    "competency": "networking",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.9c623dd0e9b9",
+    "title": "Смешение групп",
+    "competency": "statistics",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.e2b6febddfa4",
+    "title": "Знаменатель",
+    "competency": "statistics",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.39773968dd72",
+    "title": "Stats: weighted conversion",
+    "competency": "statistics",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.8cd128105242",
+    "title": "Stats: пропущенный знаменатель",
+    "competency": "statistics",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.3f3ca2cb48e7",
+    "title": "Stats: post-hoc population",
+    "competency": "statistics",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.75bec55b74d8",
+    "title": "Stats: малый n",
+    "competency": "statistics",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.c7fe0075ed98",
+    "title": "Stats: единица bootstrap",
+    "competency": "statistics",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.fcdb8d0035b6",
+    "title": "Stats: утечка tuning в test",
+    "competency": "statistics",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.b824157cf2a7",
+    "title": "Дедупликация",
+    "competency": "data_quality",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.232a19dd7baf",
+    "title": "Пропуски",
+    "competency": "data_quality",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.10fdd1006a13",
+    "title": "Data: неизвестная сумма",
+    "competency": "data_quality",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.5bae88a40953",
+    "title": "Data: исходный тип суммы",
+    "competency": "data_quality",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.c690d0ef6dc5",
+    "title": "Data: повтор ключа с конфликтом",
+    "competency": "data_quality",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.7af25e3a0fb2",
+    "title": "Data: null после left join",
+    "competency": "data_quality",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.455de099a026",
+    "title": "Data: schema drift",
+    "competency": "data_quality",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.810a36849e3f",
+    "title": "Data: late-arriving correction",
+    "competency": "data_quality",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.016ae0a27316",
+    "title": "Синтетическая оценка",
+    "competency": "interpretation",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.c9f6ff9f22a5",
+    "title": "Корреляция",
+    "competency": "interpretation",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.c675ad44c03f",
+    "title": "Analysis: индекс соответствия",
+    "competency": "interpretation",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.327567ce6ef0",
+    "title": "Analysis: нет ФСП истории",
+    "competency": "interpretation",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.f56800ac079c",
+    "title": "Analysis: selective population",
+    "competency": "interpretation",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.1c5cad28649b",
+    "title": "Analysis: zero IDCG",
+    "competency": "interpretation",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.3760921e009f",
+    "title": "Analysis: FSP идеален в генераторе",
+    "competency": "interpretation",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.670bf3a4d703",
+    "title": "Analysis: team role unknown",
+    "competency": "interpretation",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.310da7dbe647",
+    "title": "Чужое приглашение",
+    "competency": "authorization",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.1860d29e63ad",
+    "title": "Отзыв разрешения",
+    "competency": "authorization",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.111ecf2af04f",
+    "title": "Auth: защита объекта",
+    "competency": "authorization",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.18665c495bd4",
+    "title": "Auth: роль и владение",
+    "competency": "authorization",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.9b224f7c55aa",
+    "title": "Auth: list endpoint projection",
+    "competency": "authorization",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.65d3c49b476b",
+    "title": "Auth: inactive membership",
+    "competency": "authorization",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.bf5c8322807b",
+    "title": "Auth: TOCTOU grant",
+    "competency": "authorization",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.e3b2d2decc76",
+    "title": "Auth: multiple companies",
+    "competency": "authorization",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.8602ff99d2e3",
+    "title": "Хранение пароля",
+    "competency": "cryptography",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.b2abce47d3d9",
+    "title": "Случайный токен",
+    "competency": "cryptography",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.2bee1b6389f9",
+    "title": "Crypto: salt purpose",
+    "competency": "cryptography",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.710ae126e001",
+    "title": "Crypto: истечение в точный момент",
+    "competency": "cryptography",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.6da712f0405b",
+    "title": "Crypto: timing compare",
+    "competency": "cryptography",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.c5ea5605f5e8",
+    "title": "Crypto: hash reset token",
+    "competency": "cryptography",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.94bbe4e66bc9",
+    "title": "Crypto: rotation sessions",
+    "competency": "cryptography",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.470fa7435ecb",
+    "title": "Crypto: verification token race",
+    "competency": "cryptography",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.571e65f69a7b",
+    "title": "Сохранение доказательств",
+    "competency": "incident_response",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.d821fed4cdaa",
+    "title": "Сигнал сканирования",
+    "competency": "incident_response",
+    "slot": "short",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.264161c71ea1",
+    "title": "IR: секрет в логах",
+    "competency": "incident_response",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.12bf86b12595",
+    "title": "IR: минимизация копий журнала",
+    "competency": "incident_response",
+    "slot": "short",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.10aa30793710",
+    "title": "IR: локализация scope",
+    "competency": "incident_response",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.98d2a1ba6fd6",
+    "title": "IR: evidence preservation",
+    "competency": "incident_response",
+    "slot": "short",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.8491eeb5240f",
+    "title": "IR: revocation versus cached copy",
+    "competency": "incident_response",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "concept.1d37ba0dc626",
+    "title": "IR: восстановление и повтор breach",
+    "competency": "incident_response",
+    "slot": "short",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.idempotency-count",
+    "title": "idempotency-count",
+    "competency": "api",
+    "slot": "analysis",
+    "grades": [
+      "intern",
+      "junior",
+      "middle",
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.conflicting-event-reconciliation",
+    "title": "conflicting-event-reconciliation",
+    "competency": "api",
+    "slot": "practice",
+    "grades": [
+      "intern",
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.weighted-conversion",
+    "title": "weighted-conversion",
+    "competency": "sql",
+    "slot": "analysis",
+    "grades": [
+      "intern",
+      "junior",
+      "middle",
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.sql-filter-aggregate",
+    "title": "sql-filter-aggregate",
+    "competency": "sql",
+    "slot": "practice",
+    "grades": [
+      "intern"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.versioned-state",
+    "title": "versioned-state",
+    "competency": "reliability",
+    "slot": "analysis",
+    "grades": [
+      "intern",
+      "junior",
+      "middle",
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.closed-boundaries",
+    "title": "closed-boundaries",
+    "competency": "testing",
+    "slot": "analysis",
+    "grades": [
+      "intern",
+      "junior",
+      "middle",
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.range-contract-mutation",
+    "title": "range-contract-mutation",
+    "competency": "testing",
+    "slot": "practice",
+    "grades": [
+      "intern",
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.operation-trace",
+    "title": "operation-trace",
+    "competency": "javascript",
+    "slot": "analysis",
+    "grades": [
+      "intern",
+      "junior",
+      "middle",
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.request-race",
+    "title": "request-race",
+    "competency": "javascript",
+    "slot": "practice",
+    "grades": [
+      "intern",
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.accessible-name",
+    "title": "accessible-name",
+    "competency": "accessibility",
+    "slot": "analysis",
+    "grades": [
+      "intern",
+      "junior",
+      "middle",
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.control-accessibility",
+    "title": "control-accessibility",
+    "competency": "accessibility",
+    "slot": "practice",
+    "grades": [
+      "intern",
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.company-grants",
+    "title": "company-grants",
+    "competency": "web_security",
+    "slot": "analysis",
+    "grades": [
+      "intern",
+      "junior",
+      "middle",
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.authorization-matrix",
+    "title": "authorization-matrix",
+    "competency": "web_security",
+    "slot": "practice",
+    "grades": [
+      "intern",
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.error-budget",
+    "title": "error-budget",
+    "competency": "observability",
+    "slot": "analysis",
+    "grades": [
+      "intern",
+      "junior",
+      "middle",
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.bounded-scheduling",
+    "title": "bounded-scheduling",
+    "competency": "observability",
+    "slot": "practice",
+    "grades": [
+      "intern",
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.memory-budget",
+    "title": "memory-budget",
+    "competency": "containers",
+    "slot": "analysis",
+    "grades": [
+      "intern",
+      "junior",
+      "middle",
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.population-conversion",
+    "title": "population-conversion",
+    "competency": "statistics",
+    "slot": "practice",
+    "grades": [
+      "intern",
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.token-entropy",
+    "title": "token-entropy",
+    "competency": "cryptography",
+    "slot": "analysis",
+    "grades": [
+      "intern",
+      "junior",
+      "middle",
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.token-lifecycle",
+    "title": "token-lifecycle",
+    "competency": "cryptography",
+    "slot": "practice",
+    "grades": [
+      "intern",
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "reference_data_solver_and_structural_checks"
+  },
+  {
+    "id": "data.sql-join",
+    "title": "join",
+    "competency": "sql",
+    "slot": "practice",
+    "grades": [
+      "junior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_python_grouping_and_SQL_solution"
+  },
+  {
+    "id": "data.sql-latest_per_customer",
+    "title": "latest_per_customer",
+    "competency": "sql",
+    "slot": "practice",
+    "grades": [
+      "middle"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_python_grouping_and_SQL_solution"
+  },
+  {
+    "id": "data.sql-refund_preaggregate",
+    "title": "refund_preaggregate",
+    "competency": "sql",
+    "slot": "practice",
+    "grades": [
+      "senior"
+    ],
+    "version": "vector-bank-2.0-advanced-data",
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_python_grouping_and_SQL_solution"
+  },
+  {
+    "id": "advanced.event-ledger.middle",
+    "title": "event-ledger",
+    "competency": "api",
+    "slot": "practice",
+    "grades": [
+      "middle"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.event-ledger.senior",
+    "title": "event-ledger",
+    "competency": "api",
+    "slot": "practice",
+    "grades": [
+      "senior"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.grant-replay.middle",
+    "title": "grant-replay",
+    "competency": "authorization",
+    "slot": "practice",
+    "grades": [
+      "middle"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.grant-replay.senior",
+    "title": "grant-replay",
+    "competency": "authorization",
+    "slot": "practice",
+    "grades": [
+      "senior"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.key-rotation.middle",
+    "title": "key-rotation",
+    "competency": "cryptography",
+    "slot": "practice",
+    "grades": [
+      "middle"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.key-rotation.senior",
+    "title": "key-rotation",
+    "competency": "cryptography",
+    "slot": "practice",
+    "grades": [
+      "senior"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.modal-focus.middle",
+    "title": "modal-focus",
+    "competency": "accessibility",
+    "slot": "practice",
+    "grades": [
+      "middle"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.modal-focus.senior",
+    "title": "modal-focus",
+    "competency": "accessibility",
+    "slot": "practice",
+    "grades": [
+      "senior"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.retry-deadline.middle",
+    "title": "retry-deadline",
+    "competency": "networking",
+    "slot": "practice",
+    "grades": [
+      "middle"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.retry-deadline.senior",
+    "title": "retry-deadline",
+    "competency": "networking",
+    "slot": "practice",
+    "grades": [
+      "senior"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.risk-cover.middle",
+    "title": "risk-cover",
+    "competency": "testing",
+    "slot": "practice",
+    "grades": [
+      "middle"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.risk-cover.senior",
+    "title": "risk-cover",
+    "competency": "testing",
+    "slot": "practice",
+    "grades": [
+      "senior"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.rollout-capacity.middle",
+    "title": "rollout-capacity",
+    "competency": "containers",
+    "slot": "practice",
+    "grades": [
+      "middle"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.rollout-capacity.senior",
+    "title": "rollout-capacity",
+    "competency": "containers",
+    "slot": "practice",
+    "grades": [
+      "senior"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.slo-windows.middle",
+    "title": "slo-windows",
+    "competency": "observability",
+    "slot": "practice",
+    "grades": [
+      "middle"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.slo-windows.senior",
+    "title": "slo-windows",
+    "competency": "observability",
+    "slot": "practice",
+    "grades": [
+      "senior"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.stratified-effect.middle",
+    "title": "stratified-effect",
+    "competency": "statistics",
+    "slot": "practice",
+    "grades": [
+      "middle"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.stratified-effect.senior",
+    "title": "stratified-effect",
+    "competency": "statistics",
+    "slot": "practice",
+    "grades": [
+      "senior"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.ui-replay.middle",
+    "title": "ui-replay",
+    "competency": "javascript",
+    "slot": "practice",
+    "grades": [
+      "middle"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  },
+  {
+    "id": "advanced.ui-replay.senior",
+    "title": "ui-replay",
+    "competency": "javascript",
+    "slot": "practice",
+    "grades": [
+      "senior"
+    ],
+    "status": "author_initial",
+    "human_review": "NOT_MEASURED",
+    "empirical_calibration": "NOT_MEASURED",
+    "automated_review": "independent_public_data_solver",
+    "version": "vector-bank-2.0-advanced-data"
+  }
+]

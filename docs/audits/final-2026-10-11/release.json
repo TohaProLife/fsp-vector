@@ -1,0 +1,897 @@
+{
+  "release_date": "2026-10-11",
+  "product": "ФСП Вектор",
+  "checked_at": "2026-10-11T18:51:35.869713+00:00",
+  "status": "verified_local_contra_ready_for_handoff",
+  "ready_local": true,
+  "ready_for_submission": false,
+  "requirements": "docs/submission/requirements-matrix.md",
+  "requirement_count": 42,
+  "design": {
+    "reference_project": "Contra Hire",
+    "implemented": true,
+    "authority": "Latest user instruction: choose one reference and finish the site autonomously.",
+    "path": "code-led, no approved comp",
+    "proof": "contra-references.json",
+    "supersedes": "Historical Figma C / Linear and rejected Attio revision"
+  },
+  "checks": {
+    "api_engines_integration": {
+      "status": "passed",
+      "design_revision": "Contra",
+      "tests_passed": 268,
+      "subtests_passed": 324,
+      "duration_seconds": 86.94,
+      "failures": 0,
+      "warnings": 1,
+      "warning_scope": "Starlette TestClient httpx transport deprecation",
+      "postgres_audit_enabled": false,
+      "postgres_checks_rerun": 0,
+      "historical_postgres_checks": 14,
+      "historical_proof": "backend-attio.json",
+      "scope": "Existing full API/engine/integration suite excluding opt-in PostgreSQL audit, separate SQLite fixtures.",
+      "log": ".local/contra-backend-audit-20261011.log",
+      "log_sha256": "685b014a528de588608321df03de520295bac9fe78ae0aec8f426f7267219f5b",
+      "limit": "Synthetic automated checks, not production or human qualification certification."
+    },
+    "frontend": {
+      "status": "passed",
+      "tests_passed": 90,
+      "failures": 0,
+      "skips": 0,
+      "duration_ms": 12157.8546,
+      "completed_at": "2026-10-11T18:24:07.9218995Z",
+      "log_sha256": "75979f7cb4b7bc65fc9df63ba437078e0f09edcb13cd613dabbf11809f292bc5",
+      "typecheck": "passed",
+      "production_build": "passed",
+      "limit": "Handlers/helpers/components; not all live browser states."
+    },
+    "browser": {
+      "status": "observed_views_with_material_findings_resolved",
+      "proof": "browser.json",
+      "initial_unique_dom_observations": 49,
+      "independent_review": "ship"
+    },
+    "video": {
+      "status": "passed_decode_duration_fps_and_all_chapter_ui_alignment",
+      "created_at": "2026-10-11T18:35:25.451959+00:00",
+      "video": "output\\demo\\fsp-vector-demo.mp4",
+      "sha256": "5f15a91ae522a0af3396173a3c1e10d8996dab9a536260c3842106f4c45fca61",
+      "bytes": 4794602,
+      "duration_seconds": 264.692,
+      "captures": 279,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "output_fps": 24,
+      "source_physical_sizes": [
+        [
+          380,
+          844
+        ],
+        [
+          390,
+          844
+        ],
+        [
+          1430,
+          1000
+        ],
+        [
+          1440,
+          1000
+        ]
+      ],
+      "source_physical_size_counts": [
+        {
+          "dimensions": [
+            380,
+            844
+          ],
+          "frame_entries": 1
+        },
+        {
+          "dimensions": [
+            390,
+            844
+          ],
+          "frame_entries": 5
+        },
+        {
+          "dimensions": [
+            1430,
+            1000
+          ],
+          "frame_entries": 17
+        },
+        {
+          "dimensions": [
+            1440,
+            1000
+          ],
+          "frame_entries": 256
+        }
+      ],
+      "normalization": {
+        "dimensions": [
+          1440,
+          1000
+        ],
+        "color_mode": "RGB",
+        "canvas_color": "#17181c",
+        "paste_origin": [
+          0,
+          0
+        ],
+        "method": "Pillow ImageOps.contain with BICUBIC resampling before FFmpeg input",
+        "frame_entries": 279,
+        "unique_assets": 59,
+        "deduplication": "Only SHA256-identical native capture bytes share a normalized PNG asset; all frame entries and timestamps retained. Raw capture format is detected from bytes, independently of the filename suffix.",
+        "directory": "output/design-rebuild/recording-deliverable/normalized",
+        "raw_capture_files_changed": false
+      },
+      "input_timebase_hz": 1000,
+      "sampled_frame_density_per_output_second": 1.05,
+      "output_frame_gap_p95_seconds": 1.4470000000000027,
+      "output_frame_gap_max_seconds": 3.8430000000000177,
+      "chapters": [
+        {
+          "elapsed_ms": 0,
+          "caption": "ФСП Вектор · единый дизайн Contra · оригинальная графика и профессиональный паспорт",
+          "source_chapter": 0
+        },
+        {
+          "elapsed_ms": 12529,
+          "caption": "Сценарий компании · от потребности команды до подбора специалиста",
+          "source_chapter": 1
+        },
+        {
+          "elapsed_ms": 22506,
+          "caption": "У опыта есть источник · заявленные навыки отделены от экзамена",
+          "source_chapter": 2
+        },
+        {
+          "elapsed_ms": 31547,
+          "caption": "Достижения ФСП имеют отдельное происхождение · демонстрационный реестр явно отмечен",
+          "source_chapter": 3
+        },
+        {
+          "elapsed_ms": 39706,
+          "caption": "Регистрация · почта, профиль и отдельное согласие; показ формы без создания нового аккаунта",
+          "source_chapter": 4
+        },
+        {
+          "elapsed_ms": 47957,
+          "caption": "Профиль участника · опыт, условия работы и контакты сохраняются сервером",
+          "source_chapter": 6
+        },
+        {
+          "elapsed_ms": 57228,
+          "caption": "Изменение профиля · фактическое сохранение и чтение после перезагрузки",
+          "source_chapter": 7
+        },
+        {
+          "elapsed_ms": 66108,
+          "caption": "Паспорт компетенций · сохранённый формальный результат и источник каждого навыка",
+          "source_chapter": 8
+        },
+        {
+          "elapsed_ms": 75430,
+          "caption": "Основания свидетельства · результат, версия рубрики и границы подтверждения",
+          "source_chapter": 9
+        },
+        {
+          "elapsed_ms": 88522,
+          "caption": "История попыток · сохранённые результаты, контекст и версия проверки",
+          "source_chapter": 10
+        },
+        {
+          "elapsed_ms": 98756,
+          "caption": "Сохранённый экзамен · автоматизированный публичный решатель, не человеческая оценка",
+          "source_chapter": 11
+        },
+        {
+          "elapsed_ms": 107879,
+          "caption": "Обзор участника · понятные названия навыков, отдельные подтверждения и предложения",
+          "source_chapter": 12
+        },
+        {
+          "elapsed_ms": 118698,
+          "caption": "Поиск вакансий · условия роли и отдельная практика по потребности",
+          "source_chapter": 13
+        },
+        {
+          "elapsed_ms": 129612,
+          "caption": "Мои отклики · состояние заявки читается с сервера",
+          "source_chapter": 14
+        },
+        {
+          "elapsed_ms": 139248,
+          "caption": "Предложение команды · принятие и доступ к контактам имеют отдельные состояния",
+          "source_chapter": 15
+        },
+        {
+          "elapsed_ms": 148018,
+          "caption": "Диалог предложения · фактическая отправка сообщения синтетической локальной команде",
+          "source_chapter": 16
+        },
+        {
+          "elapsed_ms": 157647,
+          "caption": "Приватность · карточка опубликована без контактов, доступ конкретной компании отозван",
+          "source_chapter": 17
+        },
+        {
+          "elapsed_ms": 168816,
+          "caption": "Диалог после повторного открытия · сообщение действительно сохранено",
+          "source_chapter": 18
+        },
+        {
+          "elapsed_ms": 181864,
+          "caption": "Рабочая область компании · синтетические потребности и приглашения",
+          "source_chapter": 19
+        },
+        {
+          "elapsed_ms": 189341,
+          "caption": "Подбор по SQL и API · фактическое серверное сопоставление с сохранением контекста",
+          "source_chapter": 20
+        },
+        {
+          "elapsed_ms": 201692,
+          "caption": "Результат подбора · допуск по категории и объяснимый индекс соответствия",
+          "source_chapter": 21
+        },
+        {
+          "elapsed_ms": 208692,
+          "caption": "Безопасный профиль · факторы индекса и темы для уточнения, контакты скрыты",
+          "source_chapter": 22
+        },
+        {
+          "elapsed_ms": 215692,
+          "caption": "Воронка компании · сохраняем переход синтетического отклика на собеседование",
+          "source_chapter": 23
+        },
+        {
+          "elapsed_ms": 222692,
+          "caption": "Воронка после перезагрузки · этап Собеседование сохранён сервером",
+          "source_chapter": 24
+        },
+        {
+          "elapsed_ms": 229692,
+          "caption": "ATS · подписанные события локальному приёмнику, без коммерческой системы",
+          "source_chapter": 25
+        },
+        {
+          "elapsed_ms": 236692,
+          "caption": "Границы готовности · PostgreSQL, безопасный fail closed, синтетические измерения отдельно",
+          "source_chapter": 26
+        },
+        {
+          "elapsed_ms": 243692,
+          "caption": "Тот же отклик у участника · этап Собеседование согласован между двумя кабинетами",
+          "source_chapter": 27
+        },
+        {
+          "elapsed_ms": 250692,
+          "caption": "Мобильный паспорт · те же сведения и управление доступом",
+          "source_chapter": 28
+        },
+        {
+          "elapsed_ms": 257692,
+          "caption": "ФСП Вектор · от подтверждённого опыта к подходящей команде",
+          "source_chapter": 29
+        }
+      ],
+      "manifest_sha256": "fdd0f15ebee4b4ef830a9588e2c4ac50603abbcc0a1e41c032976a3b44810699",
+      "method": "Actual CUA browser capture sections. Preparation pauses omitted; edited chapters may hold their final captured frame for reading. Source captures are converted to uniform RGB 1440x1000 assets by aspect-preserving BICUBIC containment on a #17181c canvas before FFmpeg. Captions remain below the UI; no product state fabricated.",
+      "limits": [
+        "Sampling/resampling can omit a browser frame; this is not a lossless native display recording.",
+        "No narration; Russian captions. Identities and companies are synthetic.",
+        "Assessment answers use an authored public-data reference solver for automated integration control, not a human examination or validity study.",
+        "All chapter midpoint UI samples match recorded pixels; this does not prove lossless motion or every intermediate browser frame."
+      ],
+      "verified_at": "2026-10-11T18:35:36.653425+00:00",
+      "actual_encoded_duration_seconds": 264.71,
+      "actual_encoded_fps": 24.0,
+      "encoded_dimensions": [
+        1440,
+        1110
+      ],
+      "preview_frames": [
+        "output/design-rebuild/recording-deliverable/video-verified-00-20261011T183536653425Z.png",
+        "output/design-rebuild/recording-deliverable/video-verified-04-20261011T183536653425Z.png",
+        "output/design-rebuild/recording-deliverable/video-verified-14-20261011T183536653425Z.png",
+        "output/design-rebuild/recording-deliverable/video-verified-23-20261011T183536653425Z.png",
+        "output/design-rebuild/recording-deliverable/video-verified-28-20261011T183536653425Z.png"
+      ],
+      "visual_review": {
+        "status": "passed_for_five_decoded_preview_frames",
+        "frames_reviewed": [
+          "output/design-rebuild/recording-deliverable/video-verified-00-20261011T183536653425Z.png",
+          "output/design-rebuild/recording-deliverable/video-verified-04-20261011T183536653425Z.png",
+          "output/design-rebuild/recording-deliverable/video-verified-14-20261011T183536653425Z.png",
+          "output/design-rebuild/recording-deliverable/video-verified-23-20261011T183536653425Z.png",
+          "output/design-rebuild/recording-deliverable/video-verified-28-20261011T183536653425Z.png"
+        ],
+        "scope": "UI completeness and caption legibility, independent reviewer. Not full MP4 playback or motion smoothness."
+      },
+      "capture_limit": "279 actual browser captures over the edited 264.692-second timeline; 24 fps is encoding resampling, not native 24fps capture.",
+      "proof": "video.json",
+      "source_capture_formats": {
+        "jpeg": 279
+      }
+    },
+    "technical_pdf": {
+      "schema_version": 2,
+      "status": "passed_unicode_word_bounds_and_all_page_visual_review",
+      "created_at": "2026-10-11T18:40:39.831597+00:00",
+      "design": "Contra Hire / original Vector implementation",
+      "source": "docs/submission/technical-guide.md",
+      "source_sha256": "5ad2cd63d2e7474b324f4639501246b9ed0d4494342b437d15f2749e344af28b",
+      "pdf": "output/pdf/fsp-vector-technical-guide.pdf",
+      "sha256": "6bb1fe94a90f8dd367c22fff83651f8124aa3ac8debcc189da12bb49f435d1a6",
+      "bytes": 48510,
+      "pages": 10,
+      "text_characters": 30716,
+      "words": 3599,
+      "all_pages_word_bounds_verified": 10,
+      "word_bounds_tolerance_pt": 0.5,
+      "word_bounds_overflow": 0,
+      "word_bounds_issues": [],
+      "unicode": {
+        "status": "passed_for_extracted_text",
+        "source_cyrillic_characters": 19539,
+        "pdf_cyrillic_characters": 20019,
+        "source_issues": [],
+        "pdf_issues": [],
+        "checks": [
+          "strict UTF-8 source decoding",
+          "replacement characters",
+          "surrogates",
+          "unexpected controls",
+          "Unicode noncharacters",
+          "Cyrillic extraction present"
+        ],
+        "limit": "Unicode extraction does not prove glyph appearance, complete source/PDF equivalence, reading order, or visual legibility."
+      },
+      "empty_text_pages": [],
+      "rendered_pages": 10,
+      "render_scale": 1.5,
+      "render_dpi": 108.0,
+      "render_directory": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3",
+      "page_checks": [
+        {
+          "page": 1,
+          "render_status": "rendered",
+          "page_bounds_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "rotation": 0,
+          "text_characters": 2884,
+          "cyrillic_characters": 1918,
+          "words": 313,
+          "unicode_issues": 0,
+          "word_bounds_overflow": 0,
+          "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-001.png",
+          "render_sha256": "f347fea5e2a185cd2af4edcba948e4b0cc10b696c9304f771dba6b790faa486f",
+          "render_bytes": 206849,
+          "render_width": 893,
+          "render_height": 1263
+        },
+        {
+          "page": 2,
+          "render_status": "rendered",
+          "page_bounds_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "rotation": 0,
+          "text_characters": 3442,
+          "cyrillic_characters": 2560,
+          "words": 408,
+          "unicode_issues": 0,
+          "word_bounds_overflow": 0,
+          "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-002.png",
+          "render_sha256": "f1379d515b84a250f342a3ddb69ef3021d19a39f16d355225b61a5b76158e9a3",
+          "render_bytes": 235887,
+          "render_width": 893,
+          "render_height": 1263
+        },
+        {
+          "page": 3,
+          "render_status": "rendered",
+          "page_bounds_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "rotation": 0,
+          "text_characters": 2989,
+          "cyrillic_characters": 2227,
+          "words": 358,
+          "unicode_issues": 0,
+          "word_bounds_overflow": 0,
+          "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-003.png",
+          "render_sha256": "4381a3b4b38fa876162d8ac062ace34cfec7ca7e84fa237b2406098863914725",
+          "render_bytes": 206801,
+          "render_width": 893,
+          "render_height": 1263
+        },
+        {
+          "page": 4,
+          "render_status": "rendered",
+          "page_bounds_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "rotation": 0,
+          "text_characters": 3283,
+          "cyrillic_characters": 2475,
+          "words": 383,
+          "unicode_issues": 0,
+          "word_bounds_overflow": 0,
+          "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-004.png",
+          "render_sha256": "51c1d645af43e756fe856e1625d4da4438596009c459a357c4d81d53c3a799f6",
+          "render_bytes": 232049,
+          "render_width": 893,
+          "render_height": 1263
+        },
+        {
+          "page": 5,
+          "render_status": "rendered",
+          "page_bounds_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "rotation": 0,
+          "text_characters": 3600,
+          "cyrillic_characters": 2069,
+          "words": 455,
+          "unicode_issues": 0,
+          "word_bounds_overflow": 0,
+          "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-005.png",
+          "render_sha256": "944c94d684c83fbf1c73729c5fcb7679eb4643c771b3e067c40d7fcc627f449f",
+          "render_bytes": 255983,
+          "render_width": 893,
+          "render_height": 1263
+        },
+        {
+          "page": 6,
+          "render_status": "rendered",
+          "page_bounds_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "rotation": 0,
+          "text_characters": 3822,
+          "cyrillic_characters": 2536,
+          "words": 465,
+          "unicode_issues": 0,
+          "word_bounds_overflow": 0,
+          "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-006.png",
+          "render_sha256": "a5bd6b1b7ab85d615e375956e2a99a27115c9bca931cd9ccc8c50a09dcff22f6",
+          "render_bytes": 268162,
+          "render_width": 893,
+          "render_height": 1263
+        },
+        {
+          "page": 7,
+          "render_status": "rendered",
+          "page_bounds_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "rotation": 0,
+          "text_characters": 3288,
+          "cyrillic_characters": 1683,
+          "words": 334,
+          "unicode_issues": 0,
+          "word_bounds_overflow": 0,
+          "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-007.png",
+          "render_sha256": "6cddb648a71523322cd78d80124fe9937b9222b19ae18eb0d450f7dec57d7496",
+          "render_bytes": 237544,
+          "render_width": 893,
+          "render_height": 1263
+        },
+        {
+          "page": 8,
+          "render_status": "rendered",
+          "page_bounds_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "rotation": 0,
+          "text_characters": 2732,
+          "cyrillic_characters": 1174,
+          "words": 318,
+          "unicode_issues": 0,
+          "word_bounds_overflow": 0,
+          "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-008.png",
+          "render_sha256": "ea05365fee2ed79b7afb877fe4234b919641895cb854d5a492a0d3a8e651d7a5",
+          "render_bytes": 206172,
+          "render_width": 893,
+          "render_height": 1263
+        },
+        {
+          "page": 9,
+          "render_status": "rendered",
+          "page_bounds_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "rotation": 0,
+          "text_characters": 3331,
+          "cyrillic_characters": 2477,
+          "words": 398,
+          "unicode_issues": 0,
+          "word_bounds_overflow": 0,
+          "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-009.png",
+          "render_sha256": "07e6142abc0f35e2677e06270ba058b108f3c22bbc83866bac92ec4e47e472df",
+          "render_bytes": 230284,
+          "render_width": 893,
+          "render_height": 1263
+        },
+        {
+          "page": 10,
+          "render_status": "rendered",
+          "page_bounds_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "rotation": 0,
+          "text_characters": 1345,
+          "cyrillic_characters": 900,
+          "words": 167,
+          "unicode_issues": 0,
+          "word_bounds_overflow": 0,
+          "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-010.png",
+          "render_sha256": "3ec8c34df81570d06b29331411ef34be5bf8530f133c3be4f662ae266ddd6bd2",
+          "render_bytes": 99805,
+          "render_width": 893,
+          "render_height": 1263
+        }
+      ],
+      "errors": [],
+      "input_stability": {
+        "source_unchanged_during_audit": true,
+        "pdf_unchanged_during_audit": true
+      },
+      "runtime": {
+        "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+        "pymupdf": "1.28.2",
+        "path": ".runtime/pdf-review/pymupdf/__init__.py"
+      },
+      "audit_helper": ".local/contra_pdf_audit.py",
+      "audit_helper_sha256": "34027ed8c39820787eeb18eaa5edc4e74a77164e4609c246e53dcb8124018aea",
+      "visual_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "visual_review": {
+        "status": "reviewed",
+        "pages_reviewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "reviewer": "root pages1-5; independent contra_documenter pages6-10",
+        "reviewed_at": "2026-10-11T18:43:19.020633+00:00",
+        "required_scope": "All10 actual rendered pages",
+        "note": "Glyphs, commands/paths, legibility, margins and footer checked on actual page images."
+      },
+      "limit": "All-page Unicode, word geometry and model visual raster review; not accessibility or full source/PDF fidelity certification.",
+      "glyph_correction": "Unsupported delta symbol replaced by Russian word изменение; numerical value unchanged."
+    },
+    "source_archive": {
+      "status": "passed",
+      "checked_at": "2026-10-11T18:49:46.930032+00:00",
+      "source_zip_sha256": "d85800069549bd79c04785601b73ca679a6ee073fd86b687f568d8bf8d0b4d6b",
+      "checks": [
+        "fresh venv installs exact requirements and editable project; pip check",
+        "npm ci and production build from extracted source",
+        "fresh SQLite Alembic migration, API readiness and six-track catalog",
+        "authenticated extracted quality report provenance and assessment review OpenAPI contract",
+        "actual extracted production web boot, CSS/local font, same-origin auth/CSRF and isolated persisted profile save"
+      ],
+      "verified_runtime_file_sha256": {
+        "apps/web/AGENTS.md": "063098f6cb31bb44c6f8fbea25b3876de7ee1e5f7d00a50dbab506f6415eb7f0",
+        "apps/web/README.md": "2aadf358f1edba3015fc20b6a5eebd8c60ed59038b3aa70104e8fc037ecd1916",
+        "apps/web/next-env.d.ts": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b",
+        "apps/web/next.config.ts": "39bc162e946e8c891e2b7d5eb749173ed1bdf00138f6132437ec5a57f71a02d7",
+        "apps/web/package-lock.json": "684c562d9d10775552ecb61882f0e9e1174d613edd4ed8ddb99df799fe2fda16",
+        "apps/web/package.json": "4408e875335967b1acdb50179fb0abf56e0bf6473a3b0f6d9a0f8e5b46dad01a",
+        "apps/web/public/assets/vector-ribbon.png": "2061f4dfef6fbb2324c796380217afbcc16402af4101ea9a8e12e0e838c0f43f",
+        "apps/web/public/fonts/golos-OFL.txt": "270e8bfc5b8f26a2ca1433cf4d65d6d93771d2131715a57460702c0df4057c06",
+        "apps/web/public/fonts/golos.ttf": "17bb58fb69aec2dfb047a2ebf52534023e9b688c97a6b7ac795b0a72912c2063",
+        "apps/web/public/fonts/inter-LICENSE.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "apps/web/public/fonts/inter-variable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+        "apps/web/public/fonts/jetbrainsmono-OFL.txt": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d",
+        "apps/web/public/fonts/jetbrainsmono.ttf": "48715a42ec242c21e9f02692891e147d022299a52e48d5e413e1a942193ffeda",
+        "apps/web/public/fonts/manrope-OFL.txt": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac",
+        "apps/web/public/fonts/manrope.ttf": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+        "apps/web/public/fonts/prata-OFL.txt": "32764329c9543658d478cc1c045a15f050084592551ea02d96293cc7f09daff3",
+        "apps/web/public/fonts/prata.ttf": "3b2b880737be3bda5f03554297b758516876157c88f9e3b3bae8fa1fc96a2c2c",
+        "apps/web/src/app/assessment/[id]/page.tsx": "2081869e8fe27a46731fe5f4e36825aaf259292b2eff00bd684dffa75f7e5cf8",
+        "apps/web/src/app/attio.css": "a4c82aa8bb72b70b8e378c55c2afdc7bc6bc76c9ca5b7ddd79a9e2c0a9f63c26",
+        "apps/web/src/app/auth.css": "4770189fecf5f890af4b6f34ebea796c8d030f2e6ca6e003065e5741897fae31",
+        "apps/web/src/app/demo/inbox/page.tsx": "ad19da615ab2c3f03d7df16fbb02a65495ef764f366315287071b32a59b745ca",
+        "apps/web/src/app/globals.css": "90bb449a751d7850bc35e65080032b07dd26c6fb043754d15deb28e42bc7de53",
+        "apps/web/src/app/landing.css": "9f092c2173eb060c2ffa8018800a9b03b2bcdd73bedfb159e838ebafc3dae31c",
+        "apps/web/src/app/layout.tsx": "899e830f23cc3b3b252e80e86e55a3bd418c84bdacb24997eb1efe27102e3423",
+        "apps/web/src/app/login/page.tsx": "165320ee379167c243b77bc4a44061284cf27bc9038f9eca47fdbd3485db56e5",
+        "apps/web/src/app/page.tsx": "a247920554198e978f1d493759814341846dc5dffcabe2a2ccb908142d07ae37",
+        "apps/web/src/app/register/page.tsx": "6b37eee10d938604d8aed104a762f6ddcd27b145142abfdf45c23d040b1d5a94",
+        "apps/web/src/app/variant-c.css": "a282e89898168682fa483fde41a31cfa32ca8564c9bda852a1a2fee171ea9d0c",
+        "apps/web/src/app/vector.css": "f91e81f14e8e6f4588420962fbd3c81a08b5cd400c40f06e5c20b93371c41405",
+        "apps/web/src/app/verify/page.tsx": "92b7a4f475e02e1d098ff3c57ee482be490196ca8d01a3960797be0a77d8def2",
+        "apps/web/src/app/workspace/[section]/page.tsx": "ab1ef771d4018fad10043e868b069c03b62a88b86b0c096ceafe8de5152b5cfb",
+        "apps/web/src/app/workspace/page.tsx": "c9a6942acf200b3b8db3e530ae78c6e138b02b7a681ddada01b15dd381a4af67",
+        "apps/web/src/components/auth-visual.tsx": "bae2196306eb14944da991e3879c406db8b34fb747c72312ac88d910704e1625",
+        "apps/web/src/components/auth.tsx": "3ce600f280b1770bddc253f8a33050a2ef521a8f64e448ad016c7995f8125a0a",
+        "apps/web/src/components/landing-preview.tsx": "b75873f6a49bb2c167646fb9151a62df6f36d63cbea5c4f2831d0feedd5f88d7",
+        "apps/web/src/components/ui.tsx": "9e3f219c6c95c52e25addacc885ce23fef55d232db2fda9d7f0a3452afee1355",
+        "apps/web/src/components/workspace.tsx": "ecd4f22466489dcdae8f370e746bc3e786aa30f8989c6c5fd7577fd4df22960a",
+        "apps/web/src/features/candidate.tsx": "b9a4c0c0ecc9c40069b903680b7f1abdee703e0a2957d9595eb98cad1c833a7d",
+        "apps/web/src/features/code-practice.tsx": "b36efdd942641c8210a3ad29d3d2e5ade3c4ad7c7556303f6917a7af1f3c45b8",
+        "apps/web/src/features/employer.tsx": "4c4fece4616219d10d4bed76cc5e3b8d5329bdcf9f7f92c2ca886aa59d723029",
+        "apps/web/src/features/exam.tsx": "0afbce4329a51c0df41f233a5c8e528947d9d11077ffbc1c1588ff053fb5ee66",
+        "apps/web/src/features/hiring.tsx": "f6968e6687738230d9d1c85e5ac2b5e31edb835f9c80452e89c6f23cff3dd6b4",
+        "apps/web/src/features/need-practice.tsx": "59f9c800669fd9804c94591b664a1619a2aebbeb2ad4bbdaea1a00eb5ef7653f",
+        "apps/web/src/features/operations.tsx": "1237086d685c4a92ac8451b4887ca55a26e182de39b28b3051efd610bac75f16",
+        "apps/web/src/lib/api.generated.ts": "f3476b5cafd215bcc70a0c18e2ee925501949510f065d0b8b3fee0d396411664",
+        "apps/web/src/lib/api.ts": "a0ba511fbfe4e85b6ec80fa497adbd30b2bbfec7c609eb01238f6cf6e121f200",
+        "apps/web/src/lib/assessment-review.ts": "dd6451a439f3c2a004dfbab2d4809fb594c531b264545f3803b2bb48fe739fe3",
+        "apps/web/src/lib/assessment-route.ts": "b15757c995719d7b6c52393d5399dd1ef21f177814ae85067f61e7181b57f5b3",
+        "apps/web/src/lib/assessment-scope.ts": "20852be626ac9e54f74aedac564803f1bd4603701bb3ad7fddf8d691571d6be3",
+        "apps/web/src/lib/competency-label.ts": "628812695c36838e26d408af64bbc6e061a790a392c338b5bc06d524e28b6e03",
+        "apps/web/src/lib/fsp-provenance.ts": "468ad3d9187c709c94a8aa23243e31186fbeba8d83f054a8d36decd6c6418830",
+        "apps/web/src/lib/hooks.ts": "a84f991d9bacf96b64ef13b4d602a8f8f8cb9d6ce9a77216b0e5c91909466c26",
+        "apps/web/tests/assessment-review.test.mjs": "4fb4c8c6c6ac2017c18c7f64ed0bcd860615c4eb90a100e89bf031b8b19810e2",
+        "apps/web/tests/assessment-route.test.mjs": "a240b3d0afdf29a0e1e102230ae4150fba7164c1b4789d3cb3cff513a1f9b8f3",
+        "apps/web/tests/assessment-scope.test.mjs": "b02efcf4bbb0d879693906e1e068671104d162519f877be0dc8e7973598e6205",
+        "apps/web/tests/domain-refresh.test.mjs": "2f79e0688c84842e628c422cd215b343692aa057256a4d3a198a523b389d8358",
+        "apps/web/tests/evidence-provenance.test.mjs": "ba47430599f79b57ee7fb87155b25f5316b29fe694da88e141318f4ca0ae9ba4",
+        "apps/web/tests/exam-review-flow.test.mjs": "ac8221b7cf9a0f1a60ef3e6512bb807e8357ee85556bbd10c7c234b1a31ac89b",
+        "apps/web/tests/fsp-provenance.test.mjs": "26304a8cf8e1a3935ecb6d14306728555d220de08add8cdccf616417aa9ec1d5",
+        "apps/web/tests/hiring-detail-loading.test.mjs": "7292bde23bab86d33a75264e544d27577bd492d3e13337cbbc22c75c9ef3618d",
+        "apps/web/tests/history-pagination.test.mjs": "a22c7b161b3a2a4e85e66a660510bff83641642dbd6da4ced30a8bbddeef4e1a",
+        "apps/web/tests/passport-provenance.test.mjs": "3e313107627ddcc973683b26e16051cdf4d64dbdcc68114c01ce44034e00b735",
+        "apps/web/tests/practice-submit.test.mjs": "f0e3313895999dafbbb0cefa5de604ed3ca8d27a929955ed968c538f383152cf",
+        "apps/web/tests/profile-save.test.mjs": "7a8088c9e972dfc70e9b6c09473079dd02de7b121c816c5309249babe2f21597",
+        "apps/web/tests/quality-view.test.mjs": "8110c926e04a6199f29c84f06ea351e63066e84d6cc45ff48b6e82a2f3096551",
+        "apps/web/tests/resource-loading.test.mjs": "ee7b0b0bc39061d69f049ba7b3b447ab92b1ed85c5bbdbcb61160413d826c88f",
+        "apps/web/tests/session-write.test.mjs": "5f200d77ec7f6883ce08618b35c0cb2b64fff64772a1b9c13e14c4333766b729",
+        "apps/web/tests/talent-races.test.mjs": "6b6e92f1c9f6f0c1a22d848d1bb9eaf2fadad8044d9a00d667af7e378146d584",
+        "apps/web/tsconfig.json": "0e527cd6e419418c82696b612dd51711e46d83a39c2b70d4ba5f22fa7a615abd",
+        "assessment-bank/README.md": "4bbc8d7a3f47c974f48abe00eb289716139da35b2d637ef7a44273d645ef74a5",
+        "assessment-bank/author-review-ledger.json": "9ff0c4f47f2392ed25356b0daab975778eef0c4fd8d03d52d06d5b8a6017f341",
+        "assessment-bank/manifest.json": "9e810bed50da967556837ea5e6f769448c0b190ee7b7712f9a0fe5931f0ca2e5",
+        "assets/fonts/GolosText-Regular.ttf": "17bb58fb69aec2dfb047a2ebf52534023e9b688c97a6b7ac795b0a72912c2063",
+        "assets/fonts/OFL-GolosText.txt": "270e8bfc5b8f26a2ca1433cf4d65d6d93771d2131715a57460702c0df4057c06",
+        "data/README.md": "fd843a736761f76f45ba8d4f5d6e038a1b2ce258a8a1e9e6d3469fdc70068f11",
+        "data/dataset-manifest.json": "cc0dfe549138387a3573bc6a7d05d5c3cd633951b751f06c8d8e2e3acc6ad151",
+        "data/demo-seed.json": "d191bb4c39f6f1ff7f34c47cfa0a88193bd8adfdc106e29893bf635b391b9d71",
+        "data/evaluation/assessment-stability-observations.json": "aa7c2ac976e07ddc723fcf871677af9edd8a4fde1198870e3a1de7fc72d6b956",
+        "data/evaluation/dataset-manifest.json": "faaeef9c1f766f2215fc8c5500bfb4fa994f579f55db3667b6ce1a18bce42dd6",
+        "data/evaluation/external-example.json": "f40f8bc6dde6b32c358d2534d024fe8e5fd2dcb8ac415584ffcd2889e2208fb7",
+        "data/evaluation/extraction-cases.json": "65d53bfe3c9b55ad9c547bdb957d3e92e2f15965a965312d0ec1a9a043d736da",
+        "data/evaluation/matching-benchmark.json": "2c19084b7efd845b9f5a631fd373661d69c1dbd8056d480d880fd2815bbaf635",
+        "data/evaluation/matching-holdout-benchmark.json": "4f72589e6256c2d1ff24f9747900cd62e0dba3fb30e65a189ec92fd03be51bfb",
+        "data/evaluation/matching-holdout-labels.csv": "235eef895286f8d05fc357b13ef77f8396be91b25102271ca6dfa3c9c38f6ef4",
+        "data/evaluation/matching-labels.csv": "3e834584e51e1c82190162f366c14214400a899fd777de327dd4c09d86899999",
+        "data/evaluation/round2-cases.json": "103fd264900afb15dd4206224836d122d6348468748ec855054ee188dd5fae31",
+        "data/synthetic-candidates-v1.json": "66e2908f3dba03e5d038967d59039521313a380554ec4fd18e7e1f1a9f06ef97",
+        "data/synthetic-needs-v1.json": "3866d575021efa11f4649e339b98465979262d9f71212f5d82605c0920655881",
+        "deploy/Dockerfile.api": "2e86cf2152dd6ee25666d73c92638217897203a8b56531be422bbbd7fc9c6fba",
+        "deploy/Dockerfile.web": "5ad76be92a4ab8c5267c8576cbe4e0a419e398ae10d36d8eb77940445dbb30e2",
+        "deploy/compose.local.yml": "e1716dcc9423bebfe951949d49e56f021e72a4f1ea47c5dce8fe7020c1f4cab7",
+        "deploy/image-lock.json": "e5fcafa8718fbce5a8c80e68ae8266d7fc593be45193e1ca4ca2c299e71fd09e",
+        "deploy/judge/judge.env.example": "9f6580298c9b55d691d85e60075f6d5a53825af45f104fe251291fc89977b06f",
+        "deploy/judge/vector-judge.service": "c50b3a2cee7c38078f71e8a538bbae0fcabc62434541dda0fdb247badaa8c2eb",
+        "deploy/keycloak/vector-realm.template.json": "e55b8af1ca3633cceb4e4dd9544db4303146bd9d420119a7da33eb099e9966ac",
+        "deploy/postgres/init.sh": "4fbbbd0f0a5c3ba3a6c9ea283e5f1b072046cf88c2c37eee3ceebb7f997a361f",
+        "deploy/requirements.lock": "28f965a428259265b802188e5ec4a79d9845c1fe1365d0f8ea539ac67500fa2d",
+        "evaluation/ASSESSMENT-STABILITY-PROTOCOL.md": "d3f67449b7d8c1d4f4218d40e0263f82882f7d12d31613bf113fb7fdad4347d7",
+        "evaluation/EXPERT-QA-ENGINE-AUDIT.md": "9722b89433b1bb9feccb9cbba81a33136d3e135e50dfadaad06b92c0246bc4ee",
+        "evaluation/EXTERNAL-LABELS.md": "afb7d7528fc1b47a7f5cb0cd92620f5b5d679711efea0d4a5aebe65e9711133e",
+        "evaluation/README.md": "725a6ef5b0f1aa2867f870ce5f597de955c9c0b3941bcdd0b0920808df882ce0",
+        "evaluation/advanced_reference.py": "baff9fc8032f656adc540072f78e9e23503f19307ead959367d0bdcc8d32c7db",
+        "evaluation/content-and-security-audit.md": "5bd25c657b94df623eeff2c62c150450b510cbb1182e6469d37460db6b48f104",
+        "evaluation/external.py": "df116a0bac9785a023e0761be693f728166d554b79e99bc4aedad429eb903f71",
+        "evaluation/generate_data.py": "fdbe3ac7e38eed14c754dfb7b206e8dcbddbba8c919ae161414f77fe94edf577",
+        "evaluation/quality-snapshot.json": "88a2105f88ad288629d9aa2e36cc24ae1089acfa21b28bbd701f001058abd82b",
+        "evaluation/reference_solvers.py": "d4479e31fff7d9f23dc87ca37bb5d5be59c130b10cec043564b10e37284cf365",
+        "evaluation/reports/assessment-stability.json": "52f64d19700bc1e080476f5393f7f2205f697c4d9d719cc74ac7e6ea7d6ad98b",
+        "evaluation/reports/assessment-stability.md": "f798391af12e182cb1b3153bcad8639b80403df4eaf5fb1be4af8b1be57e4bae",
+        "evaluation/reports/external-example.json": "0ffc5324d1be6c3daba90bd2d49beda5acc3a2ce29419ede5f25d2bb89877851",
+        "evaluation/reports/latest.json": "7cd79827416f53e11b1dfc8b1636bb6b3d32276fefa4fd6b844a60b9f10f95ca",
+        "evaluation/reports/latest.md": "ec6f0d3f78f65220fb627680338278bd3cb0dbaf8a7706a31ca6be77d83d799a",
+        "evaluation/responders.py": "fbd0db6d4e0bf04c827845dbfc69483ebb7ca0de862aa760044c377f73f398cb",
+        "evaluation/round2.py": "c305424e83e299977170bc8466a947c12697a412e84ed5817c0214324f06a208",
+        "evaluation/run.py": "5e0a96900f1e3e6767d262aeff1c6b5c48a338787f9418ae32187429bd800c57",
+        "evaluation/stability.py": "18394bee993a7821110e9153db34e0d1cb536a034039f4e3746889325a0d0e93",
+        "scripts/assemble_service_recording.py": "dfae7a39aba16e7a331aea1864418266ad5533d8bcb2300c3e0728b706838ae1",
+        "scripts/audit_dependencies.py": "9cf4287aa9f1d3bc7e71fe6a445f0ffbc4f00fe16e554c7e85cfd0279bd0cc6f",
+        "scripts/audit_source.py": "5d6820ee1b1ef442484b79dc1edd2a1c35003069c3c73bc5641130bef0ce8085",
+        "scripts/benchmark_local.py": "962068b9991dfbc18850449445ccfe8e7e4682ca834f2b1125160d967b3b13c2",
+        "scripts/bootstrap_runtime.py": "d96f3d4cb9e90bc5c6bcd338c2927c367cfe7f43d51ddd170ee0a3429c8a6334",
+        "scripts/build_demo_video.py": "982981a6fb5e82c60ef9004e1615df8c9d4fb241fdeff380facb7cccb45a70b7",
+        "scripts/build_technical_pdf.py": "7d7372b4b55fcc8a5a60ce0b105e4d3fdcf62130ca3e3f658a1072b540084325",
+        "scripts/check_source_archive.py": "636d4fc094bd4f4fa1b38a481824dc818806050e91846b3af9f23adb27113726",
+        "scripts/db_snapshot.py": "022dc8341e6460f96fde3d13c658cafd79b73cada1cb6cced9fc6e3d76dc0d75",
+        "scripts/doctor.py": "49c811bbcce3dac4c4149327e58569dcbba110f0a9ee4f2f74a2fc6bb8aad4dc",
+        "scripts/encode_design_recording.py": "e0791fdeb99276b20bd39171c28c8c78f669db8140bebde426a532d0321a7f9e",
+        "scripts/encode_service_recording.py": "76568dd7cecc0902ebe36dc230050738392cee01294a7b136a9ebb0c0f9ba02e",
+        "scripts/export_contract.py": "764388b985514ae5b501b0bdd7135e52ea0a47d569e355c6ce7d8128a0346464",
+        "scripts/generate-client.ps1": "94dc13ba756e496cb67119bce289a2bd8dd02fd7a8cc6719012691c1f8b9934c",
+        "scripts/local_processes.ps1": "fd5dfbecb3c71afd384686656fffa39f5f0e80f9c8e19738c4bf79b3a3b4f168",
+        "scripts/local_processes.py": "aef2b52e4bf3f52d8e1f4a89b9a67f8130afd1dfbfef5e36a511beaa899430b6",
+        "scripts/local_runtime.py": "279760f73358a6db987bd75d59186fcf2a9de9266f9351cf3f475c83186f0346",
+        "scripts/lock_images.py": "f161f1e36bccd676739943eef1a294606b90dc60b527e66a136d8afa359fa15d",
+        "scripts/package_submission.py": "23ff7e7c4c39e5ad085254eaad90b576e534802b3b76d6440cec27d1bac5bb00",
+        "scripts/prepare_compose.py": "9bdf49059d8462e5bb58ea7d945f557ec3211b5960b85bf3dd9a3ba6c09102fd",
+        "scripts/public_demo_answers.py": "990da978cc90c4850b6dc79589480bd6857205e3dbad1f3dcca233dd2549dc22",
+        "scripts/resource_snapshot.ps1": "c860eb0813837441d7dcdb50b76c6d69d9b5ddb5594e2334b88a76df94263bac",
+        "scripts/run_local.py": "c2d1e461f14efed14fe13b4a0f996c23d5ee2259634527839f649533f39ada49",
+        "scripts/seal_evaluation.py": "a07185bd4885cb49b49e02fe73d6d6c4040a762d9e99881621442f923b79faea",
+        "scripts/setup.ps1": "27f837fc2b305854b51b4a493f18094cac91bc56c6e9875955bfb71f59deb750",
+        "scripts/smoke_local.py": "6e4400ef085a11300e019125c2b813797113221e563ea3595af54c787a9e444e",
+        "scripts/start.ps1": "f3b785d0bda4476a278d45d5ab5db9ac6ee17a88f15220b4943eda2d4c51ac06",
+        "scripts/stop.ps1": "17fe3717e0428e5eb6f612da5c76dcc82c43e6bc97757d0727b69b6f514a01d2",
+        "scripts/verify.ps1": "6f79a2260e435674b5901d51667c3e3b700fea9d9f7f86ff39891afc5daaedb4",
+        "scripts/verify_service_recording.py": "56921a93eae0609ca9d2d9db201341b52e5c2ff46c08909d63223a27e088fdce",
+        "services/api/README.md": "183c67b06fe07a6d6d9506ed811d5b3eea7dc282e7be0188973f88a7bfcabca2",
+        "services/api/alembic.ini": "b4d14afe66f3149fc25b369b277398a30a1ffadda588984124552983c0204eb3",
+        "services/api/app/__init__.py": "196a81e7e16ce308e5dff02abcfd3854b39cbcc1805a8486cb7adda468b47596",
+        "services/api/app/assessment.py": "61bb4f6b9208e60e75c4602719ae5ebba6630bc0ac3216286cd1603cf839e514",
+        "services/api/app/assessment_review.py": "8d5385242833136cf67fa67f064996c0dbdd3619f362f8b4305b61ef987cc1e2",
+        "services/api/app/auth.py": "08c6ac632a1b7902dcf1a957a868c349055aec5b7dc24516a12df7f9f292405a",
+        "services/api/app/candidate.py": "022659c7c7cd8eaa5176d1e46ba8610a011483d03c8de363cb4c76acea0a5477",
+        "services/api/app/common.py": "597241b7a70013741b98a85ff7afc4bc77f35daff4a7a83a1576f03e9bb96666",
+        "services/api/app/config.py": "e25ca3e89ee1712265f0f3a0e70a28c526b794003bda5c6c1a03c864c7864b97",
+        "services/api/app/contracts.py": "a9b9893873d0d5df6cbc260d39bfc70612c6e5d6af1caf22528724e47bf1d879",
+        "services/api/app/db.py": "84a294c3adf42375ebb4082a4e5b240142604efcee1699f3838c3fc6497e5ff7",
+        "services/api/app/employer.py": "62d1053d1475d8e810f6e909f7ec00a2e733802d69074e73da0e458cec190afd",
+        "services/api/app/engines/__init__.py": "778e99f229771e526bed5155d9704db5b6c51dd9fa8bc2e4968811b1aff01440",
+        "services/api/app/engines/advanced.py": "cb694fcb93d9cc51861b315d77337a2806e6a313c8a3214f0d796441a378e362",
+        "services/api/app/engines/assessment.py": "6d6b30847002c5c1a3e5e3768cc16decc46d078f4154ca2dd963e4ce51bafd2a",
+        "services/api/app/engines/bank.py": "8b0da2e50b9c3f19343206615e6d01187672fbcb9b53cd905f6cab1578d2ff06",
+        "services/api/app/engines/extraction.py": "21239c223a2fe69d55a58ffe9d7141169c08a25ad369bf93b58338e1a6d43d40",
+        "services/api/app/engines/fsp.py": "cfc53e97de3c5c520c3bcbf19cca3c86ea282b25e0a1464ff377de62f27c0212",
+        "services/api/app/engines/matching.py": "04d24bc231ddb10ff09fe9ec7307d3a0781524fcb3f8b9b0734a34a9f74a2cfa",
+        "services/api/app/engines/need_context.py": "f807d7c056a01a2a6437629dab0286f310ac72a36ffd641e2af71d4750b525f7",
+        "services/api/app/engines/safe_sql.py": "025c156829c649177c63c79a63b3a937eb9e2e2c3a010e10d88efbef52ab89ec",
+        "services/api/app/engines/scenarios.py": "63db6327bf62b0b397ace0e3751559c9324df889f8e039fa37176da55343a5c3",
+        "services/api/app/engines/seed.py": "78a02f8838914df4c4a7cd41fb38dd5d867ee6f8010b7510743f35c9dd6fb167",
+        "services/api/app/engines/semantic.py": "0c2ba073698ff377e09b3a32944c1ae4be2e990d6988c912e002b8b34d6406d1",
+        "services/api/app/engines/taxonomy.py": "86558974337044c7b8e8fd7a13bc695543088bad3e2a5dfe5b27c2f38b900969",
+        "services/api/app/evaluation_summary.py": "448fa8240ac74acb72d5b4a1a0e2bcf48be3a1b290aad6b0353a231520eec016",
+        "services/api/app/hiring.py": "9cd9cf5a8a883fb44079ef6c4cb6a335b9d809cdf247ef1b687ef661947863f7",
+        "services/api/app/jobs.py": "b01b0638999938fed604a5a203d843454f30012f03aececed9b70a0755ff334d",
+        "services/api/app/judge.py": "bf46f9ffac3bf4a4adf9a71b6479c186848c27276d9fe367c0a8bfee408f5b79",
+        "services/api/app/main.py": "bfa365492a3f629030aa007f370ff13b6e4290ad3aa57b3339994763d2a6656f",
+        "services/api/app/models.py": "f85f48571f63666798d83db4d1e651fd71780693095a8ffb3466bb21200a03e1",
+        "services/api/app/oidc.py": "c1871810fc226c869816f3f95b31576bc04cc30ebe5220b517c71fe8a61c9581",
+        "services/api/app/pdf_import.py": "d3ff80a71e915ee7331ddbe7e612ec65118a005a52dec8e43217292db242c069",
+        "services/api/app/pdf_parser_worker.py": "81155b2addceea7862295819c4eb9240025428945bc0ac5d029554e967739786",
+        "services/api/app/platform.py": "218eb3bd825f9fe6e9fd461bdedcf8d9c44b1ca4da139661f27b69a09c7cae30",
+        "services/api/app/practice.py": "a39174ec5e88b85e624ccdbe8b4edf00206c6ba35eb51d1a439ec0062a861cde",
+        "services/api/app/readiness.py": "e715ec273d32193766d4833d5aca979525babac4844eb78add679585798357a5",
+        "services/api/app/request_limits.py": "0de3114ec35743ffbc60998c74e6b888c6a9686f15314ae9c4ff1cd682ec5bc8",
+        "services/api/app/seed.py": "d230339d28dbcc4ffcab74ddd0419539b36d6071267b488d9bc1735631402c8f",
+        "services/api/app/worker.py": "f89b1376996cfc7ddfe5f7c87032330454438fc32f24506f09f2719ca14da37d",
+        "services/api/migrations/env.py": "db331176b43918d292ae8a6f1c23701f69532b83b38cd9e13fac1becab29d6f5",
+        "services/api/migrations/versions/0001_initial.py": "0872ed0772490257aa16ac62023f3c398e0594662587d125193d18d71ef822ff",
+        "services/api/pyproject.toml": "b39348b0932ebb858595e911efcb15f272cd0378510c87eb645a0a696c78536f",
+        "services/api/scripts/freeze_initial_migration.py": "52cfedb4f0e6c19d9bfd0e5b2f74265eb9cd1907903dc1da3a84fc5a361be8ec",
+        "services/api/tests/engines/test_assessment.py": "90acd513fbe826a07e236db413bee28fafede1268b0314dce32ab03c20070b46",
+        "services/api/tests/engines/test_expert_qa.py": "3f5b91372543e9da40989cc007cd8e0c187bcf84320b01c3ef53314e873e076d",
+        "services/api/tests/engines/test_external_evaluation.py": "39e026f2d2209bf5ad2b5d754a2f12d3ad34f09398a3d792793e5baf8a16616d",
+        "services/api/tests/engines/test_extraction.py": "4ce2e2eda61ef5bdbac0be5c3d9636bf3a57f755dd12e6a480309d17a698d3ad",
+        "services/api/tests/engines/test_final_integrity.py": "6e01847af507651752d0ff69e16cd4a513409579aaf13a01f611550ec0616399",
+        "services/api/tests/engines/test_matching.py": "d4f43a8a92ba491cbd17914e0ab10ab9213a717a9516c85e5618e45283bca9c5",
+        "services/api/tests/engines/test_round2.py": "10046a799ba2ab7f4e0fb04a923d7e7d015dd4436a22c01a39f5ce523c90c12e",
+        "services/api/tests/engines/test_semantic.py": "25b508903ccf1d377de2fe3dfefc2a5244cfac6d6fb5c286d4600607e8ea7476",
+        "services/api/tests/test_assessment_review.py": "03bc040463975ab47a51872aa4498ee76cb3e825429dbd8b67acfbe5e94eee72",
+        "services/api/tests/test_assessment_review_api.py": "05d9dd9a7158bb71a4ef6a4343755164eb9097a7e683fd0ad019173b46b458fa",
+        "services/api/tests/test_backend_privacy_round3.py": "9dfe8f2b8b6299f50bf90049391c94154862b63513ecf2793f680f575e727032",
+        "services/api/tests/test_backend_round2.py": "6cb1682460510eb9f38234b33e335793abf168bf48008ec1299070fa8a44e0d1",
+        "services/api/tests/test_contracts.py": "e5311d5564b3824058f4bee6a848bd5838e78eee5e363401452b6d8db3a226d4",
+        "services/api/tests/test_domain_api.py": "ab27a355293545032fa7130e3d88916122307c9324fbac379a25b1c07c9fe67b",
+        "services/api/tests/test_final_backend_release.py": "559b893c85812205bd1020b2a8618e653e59463ef5039dd3f6de1f1cfaa7b402",
+        "services/api/tests/test_local_processes.py": "e503cdd930561c3aee8ef37279461715a484104baa8c5e7f28ca172c8b558e81",
+        "services/api/tests/test_pdf_import.py": "ee451995e263ac84a90c033662e6cc3116f2c8fccd8a5f39c5b64f686cc06fd7",
+        "services/api/tests/test_postgres_concurrency.py": "b192f153bafa7d929b676bbfba2c5a6429e750bda04abcd79378e669f70e3cea",
+        "services/api/tests/test_projection_performance.py": "9e9f1ff028dd61380b7e805fedda2339c74b8aa446bd7fedadc2c9d1f3cd2a65",
+        "services/api/tests/test_quality_evidence.py": "2c9b383ad0030fc399d3b4ba4220456e8fa608e91d4f8fd17b5d919d8053280f",
+        "services/common/__init__.py": "97d9b3f8979afdb7558393976fa2ee954be84a6c8f4e15e87c1de65f93f00a35",
+        "services/common/http.py": "ce05cdd130eb52e87b9f2a2bd0c27612789b67b44230c26b5a82b0921d975afe",
+        "services/integrations/__init__.py": "37a35ada71afa5af1f2eebdc08d74a5727fdbd35a88e78b81439d3c852cfa962",
+        "services/integrations/receiver.py": "d2ddff78ea9ca68abb07f47316d371e94bc2523619f9c31ad9510a6c25380710",
+        "services/judge/__init__.py": "ae432a7a313eb71e74e7f142ce9d515ca64fffabee8ab957cef0e74871d5376e",
+        "services/judge/main.py": "731587d3d6d4a5ea5a269bac8b9e72dd947377b21e140cefa73f0d426bc52305",
+        "services/judge/runner.py": "b2c5ce9546ab2ef70f19271387bbeeedcf356beb96820f2a939d877d794d7347",
+        "services/judge/tasks.py": "6afd74a852382a50fa5875c9e9898429e2936cba9a2122f17ee2cf7041e50855"
+      },
+      "limitations": [
+        "Same Windows host and existing official Python/Node installations; not a fresh machine.",
+        "Fresh API uses explicit SQLite portable mode; PostgreSQL concurrency is checked separately.",
+        "Extracted web/API boot on isolated ports; full identity/SMTP/ATS bootstrap is checked on the main stand.",
+        "No main database or live service is changed."
+      ]
+    },
+    "package": {
+      "status": "passed_component_and_runtime_integrity",
+      "source_files": 307,
+      "verified_runtime_files": 218,
+      "checks": [
+        "outer and nested ZIP CRC",
+        "all source/artifact SHA256 and sizes",
+        "embedded manifest and handoff README equal local files",
+        "exact installed runtime/data/locks match",
+        "current Contra source, fonts and original asset",
+        "current video proof and every chapter sample bound to delivered bytes",
+        "current PDF bound to guide Markdown and every page word bounds",
+        "private local Git and artifact boundaries"
+      ],
+      "proof": "output/release/verification.json",
+      "scope": "The final external manifest and verification bind the exact regenerated bundle bytes and private source commit; documentation metadata may be committed after the initial successful byte verification."
+    }
+  },
+  "historical_supporting_proofs": [
+    "backup-restore.json",
+    "dependencies.json",
+    "http-benchmark.json",
+    "resources.json",
+    "backend-attio.json"
+  ],
+  "observed_persisted_ui_operations": [
+    "profile PATCH and reload",
+    "message send and re-open readback",
+    "matching and saved context",
+    "application stage changed to interview and reload",
+    "candidate reads same interview stage",
+    "revoked contact grant remains closed"
+  ],
+  "limits": [
+    "No presentation, source publication, public deployment, jury repository access or platform upload performed.",
+    "FSP registry, companies and identities are demonstrative; formal result is synthetic public-reference-solver control, not a human examination.",
+    "User-code execution unavailable without configured isolated runner; safe declarative/SQL assessment remains available.",
+    "Commercial ATS and real FSP API not connected. No all-state, all-device, WCAG, security or human-grade certification."
+  ]
+}

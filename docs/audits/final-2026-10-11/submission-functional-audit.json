@@ -1,0 +1,510 @@
+{
+  "schema_version": 1,
+  "product": "ФСП Вектор",
+  "status": "local_functional_scope_passed_submission_blocked",
+  "audited_at": "2026-10-11T19:10:39.488750+00:00",
+  "scope": "Read-only live GET probes, current requirements/proof inspection and artifact/hash/CRC comparison. Existing regression and recorded mutation proofs are cited, not rerun.",
+  "authorization": {
+    "presentation_now_in_scope": true,
+    "prototype_deliverable": "Existing verified MP4 per latest user instruction",
+    "source_publication_performed": false,
+    "main_runtime_or_database_changed": false,
+    "full_pytest_rerun": false
+  },
+  "submission_form": {
+    "source": "User-supplied screenshot codex-clipboard-95e40814-05bc-4e69-977c-66d42e014932.png",
+    "observed_team_name": "ИИ друны",
+    "team_name_confirmed": false,
+    "required_fields": [
+      "Репозиторий",
+      "Документация",
+      "Презентация",
+      "Прототип"
+    ],
+    "optional_fields": [
+      "Дополнительные материалы"
+    ],
+    "field_appearance": "Single-line text inputs; URL validation and accepted hosting are not observable from the screenshot.",
+    "form_url_known": false,
+    "size_format_limits_known": false,
+    "judge_access_links_verified": false,
+    "repository_is_local_private": true
+  },
+  "live_health": {
+    "checked_at": "2026-10-11T19:09:27.378074+00:00",
+    "read_only": true,
+    "probes": [
+      {
+        "name": "web",
+        "url": "http://127.0.0.1:3000/",
+        "method": "GET",
+        "status": 200,
+        "duration_ms": 70.54,
+        "content_type": "text/html; charset=utf-8",
+        "cache_control": "s-maxage=31536000",
+        "has_request_id": false
+      },
+      {
+        "name": "api_health",
+        "url": "http://127.0.0.1:8000/health",
+        "method": "GET",
+        "status": 200,
+        "duration_ms": 70.78,
+        "content_type": "application/json",
+        "cache_control": "no-store",
+        "has_request_id": true,
+        "json": {
+          "status": "ok",
+          "version": "0.1.0",
+          "environment": "local_demo",
+          "user_code_execution": "unavailable_fail_closed",
+          "judge": {
+            "available": false,
+            "reason": "isolated_linux_judge_not_configured",
+            "languages": [],
+            "native_fallback": false
+          },
+          "database": "postgresql"
+        }
+      },
+      {
+        "name": "api_ready",
+        "url": "http://127.0.0.1:8000/ready",
+        "method": "GET",
+        "status": 200,
+        "duration_ms": 261.55,
+        "content_type": "application/json",
+        "cache_control": "no-store",
+        "has_request_id": true,
+        "json": {
+          "status": "ready",
+          "database": true,
+          "schema": true,
+          "migration": "checked"
+        }
+      },
+      {
+        "name": "same_origin_health",
+        "url": "http://localhost:3000/api/v1/health",
+        "method": "GET",
+        "status": 200,
+        "duration_ms": 261.17,
+        "content_type": "application/json",
+        "cache_control": "no-store",
+        "has_request_id": true,
+        "json": {
+          "status": "ok",
+          "version": "0.1.0",
+          "environment": "local_demo",
+          "user_code_execution": "unavailable_fail_closed",
+          "judge": {
+            "available": false,
+            "reason": "isolated_linux_judge_not_configured",
+            "languages": [],
+            "native_fallback": false
+          },
+          "database": "postgresql"
+        }
+      },
+      {
+        "name": "candidate_anonymous_guard",
+        "url": "http://localhost:3000/api/v1/candidate/profile",
+        "method": "GET",
+        "status": 401,
+        "duration_ms": 94.44,
+        "content_type": "application/json",
+        "cache_control": "no-store",
+        "has_request_id": true,
+        "problem_code": "AUTH_REQUIRED",
+        "problem_status": 401
+      },
+      {
+        "name": "employer_anonymous_guard",
+        "url": "http://localhost:3000/api/v1/employer/candidates",
+        "method": "GET",
+        "status": 401,
+        "duration_ms": 87.06,
+        "content_type": "application/json",
+        "cache_control": "no-store",
+        "has_request_id": true,
+        "problem_code": "AUTH_REQUIRED",
+        "problem_status": 401
+      },
+      {
+        "name": "session_anonymous_guard",
+        "url": "http://localhost:3000/api/v1/auth/me",
+        "method": "GET",
+        "status": 401,
+        "duration_ms": 27.14,
+        "content_type": "application/json",
+        "cache_control": "no-store",
+        "has_request_id": true,
+        "problem_code": "AUTH_REQUIRED",
+        "problem_status": 401
+      },
+      {
+        "name": "identity_discovery",
+        "url": "http://127.0.0.1:8081/realms/vector/.well-known/openid-configuration",
+        "method": "GET",
+        "status": 200,
+        "duration_ms": 54.74,
+        "content_type": "application/json",
+        "cache_control": "no-cache, must-revalidate, no-transform, no-store",
+        "has_request_id": false,
+        "issuer": "http://localhost:8081/realms/vector",
+        "supports_pkce_s256": true
+      },
+      {
+        "name": "mailpit",
+        "url": "http://127.0.0.1:8025/",
+        "method": "GET",
+        "status": 200,
+        "duration_ms": 5.23,
+        "content_type": "text/html; charset=utf-8",
+        "cache_control": null,
+        "has_request_id": false
+      },
+      {
+        "name": "ats",
+        "url": "http://127.0.0.1:8090/health",
+        "method": "GET",
+        "status": 200,
+        "duration_ms": 6.37,
+        "content_type": "application/json",
+        "cache_control": null,
+        "has_request_id": false,
+        "json": {
+          "status": "ok",
+          "kind": "local_demo_ats",
+          "signature": "hmac_sha256_timestamp_body",
+          "idempotent": true
+        }
+      },
+      {
+        "name": "openapi",
+        "url": "http://127.0.0.1:8000/openapi.json",
+        "method": "GET",
+        "status": 200,
+        "duration_ms": 157.86,
+        "content_type": "application/json",
+        "cache_control": "no-store",
+        "has_request_id": true,
+        "path_count": 74,
+        "version": "3.1.0",
+        "live_sha256": "0a4dfcda80078d71c229fae2a9f03c3ae17e8f6d96a086ee3486cf8838bdde10"
+      }
+    ]
+  },
+  "artifacts": {
+    "checked_at": "2026-10-11T19:10:39.488750+00:00",
+    "artifact_checks": [
+      {
+        "path": "output/release/fsp-vector-source.zip",
+        "bytes": 4642502,
+        "sha256": "ac25af67659697b3dc14eb286d7fa40746fa51a4c662e734626dc509cdf9f5fd",
+        "matches_manifest_hash": true,
+        "matches_manifest_bytes": true
+      },
+      {
+        "path": "output/pdf/fsp-vector-technical-guide.pdf",
+        "bytes": 48510,
+        "sha256": "6bb1fe94a90f8dd367c22fff83651f8124aa3ac8debcc189da12bb49f435d1a6",
+        "matches_manifest_hash": true,
+        "matches_manifest_bytes": true
+      },
+      {
+        "path": "output/demo/fsp-vector-demo.mp4",
+        "bytes": 4794602,
+        "sha256": "5f15a91ae522a0af3396173a3c1e10d8996dab9a536260c3842106f4c45fca61",
+        "matches_manifest_hash": true,
+        "matches_manifest_bytes": true
+      }
+    ],
+    "source": {
+      "crc_failure": null,
+      "zip_entries": 307,
+      "manifest_source_files": 307,
+      "source_files_hash_mismatches": [],
+      "verified_runtime_files": 218,
+      "packaged_runtime_mismatches": [],
+      "current_runtime_mismatches": [
+        "apps/web/public/fonts/prata-OFL.txt",
+        "deploy/Dockerfile.api",
+        "deploy/Dockerfile.web",
+        "deploy/compose.local.yml",
+        "deploy/image-lock.json",
+        "scripts/resource_snapshot.ps1",
+        "services/api/migrations/versions/0001_initial.py"
+      ],
+      "current_head": "c73bc4dc52cff9f581fdd0a87ace0a371094b1c0",
+      "manifest_commit": "c73bc4dc52cff9f581fdd0a87ace0a371094b1c0",
+      "commit_matches": true,
+      "manifest_proof_report_hash_matches": true
+    },
+    "bundle": {
+      "crc_failure": null,
+      "members": [
+        "fsp-vector-source.zip",
+        "fsp-vector-technical-guide.pdf",
+        "fsp-vector-demo.mp4",
+        "manifest.json",
+        "README.md"
+      ],
+      "sha256_matches_verification": true,
+      "bytes_match_verification": true,
+      "member_checks": [
+        {
+          "name": "fsp-vector-source.zip",
+          "bytes_match": true,
+          "sha256_match": true
+        },
+        {
+          "name": "fsp-vector-technical-guide.pdf",
+          "bytes_match": true,
+          "sha256_match": true
+        },
+        {
+          "name": "fsp-vector-demo.mp4",
+          "bytes_match": true,
+          "sha256_match": true
+        }
+      ]
+    },
+    "video": {
+      "status": "passed_decode_duration_fps_and_all_chapter_ui_alignment",
+      "sha256": "5f15a91ae522a0af3396173a3c1e10d8996dab9a536260c3842106f4c45fca61",
+      "bytes": 4794602,
+      "chapters": 29,
+      "captures": 279,
+      "alignment_checks": 29,
+      "maximum_alignment_mae": 1.0489,
+      "duration_seconds": 264.692,
+      "encoded_duration_seconds": 264.71,
+      "encoded_fps": 24,
+      "limits": [
+        "Sampling/resampling can omit a browser frame; this is not a lossless native display recording.",
+        "No narration; Russian captions. Identities and companies are synthetic.",
+        "Assessment answers use an authored public-data reference solver for automated integration control, not a human examination or validity study.",
+        "All chapter midpoint UI samples match recorded pixels; this does not prove lossless motion or every intermediate browser frame."
+      ],
+      "capture_limit": "279 actual browser captures over the edited 264.692-second timeline; 24 fps is encoding resampling, not native 24fps capture."
+    },
+    "pdf": {
+      "status": "passed_unicode_word_bounds_and_all_page_visual_review",
+      "sha256": "6bb1fe94a90f8dd367c22fff83651f8124aa3ac8debcc189da12bb49f435d1a6",
+      "bytes": 48510,
+      "pages": 10,
+      "all_pages_word_bounds_verified": 10,
+      "word_bounds_overflow": 0,
+      "visual_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_hash_matches_current_guide": true,
+      "source_hash_matches_packaged_guide": true,
+      "limit": "All-page Unicode, word geometry and model visual raster review; not accessibility or full source/PDF fidelity certification."
+    },
+    "private_git": {
+      "remote_count": 0,
+      "remote_names": []
+    },
+    "manifest_excluded_deliverables": [
+      "Presentation (explicitly deferred by user)",
+      "Public deployment and platform upload"
+    ],
+    "source_archive_checks": [
+      "fresh venv installs exact requirements and editable project; pip check",
+      "npm ci and production build from extracted source",
+      "fresh SQLite Alembic migration, API readiness and six-track catalog",
+      "authenticated extracted quality report provenance and assessment review OpenAPI contract",
+      "actual extracted production web boot, CSS/local font, same-origin auth/CSRF and isolated persisted profile save"
+    ],
+    "source_archive_limits": [
+      "Same Windows host and existing official Python/Node installations; not a fresh machine.",
+      "Fresh API uses explicit SQLite portable mode; PostgreSQL concurrency is checked separately.",
+      "Extracted web/API boot on isolated ports; full identity/SMTP/ATS bootstrap is checked on the main stand.",
+      "No main database or live service is changed."
+    ],
+    "verification_status": "passed",
+    "source_report_hashes": {
+      "docs/audits/final-2026-10-11/release.json": "5d490d750ffc7821514fbdd54887bd4f6f7aff0d15c14feaec8932976e81b9bf",
+      "docs/audits/final-2026-10-11/video.json": "7276031c91e65946c4cb8498727336c23feb9685ce7ecd90afae2ed630a15674",
+      "docs/audits/final-2026-10-11/pdf.json": "86b664cd52ce56a806054552bdf426082e6a54ad608a12aedb257a5a3a14e961",
+      "docs/audits/final-2026-10-11/backend-contra.json": "2cc17ae8cf9922fff579d41791944ecb3454688e7a9befbcbb563ece653f606a",
+      "docs/audits/source-archive.json": "39ff6b08ff668f28130f82d1bf476052d9f9073c1c4f61fea9ceca9277f7235c",
+      "output/release/manifest.json": "84592aec52f760a2b6769215d1f1c70250ae0955c2c228ec97fb8e0d7a4edc49",
+      "output/release/verification.json": "faee291adb9f9ab3e29c8d11ba7bebd2a80c4fe3c4e69a1f7a36024b8bc895a4"
+    }
+  },
+  "runtime_byte_boundary": {
+    "packaged_runtime_mismatches": 0,
+    "raw_workingtree_byte_differences": 7,
+    "normalized_lf_and_git_head_blob_match_for_all_seven": true,
+    "differences_only_crlf_lf": true,
+    "paths": [
+      "apps/web/public/fonts/prata-OFL.txt",
+      "deploy/Dockerfile.api",
+      "deploy/Dockerfile.web",
+      "deploy/compose.local.yml",
+      "deploy/image-lock.json",
+      "scripts/resource_snapshot.ps1",
+      "services/api/migrations/versions/0001_initial.py"
+    ],
+    "limitation": "Raw working-tree hashes are not identical for these seven text files; canonical Git/source archive bytes and LF-normalized contents equal the verified runtime proof."
+  },
+  "regression_proofs": {
+    "frontend": {
+      "tests_passed": 90,
+      "failures": 0,
+      "skips": 0,
+      "duration_ms": 12157.8546,
+      "completed_at": "2026-10-11T18:24:07.9218995Z",
+      "rerun_during_this_audit": false
+    },
+    "api_engines_integration": {
+      "tests_passed": 268,
+      "subtests_passed": 324,
+      "failures": 0,
+      "duration_seconds": 86.94,
+      "warnings": 1,
+      "warning": "Starlette TestClient httpx transport deprecation",
+      "isolated_database": "sqlite:// fixtures",
+      "rerun_during_this_audit": false
+    },
+    "postgres": {
+      "rerun_during_this_audit": false,
+      "current_contra_tests": 0,
+      "historical_tests_passed": 14,
+      "historical_report": "docs/audits/final-2026-10-11/backend-attio.json"
+    },
+    "production_build_typecheck": {
+      "status": "passed_in_current_release_report",
+      "rerun_during_this_audit": false
+    }
+  },
+  "recorded_operations": [
+    "Saved synthetic formal assessment result 100; not a new human exam or current new account.",
+    "Real profile save and reload readback.",
+    "Message submission and persisted readback.",
+    "Persisted match index 74 with explanation and hidden contacts.",
+    "Employer pipeline interview transition after reload; candidate consistent status.",
+    "Revoked company contact permission and local signed ATS view.",
+    "Registration form only; account creation and email verification are not repeated in this MP4."
+  ],
+  "blockers": [
+    {
+      "id": "S01",
+      "severity": "submission_blocker",
+      "finding": "Required repository/documentation/presentation/prototype links and their judge permissions are not supplied or verified.",
+      "action": "Provide the actual accessible links; verify viewing/download from an account without owner privileges. A localhost URL or local filesystem path is insufficient for remote judges."
+    },
+    {
+      "id": "S02",
+      "severity": "submission_blocker",
+      "finding": "Required presentation is newly authorized; completed presentation and preservation of mandatory template slides 7–11 have not been proven by this audit.",
+      "action": "Finish and review the deck against the provided template, then attach its judge-accessible link."
+    },
+    {
+      "id": "S03",
+      "severity": "submission_blocker",
+      "finding": "Submission form URL, field validation/hosting constraints and platform receipt are unknown.",
+      "action": "Use the actual form and confirm submitted fields/receipt before the organizer deadline; this audit does not perform upload."
+    }
+  ],
+  "documentation_findings": [
+    {
+      "id": "D01",
+      "severity": "release_evidence",
+      "path": "docs/submission/requirements-matrix.md",
+      "finding": "Only 40 unique requirement rows; R39 documentation and R40 full new-user flow are absent while header/release claim 42.",
+      "action": "Add explicit rows with current proof and limits; do not infer a new-user formal exam from the current MP4."
+    },
+    {
+      "id": "D02",
+      "severity": "release_evidence",
+      "path": "docs/submission/requirements-matrix.md",
+      "finding": "Intro and summary say 50 UI video alignment checks; current video.json has 29 chapter checks.",
+      "action": "Use 29 and the actual current Contra capture scope; retain older C/Attio observations as historical."
+    },
+    {
+      "id": "D03",
+      "severity": "scope_drift",
+      "paths": [
+        "AGENTS.md",
+        "README.md",
+        "docs/submission/technical-guide.md",
+        "docs/submission/requirements-matrix.md",
+        "output/release/manifest.json"
+      ],
+      "finding": "Presentation remains described as excluded/deferred/out of scope in prior local release.",
+      "action": "Update the presentation handoff/release scope and rebuild affected PDF/bundle as necessary; new user authorization supersedes old local instructions."
+    },
+    {
+      "id": "D04",
+      "severity": "evidence_precision",
+      "paths": [
+        "README.md",
+        "docs/submission/technical-guide.md"
+      ],
+      "finding": "Phrase 'overview and six pages' is inaccurate; independent design review says six findings resolved plus separate Overview copy correction, with selective source/static evidence.",
+      "action": "Describe review scope accurately; do not claim a six-page complete functional or motion audit."
+    }
+  ],
+  "limitations": [
+    "No authenticated mutation is repeated in this read-only audit; those operations rely on current recorded persisted readbacks and isolated regression proofs.",
+    "No fresh complete new-user account→verification→12-answer formal exam flow in the current Contra MP4; older synthetic end-to-end proof is historical.",
+    "Formal scores, profiles, companies and registry data are synthetic; no human qualification calibration or hiring outcomes are measured.",
+    "FSP registry adapter is demo-only; official API integration and legal organizational verification are not exercised.",
+    "User code runner remains unavailable_fail_closed; actual Linux/gVisor and Docker Compose execution are not verified on this Windows stand.",
+    "Readiness and PKCE discovery do not prove full external identity/SMTP/commercial ATS production behavior.",
+    "Video is sampled browser captures encoded/resampled at24fps, not native lossless24fps motion; no narration.",
+    "Cross-browser/real-device, assistive technology, motion playback, sustained SSE/load and production rollout are not certified.",
+    "Existing source ZIP excludes presentation. Newly created audit/deck files do not automatically update the previously verified source/bundle manifest.",
+    "Public links, private-repository judge invitations and actual platform submission remain unverified."
+  ],
+  "sources": [
+    "docs/01-case-and-competition.md",
+    "docs/IMPLEMENTATION-CONTRACT.md",
+    "docs/submission/requirements-matrix.md",
+    "docs/audits/expert-clarifications.md",
+    "docs/audits/final-2026-10-11/release.json",
+    "docs/audits/final-2026-10-11/backend-contra.json",
+    "docs/audits/final-2026-10-11/backend-attio.json",
+    "docs/audits/final-2026-10-11/contra-verification.md",
+    "docs/audits/final-2026-10-11/contra-design-review.md",
+    "docs/audits/final-2026-10-11/video.json",
+    "docs/audits/final-2026-10-11/pdf.json",
+    "docs/audits/source-archive.json",
+    "output/release/manifest.json",
+    "output/release/verification.json"
+  ],
+  "document_finalized_at": "2026-10-11T19:14:58.195762+00:00",
+  "artifact_hash_crosscheck": {
+    "video_equals_canonical_report": true,
+    "pdf_equals_canonical_report": true
+  },
+  "sources_snapshot_sha256": {
+    "docs/01-case-and-competition.md": "fe347497d7d4fba5fa8522054a996c2ef24bdee0b3220c1e9ea4ef6adf0c8e3f",
+    "docs/IMPLEMENTATION-CONTRACT.md": "1d17dd546484e612920bced8252713c9054b0d9a4974476b7a155e07b95998a5",
+    "docs/submission/requirements-matrix.md": "30769af27cd319204a4f3982093f49f9740061dc0a9d6939c9029b0428cd9a0e",
+    "docs/audits/expert-clarifications.md": "4e52f388a1c5f2f7e7d057fb269d0994698667deb49f234fbf7b3e22c4e02dd4",
+    "docs/audits/final-2026-10-11/release.json": "5d490d750ffc7821514fbdd54887bd4f6f7aff0d15c14feaec8932976e81b9bf",
+    "docs/audits/final-2026-10-11/backend-contra.json": "2cc17ae8cf9922fff579d41791944ecb3454688e7a9befbcbb563ece653f606a",
+    "docs/audits/final-2026-10-11/backend-attio.json": "aa749b9d69b44de6a0d5ab34187f42c9e1224c534d20f3187731895b8917d365",
+    "docs/audits/final-2026-10-11/contra-verification.md": "7c18aec967c5c59c6068cbb8b20820718fa35b57d0a7e2a558b71cd9d43a5ef6",
+    "docs/audits/final-2026-10-11/contra-design-review.md": "5f9589bc4e34e85682c88389819fdfa8e8d9d3c5030ac03674ed303c0196e90a",
+    "docs/audits/final-2026-10-11/video.json": "7276031c91e65946c4cb8498727336c23feb9685ce7ecd90afae2ed630a15674",
+    "docs/audits/final-2026-10-11/pdf.json": "86b664cd52ce56a806054552bdf426082e6a54ad608a12aedb257a5a3a14e961",
+    "docs/audits/source-archive.json": "39ff6b08ff668f28130f82d1bf476052d9f9073c1c4f61fea9ceca9277f7235c",
+    "output/release/manifest.json": "84592aec52f760a2b6769215d1f1c70250ae0955c2c228ec97fb8e0d7a4edc49",
+    "output/release/verification.json": "faee291adb9f9ab3e29c8d11ba7bebd2a80c4fe3c4e69a1f7a36024b8bc895a4"
+  }
+}

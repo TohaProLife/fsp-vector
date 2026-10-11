@@ -1,0 +1,20 @@
+{
+  "status": "observed_public_routes",
+  "design": "Contra Hire",
+  "checked_at": "2026-10-11T18:51:35.869713+00:00",
+  "routes": [
+    "/",
+    "/login",
+    "/register",
+    "/register?role=employer",
+    "/verify",
+    "/demo/inbox"
+  ],
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "scope": "Current final public/auth reviewer packet; final functional recording shows role switching and registration form.",
+  "proof": "browser.json",
+  "limit": "Selected views and states; registration account creation is not repeated in the new movie."
+}

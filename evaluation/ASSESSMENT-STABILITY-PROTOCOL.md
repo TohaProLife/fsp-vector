@@ -1,0 +1,25 @@
+# Locked protocol: synthetic test-retest and item discrimination
+
+Protocol ID: `vector-synthetic-retest-v1`. Locked seed: `2026100704`. Defined before the first experiment run, following official expert answer B4 in `Ответы на вопросы трек ФСП ЛЦТ__.xlsx` (source SHA256 `c7f6a492aa117470e672997dfab22fe9cd4a72b4facdd59bdb196891ad91c8a4`). No thresholds or responder rules will be tuned to improve the reported metrics.
+
+## Population and administration
+
+Six specializations, four requested grades, 20 fixed behavior profiles per specialization. Each profile receives eight independent seeded category forms. The same public form cohort is used for all profiles within a route; least-seen concept exposure is applied between forms. There are 192 distinct generated forms and 3,840 profile-attempt administrations, with 46,080 item responses. Four disjoint A/B pairs per profile yield 1,920 category comparisons. All eight repeats also provide per-profile observed decision distributions.
+
+Profiles are perfect (1), shallow concept memorization (1), blind choice guesser with flawed data methods (1), one weak competency (4), one competency with basic methods only (4), heterogeneous full/basic/misconception competency vectors (4), and full-method profiles with fixed attention propensities 0.70, 0.80, 0.85, 0.90 and 0.95 (5). Each attention profile has one rotating weaker competency with propensity reduced by 0.15. Attention decisions use a stable digest of profile identity and public task content, independent of rubric, oracle, score and pass decision. Option IDs and order are normalized away for behavior selection. A lapse invokes an actual flawed method, not a sampled score. The profile strategies stay identical across grades and repeats.
+
+Responders receive public statements/data only. Correct data methods use the independent public-contract reference solvers. Flawed methods represent explicit omissions: arrival order instead of version reconciliation, scope/expiry or cache-revocation omission, unweighted percentages, forgotten aggregation conditions, threshold/boundary errors, unsafe retry, incorrect request-race handling, insufficient optimization constraints and token-policy omissions. Basic-only profiles solve ordinary data contracts, but use these shortcuts for advanced contracts. Concept knowledge uses the existing author ledger; uninformed choices are selected without reading that ledger. This is an explicit modeled response mechanism, not independent human semantic validation.
+
+Every answer is submitted to the ordinary `grade_form`, including all stored floors. No direct score injection, no automatic downgrade to an unrequested grade and no production category mutation. Raw assignment is the requested grade on PASS, otherwise `UNCONFIRMED`. Persisted previous-category retention is deliberately not used: it would conceal unstable new attempts. Formal production cooldown is unchanged; this is an offline form experiment, not repeated live API examination.
+
+## Measurements, fixed before execution
+
+- Raw category agreement on disjoint A/B pairs, confusion counts and Cohen's kappa. Kappa is null when expected agreement is one. Report route and profile-kind summaries; show perfect and shallow controls separately so trivial stable extremes do not conceal boundary profiles.
+- Mean signed and absolute paired score differences, maximum absolute difference and score Pearson correlation. Zero variance yields null, never a fabricated one. Report profiles with both PASS and FAIL over the eight repeats.
+- For each route/competency/slot/family, response mean, exact-correct rate, variance, corrected item-rest Pearson correlation and upper/lower separation. Rest score excludes the tested item's earned points. Upper/lower groups are the highest/lowest 27% of rest scores (minimum one, equal disjoint group sizes), with deterministic profile/repeat ordering for ties. Repeated observations are not independent human samples; no significance or population confidence claim is made.
+- Undefined item/rest variance is explicitly reported. Negative correlations and non-positive upper/lower separation are review flags. They do not automatically rewrite the bank or thresholds.
+- For the same profile and specialization, flag a higher requested grade whose modeled pass rate exceeds a lower grade's. Different grade contracts and finite seeded cohorts can explain such a flag; it is diagnostic, not proof of a production bug.
+
+## Provenance and limits
+
+Save fixed profile definitions, form/public-answer hashes, raw attempt summaries, protocol SHA256 and source version/hash. The reproducible report includes all undefined counts and adverse findings, even if stability or discrimination is poor. No IRT, human test-retest, human grade validity, response-time fairness or hiring quality is inferred. Synthetic success shows behavior under the explicitly declared methods and profile mixture only. Parametric forms can still be solved by someone who knows the full method; this experiment does not measure cheating resistance.

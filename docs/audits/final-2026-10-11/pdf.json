@@ -1,0 +1,296 @@
+{
+  "schema_version": 2,
+  "status": "passed_unicode_word_bounds_and_all_page_visual_review",
+  "created_at": "2026-10-11T18:40:39.831597+00:00",
+  "design": "Contra Hire / original Vector implementation",
+  "source": "docs/submission/technical-guide.md",
+  "source_sha256": "5ad2cd63d2e7474b324f4639501246b9ed0d4494342b437d15f2749e344af28b",
+  "pdf": "output/pdf/fsp-vector-technical-guide.pdf",
+  "sha256": "6bb1fe94a90f8dd367c22fff83651f8124aa3ac8debcc189da12bb49f435d1a6",
+  "bytes": 48510,
+  "pages": 10,
+  "text_characters": 30716,
+  "words": 3599,
+  "all_pages_word_bounds_verified": 10,
+  "word_bounds_tolerance_pt": 0.5,
+  "word_bounds_overflow": 0,
+  "word_bounds_issues": [],
+  "unicode": {
+    "status": "passed_for_extracted_text",
+    "source_cyrillic_characters": 19539,
+    "pdf_cyrillic_characters": 20019,
+    "source_issues": [],
+    "pdf_issues": [],
+    "checks": [
+      "strict UTF-8 source decoding",
+      "replacement characters",
+      "surrogates",
+      "unexpected controls",
+      "Unicode noncharacters",
+      "Cyrillic extraction present"
+    ],
+    "limit": "Unicode extraction does not prove glyph appearance, complete source/PDF equivalence, reading order, or visual legibility."
+  },
+  "empty_text_pages": [],
+  "rendered_pages": 10,
+  "render_scale": 1.5,
+  "render_dpi": 108.0,
+  "render_directory": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3",
+  "page_checks": [
+    {
+      "page": 1,
+      "render_status": "rendered",
+      "page_bounds_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "rotation": 0,
+      "text_characters": 2884,
+      "cyrillic_characters": 1918,
+      "words": 313,
+      "unicode_issues": 0,
+      "word_bounds_overflow": 0,
+      "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-001.png",
+      "render_sha256": "f347fea5e2a185cd2af4edcba948e4b0cc10b696c9304f771dba6b790faa486f",
+      "render_bytes": 206849,
+      "render_width": 893,
+      "render_height": 1263
+    },
+    {
+      "page": 2,
+      "render_status": "rendered",
+      "page_bounds_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "rotation": 0,
+      "text_characters": 3442,
+      "cyrillic_characters": 2560,
+      "words": 408,
+      "unicode_issues": 0,
+      "word_bounds_overflow": 0,
+      "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-002.png",
+      "render_sha256": "f1379d515b84a250f342a3ddb69ef3021d19a39f16d355225b61a5b76158e9a3",
+      "render_bytes": 235887,
+      "render_width": 893,
+      "render_height": 1263
+    },
+    {
+      "page": 3,
+      "render_status": "rendered",
+      "page_bounds_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "rotation": 0,
+      "text_characters": 2989,
+      "cyrillic_characters": 2227,
+      "words": 358,
+      "unicode_issues": 0,
+      "word_bounds_overflow": 0,
+      "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-003.png",
+      "render_sha256": "4381a3b4b38fa876162d8ac062ace34cfec7ca7e84fa237b2406098863914725",
+      "render_bytes": 206801,
+      "render_width": 893,
+      "render_height": 1263
+    },
+    {
+      "page": 4,
+      "render_status": "rendered",
+      "page_bounds_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "rotation": 0,
+      "text_characters": 3283,
+      "cyrillic_characters": 2475,
+      "words": 383,
+      "unicode_issues": 0,
+      "word_bounds_overflow": 0,
+      "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-004.png",
+      "render_sha256": "51c1d645af43e756fe856e1625d4da4438596009c459a357c4d81d53c3a799f6",
+      "render_bytes": 232049,
+      "render_width": 893,
+      "render_height": 1263
+    },
+    {
+      "page": 5,
+      "render_status": "rendered",
+      "page_bounds_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "rotation": 0,
+      "text_characters": 3600,
+      "cyrillic_characters": 2069,
+      "words": 455,
+      "unicode_issues": 0,
+      "word_bounds_overflow": 0,
+      "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-005.png",
+      "render_sha256": "944c94d684c83fbf1c73729c5fcb7679eb4643c771b3e067c40d7fcc627f449f",
+      "render_bytes": 255983,
+      "render_width": 893,
+      "render_height": 1263
+    },
+    {
+      "page": 6,
+      "render_status": "rendered",
+      "page_bounds_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "rotation": 0,
+      "text_characters": 3822,
+      "cyrillic_characters": 2536,
+      "words": 465,
+      "unicode_issues": 0,
+      "word_bounds_overflow": 0,
+      "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-006.png",
+      "render_sha256": "a5bd6b1b7ab85d615e375956e2a99a27115c9bca931cd9ccc8c50a09dcff22f6",
+      "render_bytes": 268162,
+      "render_width": 893,
+      "render_height": 1263
+    },
+    {
+      "page": 7,
+      "render_status": "rendered",
+      "page_bounds_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "rotation": 0,
+      "text_characters": 3288,
+      "cyrillic_characters": 1683,
+      "words": 334,
+      "unicode_issues": 0,
+      "word_bounds_overflow": 0,
+      "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-007.png",
+      "render_sha256": "6cddb648a71523322cd78d80124fe9937b9222b19ae18eb0d450f7dec57d7496",
+      "render_bytes": 237544,
+      "render_width": 893,
+      "render_height": 1263
+    },
+    {
+      "page": 8,
+      "render_status": "rendered",
+      "page_bounds_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "rotation": 0,
+      "text_characters": 2732,
+      "cyrillic_characters": 1174,
+      "words": 318,
+      "unicode_issues": 0,
+      "word_bounds_overflow": 0,
+      "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-008.png",
+      "render_sha256": "ea05365fee2ed79b7afb877fe4234b919641895cb854d5a492a0d3a8e651d7a5",
+      "render_bytes": 206172,
+      "render_width": 893,
+      "render_height": 1263
+    },
+    {
+      "page": 9,
+      "render_status": "rendered",
+      "page_bounds_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "rotation": 0,
+      "text_characters": 3331,
+      "cyrillic_characters": 2477,
+      "words": 398,
+      "unicode_issues": 0,
+      "word_bounds_overflow": 0,
+      "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-009.png",
+      "render_sha256": "07e6142abc0f35e2677e06270ba058b108f3c22bbc83866bac92ec4e47e472df",
+      "render_bytes": 230284,
+      "render_width": 893,
+      "render_height": 1263
+    },
+    {
+      "page": 10,
+      "render_status": "rendered",
+      "page_bounds_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "rotation": 0,
+      "text_characters": 1345,
+      "cyrillic_characters": 900,
+      "words": 167,
+      "unicode_issues": 0,
+      "word_bounds_overflow": 0,
+      "render": "output/design-rebuild/contra/pdf-review/6bb1fe94a90f8dd3/page-010.png",
+      "render_sha256": "3ec8c34df81570d06b29331411ef34be5bf8530f133c3be4f662ae266ddd6bd2",
+      "render_bytes": 99805,
+      "render_width": 893,
+      "render_height": 1263
+    }
+  ],
+  "errors": [],
+  "input_stability": {
+    "source_unchanged_during_audit": true,
+    "pdf_unchanged_during_audit": true
+  },
+  "runtime": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "pymupdf": "1.28.2",
+    "path": ".runtime/pdf-review/pymupdf/__init__.py"
+  },
+  "audit_helper": ".local/contra_pdf_audit.py",
+  "audit_helper_sha256": "34027ed8c39820787eeb18eaa5edc4e74a77164e4609c246e53dcb8124018aea",
+  "visual_pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "visual_review": {
+    "status": "reviewed",
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reviewer": "root pages1-5; independent contra_documenter pages6-10",
+    "reviewed_at": "2026-10-11T18:43:19.020633+00:00",
+    "required_scope": "All10 actual rendered pages",
+    "note": "Glyphs, commands/paths, legibility, margins and footer checked on actual page images."
+  },
+  "limit": "All-page Unicode, word geometry and model visual raster review; not accessibility or full source/PDF fidelity certification.",
+  "glyph_correction": "Unsupported delta symbol replaced by Russian word изменение; numerical value unchanged."
+}

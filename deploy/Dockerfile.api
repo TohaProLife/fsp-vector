@@ -1,0 +1,21 @@
+ARG PYTHON_IMAGE=python:3.14.6-slim-bookworm@sha256:4c92ffcde4dd6f1ff72a24518f49fd4990b27134987dfa31a733badde66df9f8
+FROM ${PYTHON_IMAGE}
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 PYTHONUTF8=1
+WORKDIR /app
+COPY services/api/pyproject.toml services/api/pyproject.toml
+COPY services/api/app services/api/app
+COPY services/api/migrations services/api/migrations
+COPY services/api/alembic.ini services/api/alembic.ini
+COPY services/judge/tasks.py services/judge/tasks.py
+COPY services/integrations services/integrations
+COPY services/common services/common
+COPY assets/fonts assets/fonts
+COPY assessment-bank assessment-bank
+COPY data data
+COPY evaluation evaluation
+COPY deploy/requirements.lock /tmp/requirements.lock
+RUN pip install --no-cache-dir -r /tmp/requirements.lock && pip install --no-cache-dir --no-deps ./services/api && useradd --uid 10001 --create-home vector && mkdir -p /app/storage && chown vector:vector /app/storage
+USER vector
+WORKDIR /app/services/api
+EXPOSE 8000
+CMD ["python", "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--no-access-log"]

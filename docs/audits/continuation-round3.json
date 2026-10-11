@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-07T20:26:32.805385+00:00",
+  "baseline_commit": "7506298f8a50c6690a5948d05fe74a1f57be6cdc",
+  "full_verification": {
+    "server_tests": 253,
+    "subtests": 290,
+    "seconds": 55.94,
+    "frontend_tests": 51,
+    "frontend_typecheck": "passed",
+    "production_web_build": "passed",
+    "postgres_concurrency_tests": 14,
+    "warnings": [
+      "Starlette TestClient httpx transport deprecation; assertions passed"
+    ]
+  },
+  "contracts": {
+    "paths": 74,
+    "schemas": 64,
+    "export_and_generated_client": "passed"
+  },
+  "live_smoke_checks": 6,
+  "browser_and_live_proof": "docs/audits/round3-live.json",
+  "source_installation": {
+    "status": "passed",
+    "checked_at": "2026-10-07T20:24:42.444438+00:00",
+    "runtime_files": 189,
+    "checks": [
+      "fresh venv installs exact requirements and editable project; pip check",
+      "npm ci and production build from extracted source",
+      "fresh SQLite Alembic migration, API readiness and six-track catalog",
+      "authenticated extracted quality report provenance and assessment review OpenAPI contract"
+    ]
+  },
+  "frozen_evaluation_sha256": {
+    "evaluation/reports/latest.json": "c4047cbd3faccd61c80946102328108c822d72c3d41cac13cae9247505ee815f",
+    "evaluation/reports/assessment-stability.json": "52f64d19700bc1e080476f5393f7f2205f697c4d9d719cc74ac7e6ea7d6ad98b",
+    "evaluation/ASSESSMENT-STABILITY-PROTOCOL.md": "d3f67449b7d8c1d4f4218d40e0263f82882f7d12d31613bf113fb7fdad4347d7",
+    "data/evaluation/assessment-stability-observations.json": "aa7c2ac976e07ddc723fcf871677af9edd8a4fde1198870e3a1de7fc72d6b956"
+  },
+  "reviewed_current_source_sha256": {
+    "services/api/app/assessment.py": "61bb4f6b9208e60e75c4602719ae5ebba6630bc0ac3216286cd1603cf839e514",
+    "services/api/app/assessment_review.py": "8d5385242833136cf67fa67f064996c0dbdd3619f362f8b4305b61ef987cc1e2",
+    "services/api/app/auth.py": "08c6ac632a1b7902dcf1a957a868c349055aec5b7dc24516a12df7f9f292405a",
+    "services/api/app/common.py": "597241b7a70013741b98a85ff7afc4bc77f35daff4a7a83a1576f03e9bb96666",
+    "services/api/app/contracts.py": "732eb731f2d5dbc49871c28138704792825b0b0808e0f2db4c0e651c9923bb6b",
+    "services/api/app/evaluation_summary.py": "448fa8240ac74acb72d5b4a1a0e2bcf48be3a1b290aad6b0353a231520eec016",
+    "services/api/app/hiring.py": "9cd9cf5a8a883fb44079ef6c4cb6a335b9d809cdf247ef1b687ef661947863f7",
+    "services/api/app/jobs.py": "2247bedd9d98e224f60d7ecfde2961c6c0ab4ffa842c603c403dd9ddc4b53c03",
+    "services/api/app/platform.py": "218eb3bd825f9fe6e9fd461bdedcf8d9c44b1ca4da139661f27b69a09c7cae30",
+    "services/api/app/worker.py": "f89b1376996cfc7ddfe5f7c87032330454438fc32f24506f09f2719ca14da37d",
+    "apps/web/src/features/exam.tsx": "0bc0491ae1075dbfa2779e2334604783596d8ad455871e9d1c15821cab23b72f",
+    "apps/web/src/features/hiring.tsx": "ad8093dc2f1599d1a0b7dda97a15bb2f3629470ff11386f20a87df072894cb46",
+    "apps/web/src/features/operations.tsx": "80140eaf708c15aaf0d101137b97f3153f05e1a0cce0cdd913bc7be87586ba0b",
+    "apps/web/src/lib/assessment-review.ts": "dd6451a439f3c2a004dfbab2d4809fb594c531b264545f3803b2bb48fe739fe3",
+    "apps/web/src/lib/hooks.ts": "b3a588374160e5b58c68f19078998f50bb2a6dcdbe8c9da72662424b558f153f",
+    "apps/web/src/lib/api.generated.ts": "264f08e6f7bf440fd36bef9652bb978caef20e4d0081384d46275d09817f3349",
+    "scripts/seal_evaluation.py": "a07185bd4885cb49b49e02fe73d6d6c4040a762d9e99881621442f923b79faea",
+    "scripts/audit_source.py": "5d6820ee1b1ef442484b79dc1edd2a1c35003069c3c73bc5641130bef0ce8085",
+    "scripts/check_source_archive.py": "85299d9f30cd3a265f47708e79665e09d3be16b889546d495652c363ec8aee96"
+  },
+  "privacy": {
+    "git_remote_count": 0,
+    "public_upload": false,
+    "main_database_reset": false
+  },
+  "boundaries": [
+    "Synthetic evaluation and browser data; human validity and real hires not measured.",
+    "No bank, thresholds, grading, matcher, responder or frozen report changes.",
+    "No design/CSS/layout/animation/presentation changes.",
+    "Source archive installed on the same Windows host with fresh venv/npm and isolated SQLite; not a new machine.",
+    "Docker/Linux sandbox/public deployment/real FSP registry not run; previous video covers core flow."
+  ],
+  "bounded_http_benchmark": {
+    "requests": 120,
+    "concurrency": 8,
+    "published_candidate_count": 45,
+    "errors": [],
+    "routes": {
+      "/api/v1/employer/candidates?page=1": {
+        "requests": 30,
+        "p50_ms": 139.04,
+        "p95_ms": 164.77,
+        "p99_ms": 217.42,
+        "mean_ms": 136.73
+      },
+      "/api/v1/employer/candidates?specialization=frontend&grade=intern": {
+        "requests": 30,
+        "p50_ms": 131.6,
+        "p95_ms": 173.65,
+        "p99_ms": 257.17,
+        "mean_ms": 134.48
+      },
+      "/api/v1/employer/categories": {
+        "requests": 30,
+        "p50_ms": 127.06,
+        "p95_ms": 186.37,
+        "p99_ms": 255.06,
+        "mean_ms": 136.56
+      },
+      "/api/v1/employer/dashboard": {
+        "requests": 30,
+        "p50_ms": 275.23,
+        "p95_ms": 355.19,
+        "p99_ms": 377.73,
+        "mean_ms": 271.07
+      }
+    }
+  },
+  "resources": {
+    "working_set_sum_mb": 1060.29,
+    "startup_seconds": 7.641,
+    "startup_scope": "application readiness with already provisioned local runtimes; excludes setup and web build",
+    "limitations": [
+      "Instant process memory snapshot; shared pages may be counted more than once.",
+      "Two-second CPU sample at rest, not sustained load capacity.",
+      "Startup excludes first installation, downloads and web build; existing runtimes may already be running.",
+      "Validated application identities and provisioned runtime PID roots only; descendants must be born after their actual parent; audit shells excluded."
+    ]
+  }
+}

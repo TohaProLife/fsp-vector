@@ -1,0 +1,465 @@
+{
+  "origin": "PROJECT_TEAM_AUTHORED_PROGRAMMATIC_ADVERSE_CASES",
+  "human_labelers": 0,
+  "assessment_holdout_seed_start": 400003,
+  "extraction_cases": [
+    {
+      "text": "Не требуются Python, SQL и Docker.",
+      "required": [],
+      "preferred": [],
+      "excluded": [
+        "Docker",
+        "Python",
+        "SQL"
+      ],
+      "passed": true
+    },
+    {
+      "text": "Python обязателен и SQL не требуется.",
+      "required": [
+        "Python"
+      ],
+      "preferred": [],
+      "excluded": [
+        "SQL"
+      ],
+      "passed": true
+    },
+    {
+      "text": "SQL не нужен, Python обязателен.",
+      "required": [
+        "Python"
+      ],
+      "preferred": [],
+      "excluded": [
+        "SQL"
+      ],
+      "passed": true
+    },
+    {
+      "text": "Желательны React, TypeScript и SQL.",
+      "required": [],
+      "preferred": [
+        "React",
+        "SQL",
+        "TypeScript"
+      ],
+      "excluded": [],
+      "passed": true
+    },
+    {
+      "text": "Не только Python, но и SQL обязателен.",
+      "required": [
+        "Python",
+        "SQL"
+      ],
+      "preferred": [],
+      "excluded": [],
+      "passed": true
+    },
+    {
+      "text": "SQL обязателен; PostgreSQL будет плюсом.",
+      "required": [
+        "SQL"
+      ],
+      "preferred": [
+        "PostgreSQL"
+      ],
+      "excluded": [],
+      "passed": true
+    },
+    {
+      "text": "Docker не требуется. Kubernetes обязателен.",
+      "required": [
+        "Kubernetes"
+      ],
+      "preferred": [],
+      "excluded": [
+        "Docker"
+      ],
+      "passed": true
+    },
+    {
+      "text": "Python не обязателен, SQL обязателен.",
+      "required": [
+        "SQL"
+      ],
+      "preferred": [
+        "Python"
+      ],
+      "excluded": [],
+      "passed": true
+    },
+    {
+      "text": "API обязателен. API не требуется.",
+      "required": [
+        "API"
+      ],
+      "preferred": [],
+      "excluded": [
+        "API"
+      ],
+      "passed": true
+    },
+    {
+      "text": "REST API нужен, Redis желателен.",
+      "required": [
+        "API"
+      ],
+      "preferred": [
+        "Redis"
+      ],
+      "excluded": [],
+      "passed": true
+    },
+    {
+      "text": "Ищем Middle frontend-разработчика для редактора. UI state и Web security обязательны. JavaScript concepts и Доступность будут плюсом. Удалённо,180–240тысячрублей.",
+      "required": [
+        "UI state",
+        "Web security"
+      ],
+      "preferred": [
+        "JavaScript concepts",
+        "Доступность"
+      ],
+      "excluded": [],
+      "passed": true
+    },
+    {
+      "text": "Python, SQL и Docker будут плюсом.",
+      "required": [],
+      "preferred": [
+        "Docker",
+        "Python",
+        "SQL"
+      ],
+      "excluded": [],
+      "passed": true
+    },
+    {
+      "text": "Python обязателен и SQL, Docker не требуются.",
+      "required": [
+        "Python"
+      ],
+      "preferred": [],
+      "excluded": [
+        "Docker",
+        "SQL"
+      ],
+      "passed": true
+    },
+    {
+      "text": "UI state нужен, Web security не требуется.",
+      "required": [
+        "UI state"
+      ],
+      "preferred": [],
+      "excluded": [
+        "Web security"
+      ],
+      "passed": true
+    }
+  ],
+  "extraction_role_cases": [
+    {
+      "text": "Ищем Middle frontend-разработчика для редактора. UI state и Web security обязательны. JavaScript concepts и Доступность будут плюсом. Удалённо,180–240тысячрублей.",
+      "specialization": "frontend",
+      "grade": "middle",
+      "requires_confirmation": true,
+      "unknown_preserved": true,
+      "passed": true
+    },
+    {
+      "text": "Frontend. CTF будет плюсом.",
+      "specialization": "frontend",
+      "grade": null,
+      "requires_confirmation": true,
+      "unknown_preserved": true,
+      "passed": true
+    },
+    {
+      "text": "Backend. Безопасность данных обязательна.",
+      "specialization": "backend",
+      "grade": null,
+      "requires_confirmation": true,
+      "unknown_preserved": true,
+      "passed": true
+    },
+    {
+      "text": "Frontend. Web security обязательна. Ещё ищем Senior Security engineer.",
+      "specialization": null,
+      "grade": "senior",
+      "requires_confirmation": true,
+      "unknown_preserved": true,
+      "passed": true
+    }
+  ],
+  "need_blueprint_examples": [
+    {
+      "context_version": "vector-need-context-1",
+      "scope": "employer_need_practice",
+      "need_snapshot_sha256": "6e1dce0526711b03c88bd40217feec520af2b8020d91f9b58a5764fec4db6cbc",
+      "specialization": "backend",
+      "grade": "middle",
+      "category_change": false,
+      "item_count": 12,
+      "competencies": [
+        {
+          "id": "api",
+          "label": "Контракты API",
+          "priority": "required",
+          "requested_skills": [
+            "API"
+          ],
+          "measurable_skills": [
+            "API"
+          ],
+          "item_count": 3
+        },
+        {
+          "id": "sql",
+          "label": "Работа с данными / SQL",
+          "priority": "required",
+          "requested_skills": [
+            "SQL"
+          ],
+          "measurable_skills": [
+            "SQL"
+          ],
+          "item_count": 3
+        },
+        {
+          "id": "reliability",
+          "label": "Надёжность и согласованность",
+          "priority": "common_blueprint",
+          "requested_skills": [],
+          "measurable_skills": [
+            "Идемпотентность"
+          ],
+          "item_count": 3
+        },
+        {
+          "id": "testing",
+          "label": "Проверка инвариантов",
+          "priority": "common_blueprint",
+          "requested_skills": [],
+          "measurable_skills": [
+            "Unit testing"
+          ],
+          "item_count": 3
+        }
+      ],
+      "required_skills": [
+        "SQL",
+        "API"
+      ],
+      "requested_skills": [
+        "SQL",
+        "API",
+        "Python"
+      ],
+      "tested_skills": [
+        "SQL",
+        "API"
+      ],
+      "unmeasured_skills": [
+        "Python"
+      ],
+      "tested_slices": [
+        {
+          "skill": "SQL",
+          "scope": "bounded_data_and_concepts",
+          "certifies_global_grade": false
+        },
+        {
+          "skill": "API",
+          "scope": "bounded_data_and_concepts",
+          "certifies_global_grade": false
+        }
+      ],
+      "blueprint_rule": "fixed_common_blueprint_no_hidden_employer_weights",
+      "limitations": [
+        "Это практика по прозрачной карте требований, а не отдельный глобальный экзамен.",
+        "Проверяются только точные навыки банка; Python, React, Docker и другие реализации не выводятся из концептуальных задач.",
+        "Неизмеренные обязательные навыки останутся неизмеренными и не получат ASSESSMENT_VERIFIED.",
+        "Веса и пороги общего blueprint сохранены. Соответствие грейдам на людях не измерено."
+      ]
+    },
+    {
+      "context_version": "vector-need-context-1",
+      "scope": "employer_need_practice",
+      "need_snapshot_sha256": "075d4f5bc0d4ff64058c8521fe5344a86695dbf322cfc0d17631679b1070ec17",
+      "specialization": "data",
+      "grade": "senior",
+      "category_change": false,
+      "item_count": 12,
+      "competencies": [
+        {
+          "id": "sql",
+          "label": "Работа с данными / SQL",
+          "priority": "required",
+          "requested_skills": [
+            "SQL"
+          ],
+          "measurable_skills": [
+            "SQL"
+          ],
+          "item_count": 3
+        },
+        {
+          "id": "statistics",
+          "label": "Статистика",
+          "priority": "required",
+          "requested_skills": [
+            "Статистика"
+          ],
+          "measurable_skills": [
+            "Статистика"
+          ],
+          "item_count": 3
+        },
+        {
+          "id": "data_quality",
+          "label": "Качество данных",
+          "priority": "common_blueprint",
+          "requested_skills": [],
+          "measurable_skills": [
+            "Data quality"
+          ],
+          "item_count": 3
+        },
+        {
+          "id": "interpretation",
+          "label": "Интерпретация",
+          "priority": "common_blueprint",
+          "requested_skills": [],
+          "measurable_skills": [
+            "Data interpretation"
+          ],
+          "item_count": 3
+        }
+      ],
+      "required_skills": [
+        "SQL",
+        "Статистика"
+      ],
+      "requested_skills": [
+        "SQL",
+        "Статистика",
+        "pandas"
+      ],
+      "tested_skills": [
+        "SQL",
+        "Статистика"
+      ],
+      "unmeasured_skills": [
+        "pandas"
+      ],
+      "tested_slices": [
+        {
+          "skill": "SQL",
+          "scope": "bounded_data_and_concepts",
+          "certifies_global_grade": false
+        },
+        {
+          "skill": "Статистика",
+          "scope": "bounded_data_and_concepts",
+          "certifies_global_grade": false
+        }
+      ],
+      "blueprint_rule": "fixed_common_blueprint_no_hidden_employer_weights",
+      "limitations": [
+        "Это практика по прозрачной карте требований, а не отдельный глобальный экзамен.",
+        "Проверяются только точные навыки банка; Python, React, Docker и другие реализации не выводятся из концептуальных задач.",
+        "Неизмеренные обязательные навыки останутся неизмеренными и не получат ASSESSMENT_VERIFIED.",
+        "Веса и пороги общего blueprint сохранены. Соответствие грейдам на людях не измерено."
+      ]
+    },
+    {
+      "context_version": "vector-need-context-1",
+      "scope": "employer_need_practice",
+      "need_snapshot_sha256": "351d7b8bd454d85f9c9f0238c43cb2f25896245db143ff0d15aeeaf3e458887c",
+      "specialization": "frontend",
+      "grade": "junior",
+      "category_change": false,
+      "item_count": 12,
+      "competencies": [
+        {
+          "id": "javascript",
+          "label": "JavaScript",
+          "priority": "common_blueprint",
+          "requested_skills": [],
+          "measurable_skills": [
+            "JavaScript concepts"
+          ],
+          "item_count": 3
+        },
+        {
+          "id": "state",
+          "label": "Состояние интерфейса",
+          "priority": "common_blueprint",
+          "requested_skills": [],
+          "measurable_skills": [
+            "UI state"
+          ],
+          "item_count": 3
+        },
+        {
+          "id": "accessibility",
+          "label": "Доступность",
+          "priority": "required",
+          "requested_skills": [
+            "Доступность"
+          ],
+          "measurable_skills": [
+            "Доступность"
+          ],
+          "item_count": 3
+        },
+        {
+          "id": "web_security",
+          "label": "Безопасность web",
+          "priority": "common_blueprint",
+          "requested_skills": [],
+          "measurable_skills": [
+            "Web security"
+          ],
+          "item_count": 3
+        }
+      ],
+      "required_skills": [
+        "Доступность"
+      ],
+      "requested_skills": [
+        "Доступность",
+        "React"
+      ],
+      "tested_skills": [
+        "Доступность"
+      ],
+      "unmeasured_skills": [
+        "React"
+      ],
+      "tested_slices": [
+        {
+          "skill": "Доступность",
+          "scope": "bounded_data_and_concepts",
+          "certifies_global_grade": false
+        }
+      ],
+      "blueprint_rule": "fixed_common_blueprint_no_hidden_employer_weights",
+      "limitations": [
+        "Это практика по прозрачной карте требований, а не отдельный глобальный экзамен.",
+        "Проверяются только точные навыки банка; Python, React, Docker и другие реализации не выводятся из концептуальных задач.",
+        "Неизмеренные обязательные навыки останутся неизмеренными и не получат ASSESSMENT_VERIFIED.",
+        "Веса и пороги общего blueprint сохранены. Соответствие грейдам на людях не измерено."
+      ]
+    }
+  ],
+  "matching_adversarial_expected": {
+    "weakest_required_coverage_cap": 0.75,
+    "practice_max_bonus_points": 1.25,
+    "practice_must_have_admission": false
+  },
+  "limitation": "New seeds and independent public data solvers; no human grade calibration, response-time fairness or real vacancy-language generalization measurement."
+}

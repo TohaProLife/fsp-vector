@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-07T14:57:48.078035+00:00",
+  "sources": [
+    "https://api.osv.dev/v1/querybatch",
+    "npm audit registry advisories"
+  ],
+  "python_packages_checked": 42,
+  "python_findings": [],
+  "npm": {
+    "auditReportVersion": 2,
+    "vulnerabilities": {},
+    "metadata": {
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "dependencies": {
+        "prod": 21,
+        "dev": 7,
+        "optional": 39,
+        "peer": 0,
+        "peerOptional": 0,
+        "total": 66
+      }
+    }
+  },
+  "lock_sha256": {
+    "python": "28f965a428259265b802188e5ec4a79d9845c1fe1365d0f8ea539ac67500fa2d",
+    "npm": "684c562d9d10775552ecb61882f0e9e1174d613edd4ed8ddb99df799fe2fda16"
+  },
+  "limitations": [
+    "Published advisory databases only; absence of findings is not proof of security.",
+    "Container/OS/JRE/Keycloak vulnerability scans are not included."
+  ],
+  "status": "passed"
+}
